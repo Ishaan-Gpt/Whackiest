@@ -1,0 +1,36 @@
+{
+  "id": "principle/jump-cut-reframe",
+  "kind": "principle",
+  "name": "Every cut reframes",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §2.3",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Across a jump cut the framing changes by ≥1.3× (or recomposes) as a hard zoom with no ramp; two framings in a row never match.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "cut.reframe"
+  ],
+  "data": {
+    "measure": {
+      "minScaleChange": 1.3,
+      "rampS": 0,
+      "sameFramingInARow": false
+    }
+  }
+}

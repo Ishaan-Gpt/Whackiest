@@ -1,0 +1,46 @@
+{
+  "id": "camera/slow-zoom-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Slow zoom out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 05B"
+  },
+  "summary": "Lets a held image breathe and reveals context at the end of a thought.",
+  "tags": [
+    "zoom-lens",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#slow-zoom-out",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "edit",
+    "keywords": [
+      "slow zoom out",
+      "zoom out",
+      "creep out",
+      "gentle zoom out"
+    ],
+    "family": "zoom",
+    "dir": "out",
+    "about": "The lens changes focal length while the camera stays still; the picture widens with no change of perspective.",
+    "avoid": "When the space should be felt (a dolly moves through it, a zoom only magnifies it).",
+    "defaults": {
+      "duration": 5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.25,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

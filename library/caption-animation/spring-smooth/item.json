@@ -1,0 +1,34 @@
+{
+  "id": "caption-animation/spring-smooth",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "spring: smooth spring",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "spring animation \"smooth spring\" — shared spring preset that the motions above use",
+  "tags": [
+    "spring"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "spring.smooth",
+    "name": "smooth spring",
+    "kind": "spring",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "damping": 26,
+        "stiffness": 120,
+        "mass": 0.6
+      }
+    },
+    "note": "shared spring preset that the motions above use"
+  }
+}

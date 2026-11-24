@@ -1,0 +1,113 @@
+{
+  "id": "caption/creator-glide-stack",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Overshoot Glide Stack",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/creator.tsx",
+    "note": "Captions Easy #38"
+  },
+  "summary": "Tight lowercase lines glide in from alternating sides and settle; the middle line glows blue",
+  "tags": [
+    "3-lines",
+    "glide",
+    "glow",
+    "creator"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/creator.tsx",
+  "data": {
+    "look": {
+      "id": "creator_glide_stack",
+      "name": "Overshoot Glide Stack",
+      "number": 38,
+      "premium": false,
+      "category": "Creator",
+      "description": "Tight lowercase lines glide in from alternating sides and settle; the middle line glows blue",
+      "tags": [
+        "3 lines",
+        "Glide",
+        "Glow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_crazy_glide",
+      "layout": "pack-crazy-glide",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 76.8,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#04AEFC",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.55)",
+          "rgba(0,0,0,0.5)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 400,
+        "easing": "outQuad",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 160
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#04AEFC"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

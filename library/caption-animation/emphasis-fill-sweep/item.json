@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/emphasis-fill-sweep",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "emphasis: fill-sweep",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "emphasis animation \"fill-sweep\"",
+  "tags": [
+    "emphasis"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "emphasis.fill-sweep",
+    "name": "fill-sweep",
+    "kind": "emphasis",
+    "durationMs": "the spoken word's own length",
+    "ease": null,
+    "scale": null
+  }
+}

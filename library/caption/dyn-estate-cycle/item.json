@@ -1,0 +1,115 @@
+{
+  "id": "caption/dyn-estate-cycle",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Rotating Orange Blend",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/dynamic.tsx",
+    "note": "Captions Easy #50"
+  },
+  "summary": "Four compositions in turn, each built around a big orange blended word",
+  "tags": [
+    "rotating-layouts",
+    "blend",
+    "dynamic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/plus-jakarta-sans",
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/dynamic.tsx",
+  "data": {
+    "look": {
+      "id": "dyn_estate_cycle",
+      "name": "Rotating Orange Blend",
+      "number": 50,
+      "premium": false,
+      "category": "Dynamic",
+      "description": "Four compositions in turn, each built around a big orange blended word",
+      "tags": [
+        "Rotating layouts",
+        "Blend"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_dyn_estate",
+      "layout": "pack-dyn-estate",
+      "fonts": [
+        "Plus Jakarta Sans",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Plus Jakarta Sans",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 56,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Montserrat",
+        "heroScale": 1.9
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": "#FF6B00",
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.5)",
+          "rgba(0,0,0,0.42)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#B51A00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5,
+        "maxLines": 3,
+        "maxCharsPerLine": 32
+      },
+      "sourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

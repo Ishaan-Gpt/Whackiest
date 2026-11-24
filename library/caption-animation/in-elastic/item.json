@@ -1,0 +1,34 @@
+{
+  "id": "caption-animation/in-elastic",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "in: elastic",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "in animation \"elastic\"",
+  "tags": [
+    "in"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "in.elastic",
+    "name": "elastic",
+    "kind": "in",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "damping": 7,
+        "stiffness": 170,
+        "mass": 0.6
+      }
+    },
+    "note": null
+  }
+}

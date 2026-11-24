@@ -1,0 +1,110 @@
+{
+  "id": "caption/serif-behind",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Giant Serif Behind",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #4"
+  },
+  "summary": "The key word burns huge in red serif behind the rest of the line",
+  "tags": [
+    "big-word",
+    "glow",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "serif_behind",
+      "name": "Giant Serif Behind",
+      "number": 4,
+      "premium": false,
+      "category": "Viral",
+      "description": "The key word burns huge in red serif behind the rest of the line",
+      "tags": [
+        "Big word",
+        "Glow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "glow_behind",
+      "layout": "glow-behind",
+      "fonts": [
+        "Playfair Display",
+        "Bodoni Moda"
+      ],
+      "type": {
+        "fontId": "Playfair Display",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 54,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Bodoni Moda",
+        "heroScale": 3.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": "#E3141B",
+        "active": "#FF6A5A",
+        "box": null,
+        "stroke": null,
+        "glow": "#FF2020",
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "glow",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "fade",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "glow",
+        "scale": 1,
+        "color": "#FF6A5A"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "glow",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "depth": 0.6,
+        "glare": 0.25
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

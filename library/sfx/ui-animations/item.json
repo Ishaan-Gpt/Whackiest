@@ -1,0 +1,54 @@
+{
+  "id": "sfx/ui-animations",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "ui-animations.mp3"
+  ],
+  "kind": "sfx",
+  "name": "ui-animations.mp3",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/ui-animations.mp3"
+  },
+  "summary": "other sound; fits list-item",
+  "tags": [
+    "other",
+    "style1"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "other",
+    "fits": [
+      {
+        "event": "list-item",
+        "rank": 1,
+        "levelDb": -26,
+        "align": "start"
+      }
+    ],
+    "slices": "onsets",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1"
+    ],
+    "family": "foley",
+    "tone": "crisp",
+    "centroidHz": 2032,
+    "hitsMs": [
+      150,
+      410,
+      790,
+      970,
+      1050,
+      1210,
+      1480,
+      1590
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on list-item",
+    "suggestedGainDb": -10
+  }
+}

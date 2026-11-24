@@ -1,0 +1,114 @@
+{
+  "id": "caption/whip-in-cards",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Whip-In Cards",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #24"
+  },
+  "summary": "Bold caps whip in out of a blur, a new direction every card, each one pushed out by the next",
+  "tags": [
+    "blur-whip",
+    "push-exit",
+    "caps",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "whip_in_cards",
+      "name": "Whip-In Cards",
+      "number": 24,
+      "premium": false,
+      "category": "Trending",
+      "description": "Bold caps whip in out of a blur, a new direction every card, each one pushed out by the next",
+      "tags": [
+        "Blur whip",
+        "Push exit",
+        "Caps"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_whip_cards",
+      "layout": "pack-whip-cards",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 85.5,
+        "casing": "upper",
+        "letterSpacing": 1.71,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#000000"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.57
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3,
+        "maxLines": 2,
+        "maxCharsPerLine": 8
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

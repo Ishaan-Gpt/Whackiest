@@ -1,0 +1,55 @@
+{
+  "id": "sfx/fs-ui-mouse-2-button-fast-click",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.ui.mouse-2-button-fast-click.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.ui.mouse-2-button-fast-click.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.ui.mouse-2-button-fast-click.wav"
+  },
+  "summary": "click sound; fits click-ui, key-word",
+  "tags": [
+    "click",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "click",
+    "fits": [
+      {
+        "event": "click-ui",
+        "rank": 1,
+        "levelDb": -27,
+        "align": "peak"
+      },
+      {
+        "event": "key-word",
+        "rank": 1,
+        "levelDb": -24,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "ui",
+    "tone": "bright",
+    "centroidHz": 4987,
+    "hitsMs": [
+      100
+    ],
+    "phoneSafe": true,
+    "placement": "peak",
+    "useWhen": "on click-ui, key-word",
+    "suggestedGainDb": -8
+  }
+}

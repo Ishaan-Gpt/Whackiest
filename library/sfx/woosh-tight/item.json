@@ -1,0 +1,54 @@
+{
+  "id": "sfx/woosh-tight",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "woosh-tight.wav"
+  ],
+  "kind": "sfx",
+  "name": "woosh-tight.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/woosh-tight.wav"
+  },
+  "summary": "whoosh sound; fits slide-out, scene",
+  "tags": [
+    "whoosh",
+    "style1"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "whoosh",
+    "fits": [
+      {
+        "event": "slide-out",
+        "rank": 1,
+        "levelDb": -30,
+        "align": "peak"
+      },
+      {
+        "event": "scene",
+        "rank": 2,
+        "levelDb": -25,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1"
+    ],
+    "family": "transition",
+    "tone": "sub",
+    "centroidHz": 100,
+    "hitsMs": [
+      10,
+      100
+    ],
+    "phoneSafe": false,
+    "placement": "peak",
+    "useWhen": "on slide-out, scene",
+    "suggestedGainDb": -9
+  }
+}

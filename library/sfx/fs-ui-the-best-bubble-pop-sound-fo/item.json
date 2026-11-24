@@ -1,0 +1,49 @@
+{
+  "id": "sfx/fs-ui-the-best-bubble-pop-sound-fo",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.ui.the-best-bubble-pop-sound-fo.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.ui.the-best-bubble-pop-sound-fo.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.ui.the-best-bubble-pop-sound-fo.wav"
+  },
+  "summary": "pop sound; fits bubble",
+  "tags": [
+    "pop",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "pop",
+    "fits": [
+      {
+        "event": "bubble",
+        "rank": 1,
+        "levelDb": -24,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "ui",
+    "tone": "deep",
+    "centroidHz": 872,
+    "hitsMs": [
+      20
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on bubble",
+    "suggestedGainDb": -8
+  }
+}

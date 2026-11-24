@@ -1,0 +1,115 @@
+{
+  "id": "caption/sand-word-tiles",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Sand Word Tiles",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/plates.tsx",
+    "note": "Captions Easy #28"
+  },
+  "summary": "Each word rises in on its own rounded sand tile; the key word is white italic serif on lavender",
+  "tags": [
+    "word-tiles",
+    "rounded",
+    "italic-serif",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/fraunces"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/plates.tsx",
+  "data": {
+    "look": {
+      "id": "sand_word_tiles",
+      "name": "Sand Word Tiles",
+      "number": 28,
+      "premium": false,
+      "category": "Trending",
+      "description": "Each word rises in on its own rounded sand tile; the key word is white italic serif on lavender",
+      "tags": [
+        "Word tiles",
+        "Rounded",
+        "Italic serif"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_sand_tiles",
+      "layout": "pack-sand-tiles",
+      "fonts": [
+        "Baloo 2",
+        "Fraunces"
+      ],
+      "type": {
+        "fontId": "Baloo 2",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 67,
+        "casing": "none",
+        "letterSpacing": 0.8,
+        "heroFontId": "Fraunces",
+        "heroScale": 1.2
+      },
+      "colours": {
+        "text": "#472B3F",
+        "gradient": null,
+        "hero": "#FFFFFF",
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(40,22,36,0.3)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#7C5FC9"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "templateOptions": {
+        "plate": "#FFF4E1"
+      },
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "caption-animation/spring-punch",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "spring: punch spring",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "spring animation \"punch spring\" — shared spring preset that the motions above use",
+  "tags": [
+    "spring"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "spring.punch",
+    "name": "punch spring",
+    "kind": "spring",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "damping": 11,
+        "stiffness": 240,
+        "mass": 0.5
+      }
+    },
+    "note": "shared spring preset that the motions above use"
+  }
+}

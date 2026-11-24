@@ -1,0 +1,108 @@
+{
+  "id": "caption/karaoke-fill",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Karaoke Fill",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #96"
+  },
+  "summary": "Whole line on screen; words fill yellow as they're sung",
+  "tags": [
+    "full-line",
+    "colour-sweep",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/poppins"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "karaoke_fill",
+      "name": "Karaoke Fill",
+      "number": 96,
+      "premium": false,
+      "category": "Viral",
+      "description": "Whole line on screen; words fill yellow as they're sung",
+      "tags": [
+        "Full line",
+        "Colour sweep"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "karaoke",
+      "layout": "karaoke",
+      "fonts": [
+        "Poppins"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 56,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFD400",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "karaoke",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "fill-sweep",
+        "scale": 1,
+        "color": "#FFD400"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "fill-sweep",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

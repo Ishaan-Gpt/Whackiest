@@ -1,0 +1,123 @@
+{
+  "id": "caption/dyn-creator-cycle",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Rotating Warm Script",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/dynamic.tsx",
+    "note": "Captions Easy #52"
+  },
+  "summary": "A glowing orange gradient headline and white script, a new layout every card",
+  "tags": [
+    "rotating-layouts",
+    "gradient",
+    "script",
+    "dynamic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/poppins",
+    "font/plus-jakarta-sans"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/dynamic.tsx",
+  "data": {
+    "look": {
+      "id": "dyn_creator_cycle",
+      "name": "Rotating Warm Script",
+      "number": 52,
+      "premium": false,
+      "category": "Dynamic",
+      "description": "A glowing orange gradient headline and white script, a new layout every card",
+      "tags": [
+        "Rotating layouts",
+        "Gradient",
+        "Script"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_dyn_creator",
+      "layout": "pack-dyn-creator",
+      "fonts": [
+        "Poppins",
+        "Great Vibes",
+        "Plus Jakarta Sans"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 76,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": null,
+        "gradient": [
+          "#FFFDE7",
+          "#FFEA00",
+          "#FFB300",
+          "#FF9100",
+          "#FF6D00"
+        ],
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "scriptScale": 1.3
+      },
+      "settings": {
+        "maxWordsPerCard": 5,
+        "maxLines": 3,
+        "maxCharsPerLine": 32
+      },
+      "sourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

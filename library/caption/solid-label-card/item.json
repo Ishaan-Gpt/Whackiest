@@ -1,0 +1,120 @@
+{
+  "id": "caption/solid-label-card",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Solid Label Card",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #20"
+  },
+  "summary": "Dark caps on a solid yellow card that pops in; every third card bounces its key word on a wiggling box",
+  "tags": [
+    "box",
+    "solo-word",
+    "caps",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "solid_label_card",
+      "name": "Solid Label Card",
+      "number": 20,
+      "premium": false,
+      "category": "Trending",
+      "description": "Dark caps on a solid yellow card that pops in; every third card bounces its key word on a wiggling box",
+      "tags": [
+        "Box",
+        "Solo word",
+        "Caps"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_label_box",
+      "layout": "pack-label-box",
+      "fonts": [
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Anton",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 81,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#1C1E1D",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FDFD00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "templateOptions": {
+        "boxColors": [
+          "#FFFFFF",
+          "#13FD00"
+        ],
+        "boxRadius": 0.15,
+        "soloEvery": 3,
+        "soloScale": 1.5
+      },
+      "settings": {
+        "maxWordsPerCard": 3,
+        "maxLines": 1,
+        "maxCharsPerLine": 12
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

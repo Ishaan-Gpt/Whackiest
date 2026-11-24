@@ -1,0 +1,35 @@
+{
+  "id": "caption-animation/word-rise",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "word: rise",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "word animation \"rise\" — a word's own entrance on top of its card's (Word.entry)",
+  "tags": [
+    "word"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "word.rise",
+    "name": "rise",
+    "kind": "word",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "preset": "smooth",
+        "damping": 26,
+        "stiffness": 120,
+        "mass": 0.6
+      }
+    },
+    "note": "a word's own entrance on top of its card's (Word.entry)"
+  }
+}

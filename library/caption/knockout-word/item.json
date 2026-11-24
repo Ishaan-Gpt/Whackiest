@@ -1,0 +1,110 @@
+{
+  "id": "caption/knockout-word",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Video-Through Knockout",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/graphic.tsx",
+    "note": "Captions Easy #87"
+  },
+  "summary": "The frame goes black and each word is cut out of it, so the video plays inside the letters",
+  "tags": [
+    "one-word",
+    "knockout",
+    "full-frame",
+    "bold"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/graphic.tsx",
+  "data": {
+    "look": {
+      "id": "knockout_word",
+      "name": "Video-Through Knockout",
+      "number": 87,
+      "premium": false,
+      "category": "Bold",
+      "description": "The frame goes black and each word is cut out of it, so the video plays inside the letters",
+      "tags": [
+        "One word",
+        "Knockout",
+        "Full frame"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_cook",
+      "layout": "pack-cook",
+      "fonts": [
+        "Archivo Black"
+      ],
+      "type": {
+        "fontId": "Archivo Black",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 300,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#FFFFFF",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "templateOptions": {
+        "matte": "#000000"
+      },
+      "settings": {
+        "maxWordsPerCard": 1
+      },
+      "sourceFile": "src/packages/templates/src/pack/graphic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/graphic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

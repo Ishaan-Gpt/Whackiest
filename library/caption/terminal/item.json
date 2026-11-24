@@ -1,0 +1,114 @@
+{
+  "id": "caption/terminal",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Typewriter Terminal",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #114"
+  },
+  "summary": "Green monospace typed out with a blinking cursor",
+  "tags": [
+    "mono",
+    "cursor",
+    "tech"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 6
+  },
+  "uses": [
+    "font/jetbrains-mono"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "terminal",
+      "name": "Typewriter Terminal",
+      "number": 114,
+      "premium": false,
+      "category": "Tech",
+      "description": "Green monospace typed out with a blinking cursor",
+      "tags": [
+        "Mono",
+        "Cursor"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "typewriter",
+      "layout": "typewriter",
+      "fonts": [
+        "JetBrains Mono"
+      ],
+      "type": {
+        "fontId": "JetBrains Mono",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 48,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#00FF66",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#00FF66",
+        "background": "#0E2C1B",
+        "shadows": null
+      },
+      "background": "box",
+      "backgroundDetail": {
+        "color": "#0E2C1B",
+        "opacity": 0.92,
+        "padding": 16,
+        "radius": 8,
+        "blur": 0
+      },
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "linear",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#00FF66"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 6
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 6
+  }
+}

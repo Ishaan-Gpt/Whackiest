@@ -1,0 +1,113 @@
+{
+  "id": "caption/creator-shine-sweep",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Serif Shine Sweep",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/creator.tsx",
+    "note": "Captions Easy #39"
+  },
+  "summary": "A big lime serif word with a looping shine sweep, small glowing lines overlapping it",
+  "tags": [
+    "3-lines",
+    "serif",
+    "shine-loop",
+    "creator"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/creator.tsx",
+  "data": {
+    "look": {
+      "id": "creator_shine_sweep",
+      "name": "Serif Shine Sweep",
+      "number": 39,
+      "premium": false,
+      "category": "Creator",
+      "description": "A big lime serif word with a looping shine sweep, small glowing lines overlapping it",
+      "tags": [
+        "3 lines",
+        "Serif",
+        "Shine loop"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_spark",
+      "layout": "pack-spark",
+      "fonts": [
+        "Inter",
+        "Playfair Display"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 40.8,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": "Playfair Display",
+        "heroScale": 1.7241379310344829
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#9EFF12",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.8)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 400,
+        "easing": "outQuad",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 160
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#9EFF12"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

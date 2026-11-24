@@ -1,0 +1,115 @@
+{
+  "id": "caption/creator-shine-title",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Shine-Streak Italic Title",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/creator.tsx",
+    "note": "Captions Easy #33"
+  },
+  "summary": "A glowing cyan italic title crossed by two white shine streaks, over a thin subtitle",
+  "tags": [
+    "italic",
+    "shine",
+    "subtitle",
+    "creator"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/creator.tsx",
+  "data": {
+    "look": {
+      "id": "creator_shine_title",
+      "name": "Shine-Streak Italic Title",
+      "number": 33,
+      "premium": false,
+      "category": "Creator",
+      "description": "A glowing cyan italic title crossed by two white shine streaks, over a thin subtitle",
+      "tags": [
+        "Italic",
+        "Shine",
+        "Subtitle"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_creator_shine",
+      "layout": "pack-creator-shine",
+      "fonts": [
+        "Montserrat",
+        "Kanit"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 300,
+        "fontStyle": "normal",
+        "fontSize": 29.4,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Kanit",
+        "heroScale": 2.5
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#1CD0FF",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.8)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 400,
+        "easing": "outQuad",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 160
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#1CD0FF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "titleItalic": true
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "camera/rack-focus-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Rack focus to background",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "film grammar (focus pull)"
+  },
+  "summary": "Moves attention without moving the frame: from a person to what they are looking at, from a product to its context.",
+  "tags": [
+    "edit",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#rack-focus-out",
+  "data": {
+    "group": "edit",
+    "scope": "coded",
+    "keywords": [
+      "rack focus",
+      "rack focus out",
+      "focus pull",
+      "pull focus",
+      "rack focus to background",
+      "focus to background",
+      "shift focus back"
+    ],
+    "family": "rack-focus",
+    "dir": "out",
+    "about": "The camera stays still while the sharp plane slides from the subject to the background; layers blur by their distance from it (`depthBlur`).",
+    "avoid": "Flat footage (a filmed shot cannot be refocused: this needs layers Moovi builds); scenes with only one depth.",
+    "defaults": {
+      "duration": 1.2,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 9,
+      "unit": "units",
+      "what": "depth travelled by the focus"
+    }
+  }
+}

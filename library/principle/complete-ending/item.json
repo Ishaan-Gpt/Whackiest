@@ -1,0 +1,32 @@
+{
+  "id": "principle/complete-ending",
+  "kind": "principle",
+  "name": "Choose a complete ending first",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/duration.md",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "When a cut must hit a length, pick a complete ending first and cut toward it; never truncate mid-thought.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "measure": {
+      "truncate": false
+    }
+  }
+}

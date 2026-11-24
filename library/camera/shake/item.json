@@ -1,0 +1,49 @@
+{
+  "id": "camera/shake",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Impact shake",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "editor grammar (R4: slight shake on stamps)"
+  },
+  "summary": "A stamp, a slam, a bass drop, a bold claim landing; pair with an impact sound.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#shake",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "shake",
+      "camera shake",
+      "impact",
+      "impact shake",
+      "screen shake",
+      "hit shake",
+      "rumble",
+      "jolt"
+    ],
+    "family": "shake",
+    "about": "A short, decaying jolt of position and roll, as if something heavy just landed; deterministic noise, so every render matches.",
+    "avoid": "Text that must be read during the shake; more than one per beat; calm brands.",
+    "defaults": {
+      "duration": 0.4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0.08,
+      "unit": "units",
+      "what": "shake amplitude"
+    }
+  }
+}

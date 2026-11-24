@@ -1,0 +1,49 @@
+{
+  "id": "camera/orbit-cw",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Orbit clockwise",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 15"
+  },
+  "summary": "Celebration and importance: the hero moment, a product reveal, a person at the centre of their world.",
+  "tags": [
+    "physical",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#orbit-cw",
+  "data": {
+    "group": "physical",
+    "scope": "coded",
+    "keywords": [
+      "orbit clockwise",
+      "clockwise orbit",
+      "orbit cw",
+      "circle clockwise",
+      "orbit left",
+      "360 clockwise",
+      "orbit"
+    ],
+    "family": "orbit",
+    "dir": "cw",
+    "about": "The camera circles the subject clockwise (seen from above) at a constant radius, always looking at it; the background wheels around behind.",
+    "avoid": "Flat 2D layouts (keep the sweep under ~60°); explanations; more than once per film.",
+    "defaults": {
+      "duration": 5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 60,
+      "unit": "deg",
+      "what": "sweep angle (360 = full circle)"
+    }
+  }
+}

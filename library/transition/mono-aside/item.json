@@ -1,0 +1,32 @@
+{
+  "id": "transition/mono-aside",
+  "kind": "transition",
+  "name": "Monochrome aside",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §6",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Sarcasm or an aside: grayscale(1) plus a punch-in held over the sentence.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "filter": "grayscale(1)",
+    "withPunchIn": true,
+    "span": "sentence"
+  }
+}

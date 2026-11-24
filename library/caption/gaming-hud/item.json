@@ -1,0 +1,111 @@
+{
+  "id": "caption/gaming-hud",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Violet HUD Box",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #115"
+  },
+  "summary": "Russo One caps with a violet box on the spoken word",
+  "tags": [
+    "caps",
+    "box-highlight",
+    "tech"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "gaming_hud",
+      "name": "Violet HUD Box",
+      "number": 115,
+      "premium": false,
+      "category": "Tech",
+      "description": "Russo One caps with a violet box on the spoken word",
+      "tags": [
+        "Caps",
+        "Box highlight"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "boxed_word",
+      "layout": "sentence",
+      "fonts": [
+        "Russo One",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Russo One",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 54,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": "#7C3AED",
+        "stroke": "#0B0B1A",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "box",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "box",
+        "scale": 1.08,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "box",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "reveal": "all"
+      },
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "font/instrument-serif",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "instrument-serif-latin-400-italic.woff2",
+    "instrument-serif-latin-400-normal.woff2"
+  ],
+  "kind": "font",
+  "name": "Instrument Serif",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Instrument Serif: serif face",
+  "tags": [
+    "serif"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Instrument Serif",
+    "files": [
+      {
+        "file": "instrument-serif-latin-400-italic.woff2",
+        "weight": 400,
+        "style": "italic"
+      },
+      {
+        "file": "instrument-serif-latin-400-normal.woff2",
+        "weight": 400,
+        "style": "normal"
+      }
+    ],
+    "licence": "OFL-1.1",
+    "role": [
+      "serif"
+    ]
+  }
+}

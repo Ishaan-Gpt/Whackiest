@@ -1,0 +1,115 @@
+{
+  "id": "caption/comic-burst",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Comic Tilt",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #14"
+  },
+  "summary": "Comic-book Bangers with a red drop shadow and a big tilt",
+  "tags": [
+    "one-word",
+    "tilt",
+    "shadow",
+    "fun"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "comic_burst",
+      "name": "Comic Tilt",
+      "number": 14,
+      "premium": false,
+      "category": "Fun",
+      "description": "Comic-book Bangers with a red drop shadow and a big tilt",
+      "tags": [
+        "One word",
+        "Tilt",
+        "Shadow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "word_by_word",
+      "layout": "word",
+      "fonts": [
+        "Bangers",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Bangers",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 80,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFE600",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#E11D48"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 200,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "scale-up",
+        "scale": 1.15,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "scale-up",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "tilt": 6
+      },
+      "settings": {
+        "maxWordsPerCard": 1
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

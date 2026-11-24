@@ -1,0 +1,46 @@
+{
+  "id": "camera/crane-down",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Crane down",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 25B"
+  },
+  "summary": "Openings: coming down out of the sky into the story.",
+  "tags": [
+    "drone-crane",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#crane-down",
+  "data": {
+    "group": "drone-crane",
+    "scope": "coded",
+    "keywords": [
+      "crane down",
+      "jib down",
+      "crane shot down",
+      "descend"
+    ],
+    "family": "crane",
+    "dir": "down",
+    "about": "The camera descends through open space on a crane, easing back a little and keeping the subject in view as the scale closes.",
+    "avoid": "Mid-sentence beats; tight interiors.",
+    "defaults": {
+      "duration": 4,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 4,
+      "unit": "units",
+      "what": "height travelled"
+    }
+  }
+}

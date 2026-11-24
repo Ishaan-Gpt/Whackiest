@@ -1,0 +1,114 @@
+{
+  "id": "caption/neon-duo",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Neon Caps + Script",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #3"
+  },
+  "summary": "Red neon caps lit from inside, with a white italic line laid over them",
+  "tags": [
+    "neon",
+    "italic-serif",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/anton",
+    "font/instrument-serif"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "neon_duo",
+      "name": "Neon Caps + Script",
+      "number": 3,
+      "premium": false,
+      "category": "Viral",
+      "description": "Red neon caps lit from inside, with a white italic line laid over them",
+      "tags": [
+        "Neon",
+        "Italic serif"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "glow_duo",
+      "layout": "glow-duo",
+      "fonts": [
+        "Anton",
+        "Instrument Serif"
+      ],
+      "type": {
+        "fontId": "Anton",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 96,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": "Instrument Serif",
+        "heroScale": 0.95
+      },
+      "colours": {
+        "text": "#FF2A2A",
+        "gradient": null,
+        "hero": "#FFFFFF",
+        "active": "#FF5A4A",
+        "box": null,
+        "stroke": null,
+        "glow": "#FF1A1A",
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "glow",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "fade",
+        "durationMs": 180
+      },
+      "emphasis": {
+        "effect": "glow",
+        "scale": 1,
+        "color": "#FF5A4A"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "glow",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "duoOrder": "caps-first",
+        "depth": 0.5,
+        "overlap": 0.32
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

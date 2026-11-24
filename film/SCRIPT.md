@@ -1,0 +1,19 @@
+# Edit Easy · wHACKiest 2026 · script v6 (continuous voice, Moovi narrates and introduces himself)
+
+Order: hook → the problem (attention, nobody edits) → Moovi introduces himself → what he does → how you use him (any AI
+through the MCP) → the architecture → why it's reliable (words, menus, taste, the exploded frame, the refusal) → close.
+Moovi is the narrator from the first line after the hook, and names himself when the problem turns into the answer.
+One voice take per act; each act lasts exactly as long as its take plus a breath, so the voice never stops.
+Voice: Fish Audio "Verity" (energetic, friendly young male).
+
+| Act | Picture | Voice |
+|---|---|---|
+| hook | (kept) | "…which these days means content." |
+| a_attention | street, chai stall, online shop, class, startup, salon, reel → coins | "And content is really one long fight for attention, which every business on this street is chasing, from the chai stall on the corner to the online shop selling that same chai to the whole country. The coaching class wants it, so does the startup in the back room and the salon pulling up its shutter, because whoever holds people's eyes gets paid, and that makes attention the new currency." |
+| b_noeditor | Moovi in the director's chair, timeline slams in, gallery greys, time/software/skill float off | "The catch is that most of us aren't editors, and one look at a real editing timeline is enough to make anyone sink into their chair, so the clip we shot just sits in the gallery, day after day, while we wait for the time, the software and the skill we never quite find." |
+| c_morph | Moovi stands up and introduces himself, then morphs into the editor | "And that's exactly where I come in. Hi, I'm Moovi, the editor inside Edit Easy, and I'm made entirely of code, so you can simply talk to the camera and be yourself, while I take that raw take, cut it, caption it, zoom in on the good bits and score it, until a finished clip rolls out the other side." |
+| d_anyai | Antigravity, Claude, Gemini plug into his halo through the MCP; footage in, edit out | "You don't even have to install a new app, because I live inside the AI you already use, whether that's Antigravity, Claude or Gemini, and the moment you connect it to my MCP server, you drop in your footage and the finished edit comes straight back out." |
+| h_arch | NEW: the architecture as a physical studio line | "Underneath, it runs like a tiny studio. Your AI sends a request to my MCP server, I open your clip and write down every word you said, pick the right looks from our taste library, plan the edit, check it against an editor's rules, and only then render it, right on your own machine, so your footage stays private and it costs you nothing." |
+| e_inside | word tiles, pins, the "um" cut, the AI's pencil refused, menus, wall of taste | "Every edit is pinned to a word you said, so when I cut an um, the caption, the zoom and the sound all slide along with it and nothing ever drifts, and your AI never draws a single frame itself, because it only picks from menus I hand it, built from taste we collected by hand." |
+| f_explode | one frame splits into six layers, each with its reason | "Pull one finished frame apart and you'll see every layer, the footage, the grade, the camera move, the caption, the sound and the music, and each one knows exactly why it's there, because a tool call put it there for a reason you can read back." |
+| g_close | the refusal, then the end card | "And when an AI tries something a good editor never would, like slipping a caption under the app's buttons, I stop it, tell it why, and it fixes the edit itself before you ever see it. So all you do is show up and talk, and Edit Easy turns it into something people actually stop to watch, with the AI you already use, for free." |

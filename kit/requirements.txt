@@ -1,0 +1,5 @@
+faster-whisper>=1.1
+fonttools[woff]>=4.50
+brotli
+opencv-python-headless>=4.8,<5
+numpy

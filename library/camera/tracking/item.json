@@ -1,0 +1,46 @@
+{
+  "id": "camera/tracking",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Tracking shot",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 16"
+  },
+  "summary": "Journey and momentum; keeps the viewer beside the subject; a product moving through its use cases.",
+  "tags": [
+    "dolly-track",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#tracking",
+  "data": {
+    "group": "dolly-track",
+    "scope": "gen",
+    "keywords": [
+      "tracking shot",
+      "tracking",
+      "track with",
+      "travelling shot",
+      "follow along"
+    ],
+    "family": "tracking",
+    "about": "Camera and subject travel together; the subject holds its place in frame while the world streams past behind.",
+    "avoid": "A static subject (it becomes a truck); fast cutting (the move needs time to read).",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 6,
+      "unit": "units",
+      "what": "distance travelled"
+    }
+  }
+}

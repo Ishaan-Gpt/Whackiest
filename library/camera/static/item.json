@@ -1,0 +1,48 @@
+{
+  "id": "camera/static",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Static shot",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 01"
+  },
+  "summary": "Lets a performance, a reveal inside the frame or a line of text carry the beat; reads as calm, observational, confident.",
+  "tags": [
+    "pan-tilt",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#static",
+  "data": {
+    "group": "pan-tilt",
+    "scope": "edit",
+    "keywords": [
+      "locked off",
+      "locked-off",
+      "static",
+      "hold",
+      "tripod",
+      "still camera",
+      "no camera movement"
+    ],
+    "family": "static",
+    "about": "The camera does not move: same position, lens and framing from the first frame to the last.",
+    "avoid": "Moovi films are never dead still: in a coded film prefer a slow push of 1-2 % unless the stillness is the point (a deadpan beat, a time-lapse).",
+    "defaults": {
+      "duration": 3,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0,
+      "unit": "units",
+      "what": "no travel"
+    }
+  }
+}

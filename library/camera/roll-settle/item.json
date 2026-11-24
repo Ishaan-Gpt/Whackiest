@@ -1,0 +1,46 @@
+{
+  "id": "camera/roll-settle",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Roll settle",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "style-1 roll-settle (1.1x at -1° → 1.0 level)"
+  },
+  "summary": "The first shot of a beat; a human, cinematic way in instead of a hard static start.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#roll-settle",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "roll settle",
+      "settle",
+      "level out",
+      "straighten",
+      "handheld settle"
+    ],
+    "family": "roll-settle",
+    "about": "Opens a touch tight with a slight roll, then levels out and widens to the framing, as if an operator just found the shot.",
+    "avoid": "Back to back on every shot (pick it for openings).",
+    "defaults": {
+      "duration": 1,
+      "ease": "ramp-down",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.2,
+      "unit": "deg",
+      "what": "starting roll"
+    }
+  }
+}

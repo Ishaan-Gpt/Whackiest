@@ -1,0 +1,35 @@
+{
+  "id": "caption-animation/word-pop",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "word: pop",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "word animation \"pop\" — a word's own entrance on top of its card's (Word.entry)",
+  "tags": [
+    "word"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "word.pop",
+    "name": "pop",
+    "kind": "word",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "preset": "bouncy",
+        "damping": 9,
+        "stiffness": 180,
+        "mass": 0.5
+      }
+    },
+    "note": "a word's own entrance on top of its card's (Word.entry)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "camera/dolly-zoom-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Dolly zoom out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "film grammar (not on the site)"
+  },
+  "summary": "Realisation, dread, vertigo, \"the world just shifted\": a single, big moment of inner change.",
+  "tags": [
+    "zoom-lens",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#dolly-zoom-out",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "coded",
+    "keywords": [
+      "dolly zoom out",
+      "reverse vertigo",
+      "reverse dolly zoom"
+    ],
+    "family": "dolly-zoom",
+    "dir": "out",
+    "about": "The camera pulls away from the subject while the lens zooms the other way, so the subject keeps its size and the background swells up behind it.",
+    "avoid": "Anything casual; flat scenes with no depth behind the subject (there is nothing to warp).",
+    "defaults": {
+      "duration": 2.5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0.55,
+      "unit": "fraction",
+      "what": "share of the distance travelled"
+    }
+  }
+}

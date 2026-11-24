@@ -1,0 +1,49 @@
+{
+  "id": "sfx/sfx-kenney-scratch",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "kenney-scratch.wav"
+  ],
+  "kind": "sfx",
+  "name": "kenney-scratch.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/kenney-scratch.wav"
+  },
+  "summary": "foley sound; fits tear",
+  "tags": [
+    "foley",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "foley",
+    "fits": [
+      {
+        "event": "tear",
+        "rank": 1,
+        "levelDb": -24,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "bright",
+    "centroidHz": 3756,
+    "hitsMs": [
+      10
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on tear",
+    "suggestedGainDb": -8
+  }
+}

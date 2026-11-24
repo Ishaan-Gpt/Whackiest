@@ -1,0 +1,112 @@
+{
+  "id": "caption/staggered-splash",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "3-Line Stagger",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json",
+    "note": "Captions Easy #7"
+  },
+  "summary": "Outfit font with multi-line staggered layout & neon green active word",
+  "tags": [
+    "3-lines",
+    "big-middle-word",
+    "classic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "staggered_splash",
+      "name": "3-Line Stagger",
+      "number": 7,
+      "premium": false,
+      "category": "Classic",
+      "description": "Outfit font with multi-line staggered layout & neon green active word",
+      "tags": [
+        "3 lines",
+        "Big middle word"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "staggered_3line",
+      "layout": "stack3",
+      "fonts": [
+        "Outfit",
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Outfit",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 50,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1.08,
+        "color": "#C5FF00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "camera/rack-focus-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Rack focus to subject",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "film grammar (focus pull)"
+  },
+  "summary": "Moves attention without moving the frame: from a person to what they are looking at, from a product to its context.",
+  "tags": [
+    "edit",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#rack-focus-in",
+  "data": {
+    "group": "edit",
+    "scope": "coded",
+    "keywords": [
+      "rack focus in",
+      "rack focus to subject",
+      "focus to subject",
+      "focus to foreground",
+      "shift focus forward"
+    ],
+    "family": "rack-focus",
+    "dir": "in",
+    "about": "The camera stays still while the sharp plane slides from the background back to the subject; layers blur by their distance from it (`depthBlur`).",
+    "avoid": "Flat footage (a filmed shot cannot be refocused: this needs layers Moovi builds); scenes with only one depth.",
+    "defaults": {
+      "duration": 1.2,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 9,
+      "unit": "units",
+      "what": "depth travelled by the focus"
+    }
+  }
+}

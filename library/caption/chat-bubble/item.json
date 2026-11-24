@@ -1,0 +1,114 @@
+{
+  "id": "caption/chat-bubble",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Chat Bubble",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #15"
+  },
+  "summary": "iMessage-style blue bubbles",
+  "tags": [
+    "bubble",
+    "messages",
+    "fun"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 7
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/looks/new.ts",
+  "data": {
+    "look": {
+      "id": "chat_bubble",
+      "name": "Chat Bubble",
+      "number": 15,
+      "premium": false,
+      "category": "Fun",
+      "description": "iMessage-style blue bubbles",
+      "tags": [
+        "Bubble",
+        "Messages"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "chat_bubble",
+      "layout": "bubble",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 48,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#0A84FF",
+        "shadows": null
+      },
+      "background": "bubble",
+      "backgroundDetail": {
+        "color": "#0A84FF",
+        "opacity": 1,
+        "padding": 22,
+        "radius": 34,
+        "blur": 0
+      },
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "color",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "color",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 7
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/looks/new.ts",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 7
+  }
+}

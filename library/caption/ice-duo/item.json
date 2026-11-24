@@ -1,0 +1,118 @@
+{
+  "id": "caption/ice-duo",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Italic Over Ice Caps",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #5"
+  },
+  "summary": "An italic serif word resting on glowing ice-blue caps",
+  "tags": [
+    "italic-serif",
+    "glow",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat",
+    "font/anton",
+    "font/instrument-serif"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "ice_duo",
+      "name": "Italic Over Ice Caps",
+      "number": 5,
+      "premium": false,
+      "category": "Viral",
+      "description": "An italic serif word resting on glowing ice-blue caps",
+      "tags": [
+        "Italic serif",
+        "Glow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "glow_duo",
+      "layout": "glow-duo",
+      "fonts": [
+        "Montserrat",
+        "Playfair Display",
+        "Anton",
+        "Instrument Serif"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 900,
+        "fontStyle": "normal",
+        "fontSize": 104,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": "Playfair Display",
+        "heroScale": 0.74
+      },
+      "colours": {
+        "text": "#A8DDFF",
+        "gradient": null,
+        "hero": "#FFFFFF",
+        "active": "#D6F1FF",
+        "box": null,
+        "stroke": null,
+        "glow": "#3EA6FF",
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "glow",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "fade",
+        "durationMs": 180
+      },
+      "emphasis": {
+        "effect": "glow",
+        "scale": 1,
+        "color": "#D6F1FF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "glow",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "duoOrder": "accent-first",
+        "depth": 0.38,
+        "overlap": 0.4,
+        "accentShadow": 0.75
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

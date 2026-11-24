@@ -1,0 +1,56 @@
+{
+  "id": "sfx/typing",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "typing.mp3"
+  ],
+  "kind": "sfx",
+  "name": "typing.mp3",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/typing.mp3"
+  },
+  "summary": "typing sound; fits word",
+  "tags": [
+    "typing",
+    "style1"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "typing",
+    "fits": [
+      {
+        "event": "word",
+        "rank": 1,
+        "levelDb": -18,
+        "align": "start"
+      }
+    ],
+    "slices": "onsets",
+    "sliceLen": 0.06,
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1"
+    ],
+    "family": "ui",
+    "tone": "warm",
+    "centroidHz": 1809,
+    "hitsMs": [
+      170,
+      340,
+      440,
+      600,
+      770,
+      870,
+      970,
+      1100,
+      1270
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on word",
+    "suggestedGainDb": -2
+  }
+}

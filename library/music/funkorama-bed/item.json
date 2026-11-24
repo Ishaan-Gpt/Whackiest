@@ -1,0 +1,31 @@
+{
+  "id": "music/funkorama-bed",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "bed.mp3"
+  ],
+  "kind": "music",
+  "name": "Funkorama (75 s bed)",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/music/bed.mp3"
+  },
+  "summary": "Light funk bed under a talking head. Credit required: \"Funkorama\" by Kevin MacLeod (incompetech.com), CC BY 4.0.",
+  "tags": [
+    "bed",
+    "funk",
+    "light"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "data": {
+    "mood": "light, playful",
+    "licence": "CC-BY-4.0",
+    "credit": "\"Funkorama\" by Kevin MacLeod (incompetech.com), CC BY 4.0",
+    "gainDb": -24
+  }
+}

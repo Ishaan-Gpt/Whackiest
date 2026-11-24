@@ -1,0 +1,67 @@
+{
+  "id": "sfx/fs-ui-pop-4",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.ui.pop-4.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.ui.pop-4.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.ui.pop-4.wav"
+  },
+  "summary": "pop sound; fits pop, cascade, paper-pop, list-item",
+  "tags": [
+    "pop",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "pop",
+    "fits": [
+      {
+        "event": "pop",
+        "rank": 3,
+        "levelDb": -25,
+        "align": "start"
+      },
+      {
+        "event": "cascade",
+        "rank": 2,
+        "levelDb": -29,
+        "align": "start"
+      },
+      {
+        "event": "paper-pop",
+        "rank": 3,
+        "levelDb": -27,
+        "align": "start"
+      },
+      {
+        "event": "list-item",
+        "rank": 1,
+        "levelDb": -26,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "ui",
+    "tone": "warm",
+    "centroidHz": 1052,
+    "hitsMs": [
+      0
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on pop, cascade, paper-pop, list-item",
+    "suggestedGainDb": -9
+  }
+}

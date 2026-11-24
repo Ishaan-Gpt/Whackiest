@@ -1,0 +1,111 @@
+{
+  "id": "caption/mint-chat-pop",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Mint Chat Pop",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/graphic.tsx",
+    "note": "Captions Easy #94"
+  },
+  "summary": "A mint pill speech bubble that pops in with a twist, tail on the right",
+  "tags": [
+    "bubble",
+    "messages",
+    "pop",
+    "social"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/graphic.tsx",
+  "data": {
+    "look": {
+      "id": "mint_chat_pop",
+      "name": "Mint Chat Pop",
+      "number": 94,
+      "premium": false,
+      "category": "Social",
+      "description": "A mint pill speech bubble that pops in with a twist, tail on the right",
+      "tags": [
+        "Bubble",
+        "Messages",
+        "Pop"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_popup_chat",
+      "layout": "pack-popup-chat",
+      "fonts": [
+        "Nunito"
+      ],
+      "type": {
+        "fontId": "Nunito",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 88,
+        "casing": "lower",
+        "letterSpacing": -1.2,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "tail": "right",
+        "bubble": "#5EE5AC"
+      },
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/graphic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/graphic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

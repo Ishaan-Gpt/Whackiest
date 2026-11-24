@@ -1,0 +1,110 @@
+{
+  "id": "caption/estate-blend-word",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Blended Single Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/dynamic.tsx",
+    "note": "Captions Easy #46"
+  },
+  "summary": "One heavy word at a time, ice-light over dark footage, held by a blue halo on bright footage",
+  "tags": [
+    "one-word",
+    "blend",
+    "real-estate"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/dynamic.tsx",
+  "data": {
+    "look": {
+      "id": "estate_blend_word",
+      "name": "Blended Single Word",
+      "number": 46,
+      "premium": false,
+      "category": "Real Estate",
+      "description": "One heavy word at a time, ice-light over dark footage, held by a blue halo on bright footage",
+      "tags": [
+        "One word",
+        "Blend"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_estate_word",
+      "layout": "pack-estate-word",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 900,
+        "fontStyle": "normal",
+        "fontSize": 140,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#EBEBEB",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#3A88FE"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 1,
+        "maxLines": 3,
+        "maxCharsPerLine": 32
+      },
+      "sourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

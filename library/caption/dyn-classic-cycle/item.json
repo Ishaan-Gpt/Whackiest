@@ -1,0 +1,113 @@
+{
+  "id": "caption/dyn-classic-cycle",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Rotating Editorial Stack",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/dynamic.tsx",
+    "note": "Captions Easy #51"
+  },
+  "summary": "Tight white headline blocks, justified pairs and single words, a new layout every card",
+  "tags": [
+    "rotating-layouts",
+    "justified",
+    "dynamic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/plus-jakarta-sans"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/dynamic.tsx",
+  "data": {
+    "look": {
+      "id": "dyn_classic_cycle",
+      "name": "Rotating Editorial Stack",
+      "number": 51,
+      "premium": false,
+      "category": "Dynamic",
+      "description": "Tight white headline blocks, justified pairs and single words, a new layout every card",
+      "tags": [
+        "Rotating layouts",
+        "Justified"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_dyn_classic",
+      "layout": "pack-dyn-classic",
+      "fonts": [
+        "Plus Jakarta Sans"
+      ],
+      "type": {
+        "fontId": "Plus Jakarta Sans",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 72,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.7)",
+          "rgba(0,0,0,0.42)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5,
+        "maxLines": 3,
+        "maxCharsPerLine": 32
+      },
+      "sourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

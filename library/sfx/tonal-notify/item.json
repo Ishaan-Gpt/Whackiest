@@ -1,0 +1,49 @@
+{
+  "id": "sfx/tonal-notify",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "tonal.notify.wav"
+  ],
+  "kind": "sfx",
+  "name": "tonal.notify.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/tonal.notify.wav"
+  },
+  "summary": "tone sound; fits notify",
+  "tags": [
+    "tone",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "tone",
+    "fits": [
+      {
+        "event": "notify",
+        "rank": 1,
+        "levelDb": -30,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "MIT (MotionEasy)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "tone",
+    "tone": "warm",
+    "centroidHz": 1799,
+    "hitsMs": [
+      90
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on notify",
+    "suggestedGainDb": -14
+  }
+}

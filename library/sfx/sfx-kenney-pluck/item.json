@@ -1,0 +1,49 @@
+{
+  "id": "sfx/sfx-kenney-pluck",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "kenney-pluck.wav"
+  ],
+  "kind": "sfx",
+  "name": "kenney-pluck.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/kenney-pluck.wav"
+  },
+  "summary": "foley sound; fits paper-pop",
+  "tags": [
+    "foley",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "foley",
+    "fits": [
+      {
+        "event": "paper-pop",
+        "rank": 2,
+        "levelDb": -27,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "warm",
+    "centroidHz": 1730,
+    "hitsMs": [
+      0
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on paper-pop",
+    "suggestedGainDb": -11
+  }
+}

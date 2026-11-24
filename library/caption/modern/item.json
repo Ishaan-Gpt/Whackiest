@@ -1,0 +1,106 @@
+{
+  "id": "caption/modern",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Modern",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json"
+  },
+  "summary": "Modern style preset",
+  "tags": [
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 2
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "modern",
+      "name": "Modern",
+      "number": null,
+      "premium": false,
+      "category": "Clean",
+      "description": "Modern style preset",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": true,
+      "templateId": "sentence_highlight",
+      "layout": "sentence",
+      "fonts": [
+        "Outfit",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Outfit",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 52,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFF00",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "pop",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.08,
+        "color": "#FFFF00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 2,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 2
+  }
+}

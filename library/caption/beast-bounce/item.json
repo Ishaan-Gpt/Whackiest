@@ -1,0 +1,113 @@
+{
+  "id": "caption/beast-bounce",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Bouncy Single Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #13"
+  },
+  "summary": "Chunky yellow words with a hard shadow and alternating tilt",
+  "tags": [
+    "one-word",
+    "3d-shadow",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "beast_bounce",
+      "name": "Bouncy Single Word",
+      "number": 13,
+      "premium": false,
+      "category": "Viral",
+      "description": "Chunky yellow words with a hard shadow and alternating tilt",
+      "tags": [
+        "One word",
+        "3D shadow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "word_by_word",
+      "layout": "word",
+      "fonts": [
+        "Luckiest Guy",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Luckiest Guy",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 70,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFF200",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#000000"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 200,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "scale-up",
+        "scale": 1.12,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "scale-up",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "tilt": 3
+      },
+      "settings": {
+        "maxWordsPerCard": 1
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

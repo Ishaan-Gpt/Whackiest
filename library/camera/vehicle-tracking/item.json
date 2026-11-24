@@ -1,0 +1,46 @@
+{
+  "id": "camera/vehicle-tracking",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Vehicle tracking",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 21"
+  },
+  "summary": "Travel, logistics, speed and freedom; ads for anything that moves.",
+  "tags": [
+    "dolly-track",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#vehicle-tracking",
+  "data": {
+    "group": "dolly-track",
+    "scope": "gen",
+    "keywords": [
+      "vehicle tracking",
+      "car tracking",
+      "car mount",
+      "process trailer",
+      "vehicle tracking shot"
+    ],
+    "family": "vehicle-tracking",
+    "about": "The camera rides with a vehicle; the vehicle holds still in frame while the road blurs past, with a little road vibration.",
+    "avoid": "Slow, intimate scenes; when there is no sense of a road or route.",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 14,
+      "unit": "units",
+      "what": "distance driven"
+    }
+  }
+}

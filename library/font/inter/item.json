@@ -1,0 +1,42 @@
+{
+  "id": "font/inter",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "inter-latin-wght-italic.woff2",
+    "inter-latin-wght-normal.woff2"
+  ],
+  "kind": "font",
+  "name": "Inter",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Inter: body / display face",
+  "tags": [
+    "body",
+    "display"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Inter",
+    "files": [
+      {
+        "file": "inter-latin-wght-italic.woff2",
+        "weight": 400,
+        "style": "italic"
+      },
+      {
+        "file": "inter-latin-wght-normal.woff2",
+        "weight": 400,
+        "style": "normal"
+      }
+    ],
+    "licence": "OFL-1.1",
+    "role": [
+      "body",
+      "display"
+    ]
+  }
+}

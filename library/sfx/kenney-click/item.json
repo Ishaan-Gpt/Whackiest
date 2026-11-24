@@ -1,0 +1,49 @@
+{
+  "id": "sfx/kenney-click",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "kenney.click.wav"
+  ],
+  "kind": "sfx",
+  "name": "kenney.click.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/kenney.click.wav"
+  },
+  "summary": "click sound; fits list-item",
+  "tags": [
+    "click",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "click",
+    "fits": [
+      {
+        "event": "list-item",
+        "rank": 2,
+        "levelDb": -26,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "ui",
+    "tone": "deep",
+    "centroidHz": 983,
+    "hitsMs": [
+      10
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on list-item",
+    "suggestedGainDb": -10
+  }
+}

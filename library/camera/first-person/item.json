@@ -1,0 +1,47 @@
+{
+  "id": "camera/first-person",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "First-person view",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT S1"
+  },
+  "summary": "Immersion and empathy: \"this is you\". Onboarding flows, tours, a day in the life.",
+  "tags": [
+    "special",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#first-person",
+  "data": {
+    "group": "special",
+    "scope": "gen",
+    "keywords": [
+      "first person",
+      "first-person",
+      "pov",
+      "point of view",
+      "fpv walk",
+      "subjective camera"
+    ],
+    "family": "first-person",
+    "about": "The camera is the character's eyes: a forward walk at eye height with footstep bob and slight sway.",
+    "avoid": "When the viewer should watch the character rather than be them.",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0.45,
+      "unit": "fraction",
+      "what": "share of the distance walked"
+    }
+  }
+}

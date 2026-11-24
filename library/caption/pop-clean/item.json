@@ -1,0 +1,112 @@
+{
+  "id": "caption/pop-clean",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Pop-Up Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #97"
+  },
+  "summary": "Clean Poppins with a pink scale-up on the spoken word",
+  "tags": [
+    "scale-pop",
+    "outline",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/poppins",
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "pop_clean",
+      "name": "Pop-Up Word",
+      "number": 97,
+      "premium": false,
+      "category": "Viral",
+      "description": "Clean Poppins with a pink scale-up on the spoken word",
+      "tags": [
+        "Scale pop",
+        "Outline"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "sentence_highlight",
+      "layout": "sentence",
+      "fonts": [
+        "Poppins",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 56,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FF3B6B",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.55)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 200,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.15,
+        "color": "#FF3B6B"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

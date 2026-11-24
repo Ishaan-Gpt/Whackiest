@@ -1,0 +1,46 @@
+{
+  "id": "camera/time-lapse",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Time-lapse",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT S5"
+  },
+  "summary": "Passing time, growth, busy days, a build coming together.",
+  "tags": [
+    "special",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#time-lapse",
+  "data": {
+    "group": "special",
+    "scope": "gen",
+    "keywords": [
+      "time lapse",
+      "time-lapse",
+      "timelapse",
+      "hyperlapse still",
+      "locked time lapse"
+    ],
+    "family": "time-lapse",
+    "about": "A locked camera while time runs fast: the scene's own animation speeds up (timeScale), the frame never moves.",
+    "avoid": "Scenes with nothing animating inside them (it reads as a static shot).",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 24,
+      "unit": "x",
+      "what": "time speed-up"
+    }
+  }
+}

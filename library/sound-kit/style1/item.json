@@ -1,0 +1,297 @@
+{
+  "id": "sound-kit/style1",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "sound-kit",
+  "name": "Style 1 (Ishaan's pack)",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/sfx-style1/map.json"
+  },
+  "summary": "Ishaan's own Style 1 sound grammar: event → sound with levels and mixing rules. The default kit.",
+  "tags": [
+    "style1"
+  ],
+  "weight": 0.9,
+  "data": {
+    "events": {
+      "word": {
+        "sounds": [
+          "sfx/typing"
+        ],
+        "level_db": -18,
+        "why": "words fill in grey→black on the VO; refs: most frequent types 02/11, 2–3 % of frame changes, one hit per word (~0.21 s apart). Refs: ~2.2 hits/s vs ~2.9 spoken words/s, so the ref ticks per on-screen word group, not every spoken word; owner rule is one per word (revisit after listening). Owner 2026-10-09: loud and clear like the refs (SFX peaks ~10 dB under the voice). Owner 2026-10-09 (2): louder and bolder: +6 dB more, a soft click layered under each keystroke",
+        "then": {
+          "sound": "click",
+          "after": 0,
+          "level_db": -27
+        },
+        "levelDb": -18
+      },
+      "key-word": {
+        "sounds": [
+          "sfx/finger-snap-tight"
+        ],
+        "level_db": -24,
+        "why": "the big bold/uppercase word in a line; dark click type-00",
+        "levelDb": -24
+      },
+      "list-item": {
+        "sounds": [
+          "sfx/ui-animations",
+          "sfx/kenney-click"
+        ],
+        "level_db": -26,
+        "why": "'+' bullet item appears; mid clicks 10/11",
+        "levelDb": -26
+      },
+      "pop": {
+        "sounds": [
+          "sfx/ui-pop",
+          "sfx/fs-ui-pop-9",
+          "sfx/fs-ui-pop-4"
+        ],
+        "level_db": -25,
+        "why": "icon / logo / mascot / prop pops in with overshoot",
+        "levelDb": -25
+      },
+      "cascade": {
+        "sounds": [
+          "sfx/fs-ui-pop-9",
+          "sfx/fs-ui-pop-4",
+          "sfx/ui-pop"
+        ],
+        "level_db": -29,
+        "every": 2,
+        "fade_db": -6,
+        "why": "many items cascade (64 mascots): a pop on every 2nd item, fading 6 dB across the run so it never machine-guns",
+        "levelDb": -29
+      },
+      "bubble": {
+        "sounds": [
+          "sfx/fs-ui-the-best-bubble-pop-sound-fo"
+        ],
+        "level_db": -24,
+        "why": "speech-bubble comment appears",
+        "levelDb": -24
+      },
+      "card-in": {
+        "sounds": [
+          "sfx/woosh-short"
+        ],
+        "level_db": -25,
+        "then": {
+          "sound": "soft-hit",
+          "after": 0,
+          "level_db": -32
+        },
+        "why": "screenshot / card / phone enters: 6–8 % of frame changes (types 04/08), woosh peak on arrival + a soft land",
+        "levelDb": -25
+      },
+      "slide-out": {
+        "sounds": [
+          "sfx/woosh-tight"
+        ],
+        "level_db": -30,
+        "why": "element leaves or gets pushed",
+        "levelDb": -30
+      },
+      "scene": {
+        "sounds": [
+          "sfx/fs-whoosh-swosh-whoosh-air-cut",
+          "sfx/woosh-tight"
+        ],
+        "level_db": -25,
+        "why": "topic change, ~24 % of frame changes (type-01)",
+        "levelDb": -25
+      },
+      "hard-hit": {
+        "sounds": [
+          "sfx/fs-impact-punch2"
+        ],
+        "level_db": -21,
+        "why": "hook title slam / big claim; max 2 per video",
+        "levelDb": -21
+      },
+      "stat": {
+        "sounds": [
+          "sfx/tonal-chime"
+        ],
+        "level_db": -27,
+        "why": "a number lands (214k stars, 64 agents)",
+        "levelDb": -27
+      },
+      "notify": {
+        "sounds": [
+          "sfx/tonal-notify"
+        ],
+        "level_db": -30,
+        "why": "notification / message / 'comment' moment",
+        "levelDb": -30
+      },
+      "accent": {
+        "sounds": [
+          "sfx/fs-foley-water-drop"
+        ],
+        "level_db": -27,
+        "why": "small surprise accent, sparing",
+        "levelDb": -27
+      },
+      "click-ui": {
+        "sounds": [
+          "sfx/fs-ui-mouse-2-button-fast-click"
+        ],
+        "level_db": -27,
+        "why": "cursor clicks something inside a screenshot",
+        "levelDb": -27
+      },
+      "code": {
+        "sounds": [
+          "sfx/fs-foley-very-fast-typing-short"
+        ],
+        "level_db": -34,
+        "max_len": 1.2,
+        "why": "terminal / code being typed inside a screenshot",
+        "levelDb": -34
+      },
+      "ui-reveal": {
+        "sounds": [
+          "sfx/ui-riser"
+        ],
+        "level_db": -32,
+        "why": "UI screen builds in",
+        "levelDb": -32
+      },
+      "build": {
+        "sounds": [
+          "sfx/riser"
+        ],
+        "level_db": -30,
+        "why": "owner: riser is always COMPLETE (full riser.mp3, 3 s) and ends exactly on the cut; only where 3 s fit, never cut into or stopped",
+        "levelDb": -30
+      },
+      "big-build": {
+        "sounds": [
+          "sfx/riser"
+        ],
+        "level_db": -30,
+        "why": "full 3 s build into the CTA; once per video",
+        "levelDb": -30
+      },
+      "cta": {
+        "sounds": [
+          "sfx/fs-foley-water-drop-splash"
+        ],
+        "level_db": -28,
+        "why": "Comment-keyword / lead magnet lands",
+        "levelDb": -28
+      },
+      "page-turn": {
+        "sounds": [
+          "sfx/sfx-fs-147282",
+          "sfx/sfx-fs-147285"
+        ],
+        "level_db": -26,
+        "why": "a leaf turns / a cover swings (CC0 paper swipes, Frank1100); added for Style 3 ce3-04",
+        "levelDb": -26
+      },
+      "riffle": {
+        "sounds": [
+          "sfx/sfx-fs-671917"
+        ],
+        "level_db": -27,
+        "why": "pages riffle by (CC0 card shuffle, jackyyang09)",
+        "levelDb": -27
+      },
+      "paper-pop": {
+        "sounds": [
+          "sfx/fs-ui-pop-9",
+          "sfx/sfx-kenney-pluck",
+          "sfx/fs-ui-pop-4"
+        ],
+        "level_db": -27,
+        "why": "a pop-up piece / die-cut letter springs up",
+        "levelDb": -27
+      },
+      "thud": {
+        "sounds": [
+          "sfx/fs-impact-soft-hit"
+        ],
+        "level_db": -22,
+        "why": "a book closes / a heavy print lands",
+        "levelDb": -22
+      },
+      "tear": {
+        "sounds": [
+          "sfx/sfx-kenney-scratch",
+          "sfx/sfx-fs-147285"
+        ],
+        "level_db": -24,
+        "why": "paper tears off",
+        "levelDb": -24
+      }
+    },
+    "rules": {
+      "minGap": 0.06,
+      "priority": [
+        "hard-hit",
+        "scene",
+        "card-in",
+        "key-word",
+        "stat",
+        "cta",
+        "bubble",
+        "pop",
+        "list-item",
+        "notify",
+        "click-ui",
+        "accent",
+        "word",
+        "cascade",
+        "slide-out",
+        "code",
+        "ui-reveal",
+        "build",
+        "big-build",
+        "thud",
+        "page-turn",
+        "riffle",
+        "tear",
+        "paper-pop"
+      ],
+      "jitterDb": 1,
+      "peakCeilingDb": -6
+    }
+  },
+  "uses": [
+    "sfx/typing",
+    "sfx/ui-animations",
+    "sfx/finger-snap-tight",
+    "sfx/kenney-click",
+    "sfx/fs-ui-mouse-2-button-fast-click",
+    "sfx/ui-pop",
+    "sfx/fs-ui-pop-4",
+    "sfx/fs-ui-pop-9",
+    "sfx/fs-ui-the-best-bubble-pop-sound-fo",
+    "sfx/fs-foley-water-drop",
+    "sfx/fs-foley-water-drop-splash",
+    "sfx/woosh-short",
+    "sfx/woosh-tight",
+    "sfx/fs-whoosh-swosh-whoosh-air-cut",
+    "sfx/fs-impact-soft-hit",
+    "sfx/fs-impact-punch2",
+    "sfx/riser",
+    "sfx/riser-short",
+    "sfx/ui-riser",
+    "sfx/fs-foley-very-fast-typing-short",
+    "sfx/tonal-chime",
+    "sfx/tonal-notify",
+    "sfx/sfx-fs-147282",
+    "sfx/sfx-fs-147285",
+    "sfx/sfx-fs-671917",
+    "sfx/sfx-kenney-scratch",
+    "sfx/sfx-kenney-pluck"
+  ]
+}

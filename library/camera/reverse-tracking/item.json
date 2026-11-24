@@ -1,0 +1,47 @@
+{
+  "id": "camera/reverse-tracking",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Reverse tracking",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 18"
+  },
+  "summary": "Conversation on the move, a founder talking while walking, confidence and forward drive.",
+  "tags": [
+    "dolly-track",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#reverse-tracking",
+  "data": {
+    "group": "dolly-track",
+    "scope": "gen",
+    "keywords": [
+      "reverse tracking",
+      "reverse tracking shot",
+      "walk and talk",
+      "walk-and-talk",
+      "lead shot",
+      "leading shot"
+    ],
+    "family": "reverse-tracking",
+    "about": "The camera moves backward in front of a subject who walks toward it, keeping their face and body in a steady frame.",
+    "avoid": "When the destination matters more than the person (use a follow shot).",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 5,
+      "unit": "units",
+      "what": "distance walked"
+    }
+  }
+}

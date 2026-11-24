@@ -1,0 +1,53 @@
+{
+  "id": "sfx/riser",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "riser.wav"
+  ],
+  "kind": "sfx",
+  "name": "riser.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/riser.wav"
+  },
+  "summary": "riser sound; fits build, big-build",
+  "tags": [
+    "riser",
+    "core"
+  ],
+  "weight": 0.5,
+  "data": {
+    "category": "riser",
+    "fits": [
+      {
+        "event": "build",
+        "rank": 1,
+        "levelDb": -30,
+        "align": "end"
+      },
+      {
+        "event": "big-build",
+        "rank": 1,
+        "levelDb": -30,
+        "align": "end"
+      }
+    ],
+    "slices": "whole",
+    "licence": "MIT (synthesized)",
+    "kits": [
+      "core"
+    ],
+    "family": "tension",
+    "tone": "warm",
+    "centroidHz": 1240,
+    "hitsMs": [
+      2900
+    ],
+    "phoneSafe": true,
+    "placement": "end",
+    "useWhen": "on build, big-build",
+    "suggestedGainDb": -14
+  }
+}

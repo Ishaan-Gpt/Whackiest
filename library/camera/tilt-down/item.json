@@ -1,0 +1,44 @@
+{
+  "id": "camera/tilt-down",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Tilt down",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 04B"
+  },
+  "summary": "Lands on something below (a product on a table, a detail at the feet); grounding, discovery, deflation.",
+  "tags": [
+    "pan-tilt",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#tilt-down",
+  "data": {
+    "group": "pan-tilt",
+    "scope": "edit",
+    "keywords": [
+      "tilt down",
+      "tilt the camera down"
+    ],
+    "family": "tilt",
+    "dir": "down",
+    "about": "The camera pivots down from a fixed point, sweeping the frame vertically.",
+    "avoid": "Wide horizontal subjects; when the camera itself should rise (pedestal or crane).",
+    "defaults": {
+      "duration": 2.5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 20,
+      "unit": "deg",
+      "what": "tilt angle"
+    }
+  }
+}

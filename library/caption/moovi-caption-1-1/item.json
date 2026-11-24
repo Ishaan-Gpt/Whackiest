@@ -1,0 +1,152 @@
+{
+  "id": "caption/moovi-caption-1-1",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Premium Caption 1.1",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/premium-moovi.tsx",
+    "note": "Captions Easy #129"
+  },
+  "summary": "Two tiers of rounded caps: a white lead line over the spoken key word, lit in your accent with a lens bloom; each word pops in soft and snaps sharp with a small bounce",
+  "tags": [
+    "lit-key-word",
+    "caps",
+    "bloom",
+    "premium",
+    "premium"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.75,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/premium-moovi.tsx",
+  "data": {
+    "look": {
+      "id": "moovi_caption_1_1",
+      "name": "Premium Caption 1.1",
+      "number": 129,
+      "premium": true,
+      "category": "Premium",
+      "description": "Two tiers of rounded caps: a white lead line over the spoken key word, lit in your accent with a lens bloom; each word pops in soft and snaps sharp with a small bounce",
+      "tags": [
+        "Lit key word",
+        "Caps",
+        "Bloom"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_moovi_caption_1_1",
+      "layout": "pack-moovi-caption-1_1",
+      "fonts": [
+        "Russo One"
+      ],
+      "type": {
+        "fontId": "Russo One",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 100,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#4FF42A",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.7)"
+        ],
+        "presetTiers": [
+          "#FFFFFF",
+          "#D9DDE3",
+          "rgba(0,0,0,0.7)",
+          "#D3FCCA",
+          "#83F76A",
+          "#4FF42A",
+          "#30D50B",
+          "rgba(0,0,0,0.75)",
+          "#65EB00",
+          "#72F654",
+          "#CAFCBF"
+        ],
+        "presetTierFonts": [
+          {
+            "font": "Russo One",
+            "weight": 400,
+            "italic": false,
+            "casing": null,
+            "size": 0.07
+          },
+          {
+            "font": "Russo One",
+            "weight": 400,
+            "italic": false,
+            "casing": null,
+            "size": 0.1
+          }
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#52F42E"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": {
+        "kind": "moovi-premium-enter",
+        "scaleFrom": 1.22,
+        "decay": 11,
+        "freq": 15,
+        "blur": 0.01,
+        "blurS": 0.16,
+        "fadeS": 0.06,
+        "flash": 0.8,
+        "flashS": 0.3,
+        "drift": -0.025
+      },
+      "position": {
+        "x": 0.5,
+        "y": 0.8
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 4,
+        "maxLines": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/premium-moovi.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/premium-moovi.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

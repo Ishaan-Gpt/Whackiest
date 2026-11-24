@@ -1,0 +1,112 @@
+{
+  "id": "caption/highlighter-card",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Yellow Highlighter",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #17"
+  },
+  "summary": "Dark text on a white card with a yellow marker",
+  "tags": [
+    "card",
+    "marker",
+    "education"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "highlighter_card",
+      "name": "Yellow Highlighter",
+      "number": 17,
+      "premium": false,
+      "category": "Education",
+      "description": "Dark text on a white card with a yellow marker",
+      "tags": [
+        "Card",
+        "Marker"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "highlighter",
+      "layout": "highlighter",
+      "fonts": [
+        "Lexend"
+      ],
+      "type": {
+        "fontId": "Lexend",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 52,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#111111",
+        "gradient": null,
+        "hero": null,
+        "active": "#FDE047",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#FFFFFF",
+        "shadows": null
+      },
+      "background": "box",
+      "backgroundDetail": {
+        "color": "#FFFFFF",
+        "opacity": 0.95,
+        "padding": 18,
+        "radius": 14,
+        "blur": 0
+      },
+      "highlight": "marker",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "marker",
+        "scale": 1,
+        "color": "#FDE047"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "marker",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

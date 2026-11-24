@@ -1,0 +1,116 @@
+{
+  "id": "caption/slanted-shine",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Slanted Shine",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/lines.tsx",
+    "note": "Captions Easy #84"
+  },
+  "summary": "Deep blue line with a pale slanted shine band across the middle",
+  "tags": [
+    "shine-band",
+    "gradient",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/lines.tsx",
+  "data": {
+    "look": {
+      "id": "slanted_shine",
+      "name": "Slanted Shine",
+      "number": 84,
+      "premium": false,
+      "category": "Viral",
+      "description": "Deep blue line with a pale slanted shine band across the middle",
+      "tags": [
+        "Shine band",
+        "Gradient"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_block_gradient",
+      "layout": "pack-block-gradient",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 72,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": null,
+        "gradient": [
+          "#0869B3",
+          "#0869B3",
+          "#CCEAFF",
+          "#0869B3",
+          "#0869B3"
+        ],
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#0869B3",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.35)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

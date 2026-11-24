@@ -1,0 +1,108 @@
+{
+  "id": "caption/staggered-classic",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Staggered",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json"
+  },
+  "summary": "Outfit font, staggered 3-line layout with the signature mint highlight",
+  "tags": [
+    "classic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "staggered_classic",
+      "name": "Staggered",
+      "number": null,
+      "premium": false,
+      "category": "Classic",
+      "description": "Outfit font, staggered 3-line layout with the signature mint highlight",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": true,
+      "templateId": "staggered_3line",
+      "layout": "stack3",
+      "fonts": [
+        "Outfit",
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Outfit",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 50,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Anton",
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#00F5C4",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.08,
+        "color": "#00F5C4"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": {
+        "layoutMode": "splash"
+      },
+      "settings": {
+        "maxWordsPerCard": 5,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

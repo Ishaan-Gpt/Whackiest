@@ -1,0 +1,47 @@
+{
+  "id": "camera/snorricam",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Body-mounted (Snorricam)",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 24"
+  },
+  "summary": "Disorientation, intoxication, panic, an intense personal moment.",
+  "tags": [
+    "human",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#snorricam",
+  "data": {
+    "group": "human",
+    "scope": "gen",
+    "keywords": [
+      "snorricam",
+      "body mounted",
+      "body-mounted",
+      "body cam",
+      "chest rig",
+      "body mount"
+    ],
+    "family": "snorricam",
+    "about": "The camera is rigged to the subject: their face stays locked in the frame while the world lurches and swings around them.",
+    "avoid": "Almost everything else; never for explaining.",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 4,
+      "unit": "units",
+      "what": "distance walked"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "principle/motion-craft-floor",
+  "kind": "principle",
+  "name": "Motion craft floor",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §5",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Every element enters and exits, exit faster than entrance, never linear, no still image sits still, nothing static over 2 s.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "motion.exit-speed",
+    "motion.no-linear",
+    "motion.max-static"
+  ],
+  "data": {
+    "measure": {
+      "exitFasterThanEntrance": true,
+      "linearEase": false,
+      "maxStaticS": 2,
+      "stillsMove": true
+    }
+  }
+}

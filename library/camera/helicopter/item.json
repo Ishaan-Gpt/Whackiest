@@ -1,0 +1,47 @@
+{
+  "id": "camera/helicopter",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Helicopter shot",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 27"
+  },
+  "summary": "Epic scale, geography, \"a whole industry\"; opening establishing shots.",
+  "tags": [
+    "drone-crane",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#helicopter",
+  "data": {
+    "group": "drone-crane",
+    "scope": "gen",
+    "keywords": [
+      "helicopter",
+      "helicopter shot",
+      "aerial",
+      "aerial shot",
+      "high aerial",
+      "flyover"
+    ],
+    "family": "helicopter",
+    "about": "A high, wide aerial that drifts along a broad flight path with a slight bank, the world laid out below.",
+    "avoid": "Anything that must be read up close.",
+    "defaults": {
+      "duration": 6,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 8,
+      "unit": "units",
+      "what": "flight distance"
+    }
+  }
+}

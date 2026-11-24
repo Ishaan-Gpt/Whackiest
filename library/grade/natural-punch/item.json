@@ -1,0 +1,53 @@
+{
+  "id": "grade/natural-punch",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "natural-punch.cube"
+  ],
+  "kind": "grade",
+  "name": "Natural Punch",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/kits/motion/grade-presets.json",
+    "note": "Ishaan (grader, 2026-10-16)"
+  },
+  "summary": "Natural, warm and punchy: the room keeps its colour, deeper shadows, protected skin, crisp, strong vignette, light grain.",
+  "tags": [
+    "talking-head",
+    "warm",
+    "punchy"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.7,
+  "data": {
+    "lut": "natural-punch.cube",
+    "settings": {
+      "exposure": 0.24,
+      "contrast": 23,
+      "highlights": 28,
+      "shadows": -34,
+      "whites": -22,
+      "blacks": -35,
+      "temp": -4,
+      "tint": -9,
+      "vibrance": 10,
+      "saturation": 0,
+      "skin": 100,
+      "shHue": 317,
+      "shSat": 0,
+      "hiHue": 0,
+      "hiSat": 0,
+      "balance": -14,
+      "clarity": 3,
+      "sharpen": 31,
+      "vignette": 44,
+      "grain": 11
+    },
+    "vignette": 0.44,
+    "grain": 0.11
+  }
+}

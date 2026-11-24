@@ -1,0 +1,48 @@
+{
+  "id": "sfx/finger-snap-tight",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "finger-snap-tight.wav"
+  ],
+  "kind": "sfx",
+  "name": "finger-snap-tight.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/finger-snap-tight.wav"
+  },
+  "summary": "click sound; fits key-word",
+  "tags": [
+    "click",
+    "style1"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "click",
+    "fits": [
+      {
+        "event": "key-word",
+        "rank": 1,
+        "levelDb": -24,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1"
+    ],
+    "family": "ui",
+    "tone": "sub",
+    "centroidHz": 437,
+    "hitsMs": [
+      110,
+      210
+    ],
+    "phoneSafe": false,
+    "placement": "peak",
+    "useWhen": "on key-word",
+    "suggestedGainDb": -8
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "caption/moovi-caption-4",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Premium Caption 4",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/premium-moovi.tsx",
+    "note": "Captions Easy #133"
+  },
+  "summary": "A poster card: the key word giant in tall condensed caps, glossy and extruded in 3D, rising letter by letter, with a handwritten script lead and a white sans line",
+  "tags": [
+    "poster",
+    "3d-key-word",
+    "script-mix",
+    "premium",
+    "premium"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.75,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/poppins"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/premium-moovi.tsx",
+  "data": {
+    "look": {
+      "id": "moovi_caption_4",
+      "name": "Premium Caption 4",
+      "number": 133,
+      "premium": true,
+      "category": "Premium",
+      "description": "A poster card: the key word giant in tall condensed caps, glossy and extruded in 3D, rising letter by letter, with a handwritten script lead and a white sans line",
+      "tags": [
+        "Poster",
+        "3D key word",
+        "Script mix"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_moovi_caption_4",
+      "layout": "pack-moovi-caption-4",
+      "fonts": [
+        "Poppins",
+        "Sacramento",
+        "League Gothic"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 100,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.7)"
+        ],
+        "presetTiers": [
+          "#FFFFFF",
+          "rgba(0,0,0,0.7)",
+          "#D72626",
+          "#D30D0D",
+          "#A50909",
+          "rgba(0,0,0,0.68)",
+          "#FFD0C8",
+          "#3A0006",
+          "#680808",
+          "#2C0707"
+        ],
+        "presetTierFonts": [
+          {
+            "font": "Sacramento",
+            "weight": 400,
+            "italic": false,
+            "casing": "none",
+            "size": 0.095
+          },
+          {
+            "font": "League Gothic",
+            "weight": 400,
+            "italic": false,
+            "casing": null,
+            "size": 0.3
+          },
+          {
+            "font": "Poppins",
+            "weight": 600,
+            "italic": false,
+            "casing": "none",
+            "size": 0.05
+          }
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#D42020"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": {
+        "kind": "moovi-premium-enter",
+        "scaleFrom": 1,
+        "decay": 0,
+        "freq": 0,
+        "blur": 0,
+        "blurS": 0.22,
+        "fadeS": 0.06,
+        "flash": 0,
+        "flashS": 0.3,
+        "drift": -0.01,
+        "rise": 0.6,
+        "stagger": 0.035,
+        "writeS": 0.45
+      },
+      "position": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5,
+        "maxLines": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/premium-moovi.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/premium-moovi.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

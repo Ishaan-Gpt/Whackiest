@@ -1,0 +1,46 @@
+{
+  "id": "camera/punch-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Punch out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "editor grammar (R4 edit styles: 115-140 % punch-ins on word boundaries)"
+  },
+  "summary": "Resets after a punch in; the next thought, or a breath.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#punch-out",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "punch out",
+      "cut out",
+      "back to wide",
+      "release"
+    ],
+    "family": "punch",
+    "dir": "out",
+    "about": "Jumps from a tight reframe back to the base framing in one frame.",
+    "avoid": "Two punches inside one second; punching past ~1.4x on low-resolution footage (it goes soft).",
+    "defaults": {
+      "duration": 0.1,
+      "ease": "cut",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.15,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

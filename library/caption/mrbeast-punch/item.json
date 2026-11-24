@@ -1,0 +1,106 @@
+{
+  "id": "caption/mrbeast-punch",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "MrBeast Punch",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json"
+  },
+  "summary": "Lilita One font, neon cyan highlight with strong 3D drop shadow",
+  "tags": [
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "mrbeast_punch",
+      "name": "MrBeast Punch",
+      "number": null,
+      "premium": false,
+      "category": "Viral",
+      "description": "Lilita One font, neon cyan highlight with strong 3D drop shadow",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": true,
+      "templateId": "word_by_word",
+      "layout": "word",
+      "fonts": [
+        "Lilita One",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Lilita One",
+        "fontWeight": 900,
+        "fontStyle": "normal",
+        "fontSize": 58,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#00F5FF",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.08,
+        "color": "#00F5FF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 1,
+        "gapBehavior": "clear"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

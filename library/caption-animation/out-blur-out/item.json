@@ -1,0 +1,27 @@
+{
+  "id": "caption-animation/out-blur-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "out: blur-out",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "out animation \"blur-out\"",
+  "tags": [
+    "out"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "out.blur-out",
+    "name": "blur-out",
+    "kind": "out",
+    "durationMs": "style.exit.durationMs (schema default 120)",
+    "ease": "in-cubic (Easing.in(Easing.cubic))"
+  }
+}

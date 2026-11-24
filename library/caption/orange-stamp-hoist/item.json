@@ -1,0 +1,114 @@
+{
+  "id": "caption/orange-stamp-hoist",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Orange Stamp Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/plates.tsx",
+    "note": "Captions Easy #26"
+  },
+  "summary": "Condensed caps rise in while the key word lands above them as a dark stamp on a tilted orange plate",
+  "tags": [
+    "stamp",
+    "condensed-caps",
+    "tilt",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/plates.tsx",
+  "data": {
+    "look": {
+      "id": "orange_stamp_hoist",
+      "name": "Orange Stamp Word",
+      "number": 26,
+      "premium": false,
+      "category": "Trending",
+      "description": "Condensed caps rise in while the key word lands above them as a dark stamp on a tilted orange plate",
+      "tags": [
+        "Stamp",
+        "Condensed caps",
+        "Tilt"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_stamp_hoist",
+      "layout": "pack-stamp-hoist",
+      "fonts": [
+        "Barlow Semi Condensed",
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Barlow Semi Condensed",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 67,
+        "casing": "upper",
+        "letterSpacing": 2,
+        "heroFontId": "Anton",
+        "heroScale": 2.6
+      },
+      "colours": {
+        "text": "#F4EFE6",
+        "gradient": null,
+        "hero": "#16130F",
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(22,19,16,0.6)",
+          "rgba(22,19,16,0.85)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FF6A13"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.787
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

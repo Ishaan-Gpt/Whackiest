@@ -1,0 +1,113 @@
+{
+  "id": "caption/fat-bar-pop",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Fat Bar Pop",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/plates.tsx",
+    "note": "Captions Easy #31"
+  },
+  "summary": "Bold caps where the spoken word grows over a fat rounded purple bar",
+  "tags": [
+    "underline-bar",
+    "scale-pop",
+    "caps",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/plus-jakarta-sans"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/plates.tsx",
+  "data": {
+    "look": {
+      "id": "fat_bar_pop",
+      "name": "Fat Bar Pop",
+      "number": 31,
+      "premium": false,
+      "category": "Trending",
+      "description": "Bold caps where the spoken word grows over a fat rounded purple bar",
+      "tags": [
+        "Underline bar",
+        "Scale pop",
+        "Caps"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_fat_bar",
+      "layout": "pack-fat-bar",
+      "fonts": [
+        "Plus Jakarta Sans"
+      ],
+      "type": {
+        "fontId": "Plus Jakarta Sans",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 84,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#7C4DFF",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.85)",
+          "rgba(0,0,0,0.4)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "underline",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "underline",
+        "scale": 1.3,
+        "color": "#7C4DFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "underline",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.809
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

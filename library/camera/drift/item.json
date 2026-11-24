@@ -1,0 +1,49 @@
+{
+  "id": "camera/drift",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Drift",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "style-1 creep (+2.5 %/s after the last key) / Dark Vox drift (+1.5 %/s)"
+  },
+  "summary": "Under every held shot so nothing is ever dead still (Moovi law: every scene moves); talking heads, held titles, product stills.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#drift",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "drift",
+      "creep",
+      "breathe",
+      "idle drift",
+      "float",
+      "subtle push",
+      "keep alive",
+      "living camera"
+    ],
+    "family": "drift",
+    "about": "A barely visible, constant push with a slow float: the frame is alive without anything happening.",
+    "avoid": "When a deliberate lock-off is the joke or the point.",
+    "defaults": {
+      "duration": 3,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.04,
+      "unit": "x",
+      "what": "zoom over the move"
+    }
+  }
+}

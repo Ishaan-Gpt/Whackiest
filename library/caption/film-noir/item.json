@@ -1,0 +1,116 @@
+{
+  "id": "caption/film-noir",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Noir Band",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #110"
+  },
+  "summary": "Playfair on a dark band, blurs into focus",
+  "tags": [
+    "serif",
+    "dark-band",
+    "cinematic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 8
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "film_noir",
+      "name": "Noir Band",
+      "number": 110,
+      "premium": false,
+      "category": "Cinematic",
+      "description": "Playfair on a dark band, blurs into focus",
+      "tags": [
+        "Serif",
+        "Dark band"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "subtitle_bar",
+      "layout": "bar",
+      "fonts": [
+        "Playfair Display",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Playfair Display",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 46,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#2B2B2E",
+        "shadows": null
+      },
+      "background": "bar",
+      "backgroundDetail": {
+        "color": "#2B2B2E",
+        "opacity": 0.88,
+        "padding": 16,
+        "radius": 0,
+        "blur": 0
+      },
+      "highlight": "none",
+      "inAnimation": {
+        "type": "blur-in",
+        "durationMs": 350,
+        "easing": "outCubic",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.86
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 8,
+        "maxLines": 2
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 8
+  }
+}

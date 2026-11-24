@@ -1,0 +1,46 @@
+{
+  "id": "camera/fast-zoom-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Fast zoom out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 06B"
+  },
+  "summary": "Pops the context in: \"and here is the whole picture\".",
+  "tags": [
+    "zoom-lens",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#fast-zoom-out",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "edit",
+    "keywords": [
+      "fast zoom out",
+      "quick zoom out",
+      "zoom out fast",
+      "zoom out quickly"
+    ],
+    "family": "fast-zoom",
+    "dir": "out",
+    "about": "A quick, decisive change of focal length away from the subject; still a camera that does not travel.",
+    "avoid": "Back to back with other fast moves; slower, reflective narration.",
+    "defaults": {
+      "duration": 1,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.6,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

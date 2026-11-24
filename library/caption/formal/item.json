@@ -1,0 +1,106 @@
+{
+  "id": "caption/formal",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Formal",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json"
+  },
+  "summary": "Formal style preset",
+  "tags": [
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 8
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "formal",
+      "name": "Formal",
+      "number": null,
+      "premium": false,
+      "category": "Clean",
+      "description": "Formal style preset",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": true,
+      "templateId": "sentence_highlight",
+      "layout": "sentence",
+      "fonts": [
+        "Libre Baskerville",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Libre Baskerville",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 46,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#D4B96A",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "fade",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.08,
+        "color": "#D4B96A"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 8,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 8
+  }
+}

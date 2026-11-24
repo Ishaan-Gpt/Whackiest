@@ -1,0 +1,47 @@
+{
+  "id": "sfx/ui-riser",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "ui-riser.wav"
+  ],
+  "kind": "sfx",
+  "name": "ui-riser.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/ui-riser.wav"
+  },
+  "summary": "riser sound; fits ui-reveal",
+  "tags": [
+    "riser",
+    "core"
+  ],
+  "weight": 0.5,
+  "data": {
+    "category": "riser",
+    "fits": [
+      {
+        "event": "ui-reveal",
+        "rank": 1,
+        "levelDb": -32,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "MIT (synthesized)",
+    "kits": [
+      "core"
+    ],
+    "family": "tension",
+    "tone": "warm",
+    "centroidHz": 1738,
+    "hitsMs": [
+      860
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on ui-reveal",
+    "suggestedGainDb": -16
+  }
+}

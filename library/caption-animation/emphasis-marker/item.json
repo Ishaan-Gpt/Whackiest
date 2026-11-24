@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/emphasis-marker",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "emphasis: marker",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "emphasis animation \"marker\"",
+  "tags": [
+    "emphasis"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "emphasis.marker",
+    "name": "marker",
+    "kind": "emphasis",
+    "durationMs": 200,
+    "ease": "outExpo",
+    "scale": null
+  }
+}

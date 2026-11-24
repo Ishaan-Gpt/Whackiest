@@ -1,0 +1,47 @@
+{
+  "id": "camera/crash-zoom-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Crash zoom in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 07A"
+  },
+  "summary": "Shock, comedy, emphasis on a key word; the meme zoom. Pair with a hit sound.",
+  "tags": [
+    "zoom-lens",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#crash-zoom-in",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "edit",
+    "keywords": [
+      "crash zoom in",
+      "snap zoom in",
+      "smash zoom in",
+      "meme zoom",
+      "dramatic zoom"
+    ],
+    "family": "crash-zoom",
+    "dir": "in",
+    "about": "A near-instant zoom that hits like a sound effect: the lens slams to its new focal length and stops dead.",
+    "avoid": "Brand films that should feel calm; more than one per 10 s; a subject that is not centred (it will fly off).",
+    "defaults": {
+      "duration": 0.3,
+      "ease": "snap",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 2.2,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

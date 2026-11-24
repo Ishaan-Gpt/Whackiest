@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/emphasis-outline-fill",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "emphasis: outline-fill",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "emphasis animation \"outline-fill\"",
+  "tags": [
+    "emphasis"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "emphasis.outline-fill",
+    "name": "outline-fill",
+    "kind": "emphasis",
+    "durationMs": null,
+    "ease": null,
+    "scale": null
+  }
+}

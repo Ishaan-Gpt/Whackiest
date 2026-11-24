@@ -1,0 +1,124 @@
+{
+  "id": "caption/chrome-sweep",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Liquid Chrome",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/premium-b.tsx",
+    "note": "Captions Easy #125"
+  },
+  "summary": "Bevelled chrome caps with a specular sweep and a gold key word that catches the light when spoken",
+  "tags": [
+    "chrome",
+    "light-sweep",
+    "wide-caps",
+    "premium",
+    "premium"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.75,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/premium-b.tsx",
+  "data": {
+    "look": {
+      "id": "chrome_sweep",
+      "name": "Liquid Chrome",
+      "number": 125,
+      "premium": true,
+      "category": "Premium",
+      "description": "Bevelled chrome caps with a specular sweep and a gold key word that catches the light when spoken",
+      "tags": [
+        "Chrome",
+        "Light sweep",
+        "Wide caps"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_chrome_sweep",
+      "layout": "pack-chrome-sweep",
+      "fonts": [
+        "Unbounded"
+      ],
+      "type": {
+        "fontId": "Unbounded",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 88,
+        "casing": "upper",
+        "letterSpacing": -1,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": null,
+        "gradient": [
+          "#FFFFFF",
+          "#EEF2F7",
+          "#B7C1CD",
+          "#8794A5",
+          "#2A323D",
+          "#1A2029",
+          "#4E5B6C",
+          "#AAB6C4",
+          "#F2F5F9"
+        ],
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#0A0E14",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#2E3846",
+          "#1F2731",
+          "#131920",
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#F2C25B"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/premium-b.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/premium-b.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

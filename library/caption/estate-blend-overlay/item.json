@@ -1,0 +1,113 @@
+{
+  "id": "caption/estate-blend-overlay",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Words Across a Gold Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/dynamic.tsx",
+    "note": "Captions Easy #48"
+  },
+  "summary": "Words slide one by one across the face of a huge emboldened gold word",
+  "tags": [
+    "blend",
+    "overlay",
+    "real-estate"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/dynamic.tsx",
+  "data": {
+    "look": {
+      "id": "estate_blend_overlay",
+      "name": "Words Across a Gold Word",
+      "number": 48,
+      "premium": false,
+      "category": "Real Estate",
+      "description": "Words slide one by one across the face of a huge emboldened gold word",
+      "tags": [
+        "Blend",
+        "Overlay"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_estate_overlay",
+      "layout": "pack-estate-overlay",
+      "fonts": [
+        "Passion One",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Passion One",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 66,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Montserrat",
+        "heroScale": 2.2
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": "#FFD877",
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.75)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#A64F00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 4,
+        "maxLines": 3,
+        "maxCharsPerLine": 32
+      },
+      "sourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

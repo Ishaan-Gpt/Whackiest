@@ -1,0 +1,49 @@
+{
+  "id": "sfx/sfx-fs-147282",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs-147282.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs-147282.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/fs-147282.wav"
+  },
+  "summary": "other sound; fits page-turn",
+  "tags": [
+    "other",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "other",
+    "fits": [
+      {
+        "event": "page-turn",
+        "rank": 1,
+        "levelDb": -26,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "warm",
+    "centroidHz": 1552,
+    "hitsMs": [
+      110
+    ],
+    "phoneSafe": true,
+    "placement": "peak",
+    "useWhen": "on page-turn",
+    "suggestedGainDb": -10
+  }
+}

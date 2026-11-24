@@ -1,0 +1,35 @@
+{
+  "id": "principle/layout-variety",
+  "kind": "principle",
+  "name": "Layout variety",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §3.5",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "No layout family carries more than about a third of the graphic beats; the family changes at least every ~10 s.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "layout.family-share"
+  ],
+  "data": {
+    "measure": {
+      "maxFamilyShare": 0.33,
+      "changeFamilyWithinS": 10
+    }
+  }
+}

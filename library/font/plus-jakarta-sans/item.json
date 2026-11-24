@@ -1,0 +1,42 @@
+{
+  "id": "font/plus-jakarta-sans",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "plus-jakarta-sans-latin-wght-italic.woff2",
+    "plus-jakarta-sans-latin-wght-normal.woff2"
+  ],
+  "kind": "font",
+  "name": "Plus Jakarta Sans",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Plus Jakarta Sans: body / display face",
+  "tags": [
+    "body",
+    "display"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Plus Jakarta Sans",
+    "files": [
+      {
+        "file": "plus-jakarta-sans-latin-wght-italic.woff2",
+        "weight": 400,
+        "style": "italic"
+      },
+      {
+        "file": "plus-jakarta-sans-latin-wght-normal.woff2",
+        "weight": 400,
+        "style": "normal"
+      }
+    ],
+    "licence": "OFL-1.1",
+    "role": [
+      "body",
+      "display"
+    ]
+  }
+}

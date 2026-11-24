@@ -1,0 +1,47 @@
+{
+  "id": "camera/handheld",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Handheld",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 23"
+  },
+  "summary": "Presence and honesty; documentary, UGC, behind the scenes; makes coded scenes feel filmed rather than generated.",
+  "tags": [
+    "human",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#handheld",
+  "data": {
+    "group": "human",
+    "scope": "edit",
+    "keywords": [
+      "handheld",
+      "hand held",
+      "hand-held",
+      "shaky cam",
+      "documentary style",
+      "run and gun"
+    ],
+    "family": "handheld",
+    "about": "An operator holds the camera: small organic sway, breathing and micro-corrections on position, aim and roll.",
+    "avoid": "Precise UI or text that must be read; luxury or calm brands (use a slider); stacking on fast moves.",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0.06,
+      "unit": "units",
+      "what": "sway amplitude"
+    }
+  }
+}

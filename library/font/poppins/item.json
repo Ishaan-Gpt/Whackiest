@@ -1,0 +1,66 @@
+{
+  "id": "font/poppins",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "Poppins-Bold.ttf",
+    "Poppins-ExtraBold.ttf",
+    "Poppins-ExtraLight.ttf",
+    "Poppins-Light.ttf",
+    "Poppins-Regular.ttf",
+    "Poppins-SemiBold.ttf"
+  ],
+  "kind": "font",
+  "name": "Poppins",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Poppins: body / display face",
+  "tags": [
+    "body",
+    "display"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Poppins",
+    "files": [
+      {
+        "file": "Poppins-Bold.ttf",
+        "weight": 700,
+        "style": "normal"
+      },
+      {
+        "file": "Poppins-ExtraBold.ttf",
+        "weight": 800,
+        "style": "normal"
+      },
+      {
+        "file": "Poppins-ExtraLight.ttf",
+        "weight": 200,
+        "style": "normal"
+      },
+      {
+        "file": "Poppins-Light.ttf",
+        "weight": 300,
+        "style": "normal"
+      },
+      {
+        "file": "Poppins-Regular.ttf",
+        "weight": 400,
+        "style": "normal"
+      },
+      {
+        "file": "Poppins-SemiBold.ttf",
+        "weight": 600,
+        "style": "normal"
+      }
+    ],
+    "licence": "OFL-1.1",
+    "role": [
+      "body",
+      "display"
+    ]
+  }
+}

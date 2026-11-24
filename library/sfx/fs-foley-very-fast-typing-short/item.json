@@ -1,0 +1,72 @@
+{
+  "id": "sfx/fs-foley-very-fast-typing-short",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.foley.very-fast-typing-short.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.foley.very-fast-typing-short.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.foley.very-fast-typing-short.wav"
+  },
+  "summary": "typing sound; fits code, word",
+  "tags": [
+    "typing",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "typing",
+    "fits": [
+      {
+        "event": "code",
+        "rank": 1,
+        "levelDb": -34,
+        "align": "start"
+      },
+      {
+        "event": "word",
+        "rank": 1,
+        "levelDb": -18,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "ui",
+    "tone": "crisp",
+    "centroidHz": 3115,
+    "hitsMs": [
+      60,
+      140,
+      220,
+      320,
+      400,
+      480,
+      560,
+      640,
+      720,
+      800,
+      880,
+      960,
+      1050,
+      1150,
+      1230,
+      1330,
+      1430,
+      1520
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on code, word",
+    "suggestedGainDb": -2
+  }
+}

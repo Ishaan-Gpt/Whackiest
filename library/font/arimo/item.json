@@ -1,0 +1,42 @@
+{
+  "id": "font/arimo",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "Arimo-Bold.ttf",
+    "Arimo-Regular.ttf"
+  ],
+  "kind": "font",
+  "name": "Arimo",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Arimo: body / display face",
+  "tags": [
+    "body",
+    "display"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Arimo",
+    "files": [
+      {
+        "file": "Arimo-Bold.ttf",
+        "weight": 700,
+        "style": "normal"
+      },
+      {
+        "file": "Arimo-Regular.ttf",
+        "weight": 400,
+        "style": "normal"
+      }
+    ],
+    "licence": "Apache-2.0",
+    "role": [
+      "body",
+      "display"
+    ]
+  }
+}

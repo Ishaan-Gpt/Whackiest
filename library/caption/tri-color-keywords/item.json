@@ -1,0 +1,119 @@
+{
+  "id": "caption/tri-color-keywords",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Three-Colour Keywords",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #18"
+  },
+  "summary": "Heavy white caps in a soft dark halo; key words light up green, yellow or red in turn",
+  "tags": [
+    "caps",
+    "keyword-colours",
+    "halo",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "tri_color_keywords",
+      "name": "Three-Colour Keywords",
+      "number": 18,
+      "premium": false,
+      "category": "Trending",
+      "description": "Heavy white caps in a soft dark halo; key words light up green, yellow or red in turn",
+      "tags": [
+        "Caps",
+        "Keyword colours",
+        "Halo"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_tri_keywords",
+      "layout": "pack-tri-keywords",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 900,
+        "fontStyle": "normal",
+        "fontSize": 67.5,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#000000"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#2BF82A"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "templateOptions": {
+        "accents": [
+          "#FDFA14",
+          "#F01916"
+        ]
+      },
+      "settings": {
+        "maxWordsPerCard": 3,
+        "maxLines": 2,
+        "maxCharsPerLine": 8
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

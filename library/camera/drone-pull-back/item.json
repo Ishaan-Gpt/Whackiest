@@ -1,0 +1,48 @@
+{
+  "id": "camera/drone-pull-back",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Drone pull back",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 26B"
+  },
+  "summary": "Scale and departure: the subject becomes part of a much larger world; endings.",
+  "tags": [
+    "drone-crane",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#drone-pull-back",
+  "data": {
+    "group": "drone-crane",
+    "scope": "coded",
+    "keywords": [
+      "drone pull back",
+      "drone out",
+      "aerial pull back",
+      "fly out",
+      "drone reveal",
+      "aerial reveal"
+    ],
+    "family": "drone",
+    "dir": "out",
+    "about": "An aerial glide from above, flying back and up away from the subject while looking at it.",
+    "avoid": "Interiors and UI; when there is no \"ground\" in the scene.",
+    "defaults": {
+      "duration": 5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1,
+      "unit": "fraction",
+      "what": "flight scale"
+    }
+  }
+}

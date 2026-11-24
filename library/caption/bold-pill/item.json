@@ -1,0 +1,116 @@
+{
+  "id": "caption/bold-pill",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Dark Pill Highlight",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #100"
+  },
+  "summary": "White words on a dark pill, spoken word in lime",
+  "tags": [
+    "pill",
+    "colour",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "bold_pill",
+      "name": "Dark Pill Highlight",
+      "number": 100,
+      "premium": false,
+      "category": "Viral",
+      "description": "White words on a dark pill, spoken word in lime",
+      "tags": [
+        "Pill",
+        "Colour"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "boxed_word",
+      "layout": "sentence",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 50,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#B6FF3B",
+        "box": "#22C55E",
+        "stroke": null,
+        "glow": null,
+        "background": "#2A2A35",
+        "shadows": null
+      },
+      "background": "pill",
+      "backgroundDetail": {
+        "color": "#2A2A35",
+        "opacity": 0.92,
+        "padding": 16,
+        "radius": 100,
+        "blur": 0
+      },
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "color",
+        "scale": 1,
+        "color": "#B6FF3B"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "color",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "reveal": "all"
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "camera/pulse",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Beat pulse",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "style-1 punch-in (1.0 → 1.06 on the key word → 1.02)"
+  },
+  "summary": "Music beats, a spoken key word, a number landing; adds energy without leaving the shot.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#pulse",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "pulse",
+      "beat pulse",
+      "zoom bump",
+      "bump",
+      "zoom pulse",
+      "punch and settle",
+      "beat zoom"
+    ],
+    "family": "pulse",
+    "about": "A quick push in that lands on the beat and eases back to the framing: a heartbeat of the camera. The shape is fixed (fast attack, slow release); the ease only shapes the release.",
+    "avoid": "Every beat (it becomes a throb); calm or sincere moments.",
+    "defaults": {
+      "duration": 0.6,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.06,
+      "unit": "x",
+      "what": "peak zoom factor"
+    }
+  }
+}

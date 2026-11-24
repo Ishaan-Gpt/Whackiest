@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/emphasis-color",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "emphasis: color",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "emphasis animation \"color\"",
+  "tags": [
+    "emphasis"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "emphasis.color",
+    "name": "color",
+    "kind": "emphasis",
+    "durationMs": null,
+    "ease": null,
+    "scale": null
+  }
+}

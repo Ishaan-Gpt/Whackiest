@@ -1,0 +1,48 @@
+{
+  "id": "camera/pedestal-down",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Pedestal down",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 11B"
+  },
+  "summary": "Coming down to the detail at the bottom: a price, a signature, the floor.",
+  "tags": [
+    "physical",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#pedestal-down",
+  "data": {
+    "group": "physical",
+    "scope": "edit",
+    "keywords": [
+      "pedestal down",
+      "ped down",
+      "boom down",
+      "elevate down",
+      "lower the camera",
+      "sink"
+    ],
+    "family": "pedestal",
+    "dir": "down",
+    "about": "The whole camera lowers straight down, lens level; nothing tilts, the frame simply descends.",
+    "avoid": "When the angle should change (tilt) or when the move should feel grand (crane).",
+    "defaults": {
+      "duration": 3,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 2.5,
+      "unit": "units",
+      "what": "vertical travel"
+    }
+  }
+}

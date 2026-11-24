@@ -1,0 +1,108 @@
+{
+  "id": "caption/chat-bubble-green",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "WhatsApp Bubble",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts"
+  },
+  "summary": "Green chat bubbles with dark text",
+  "tags": [
+    "fun"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 7
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/looks/new.ts",
+  "data": {
+    "look": {
+      "id": "chat_bubble_green",
+      "name": "WhatsApp Bubble",
+      "number": null,
+      "premium": false,
+      "category": "Fun",
+      "description": "Green chat bubbles with dark text",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": false,
+      "templateId": "chat_bubble",
+      "layout": "bubble",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 48,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#0B141A",
+        "gradient": null,
+        "hero": null,
+        "active": "#0B141A",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#D9FDD3",
+        "shadows": null
+      },
+      "background": "bubble",
+      "backgroundDetail": {
+        "color": "#D9FDD3",
+        "opacity": 1,
+        "padding": 22,
+        "radius": 26,
+        "blur": 0
+      },
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "color",
+        "scale": 1,
+        "color": "#0B141A"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "color",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 7
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/looks/new.ts",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 7
+  }
+}

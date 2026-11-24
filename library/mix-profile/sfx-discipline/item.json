@@ -1,0 +1,65 @@
+{
+  "id": "mix-profile/sfx-discipline",
+  "kind": "mix-profile",
+  "name": "SFX discipline",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/SKILL.md \"Sound effects\"",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "At most one effect per 2.5 s, ≥600 ms apart, 3 s quiet in every 10 s, 2–3 families, heavy only on hook/turn/end, never over key lines or a caption appearing.",
+  "tags": [
+    "opusclip-aip",
+    "sound"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "sfx.budget",
+    "sfx.spacing",
+    "sfx.quiet",
+    "sfx.families"
+  ],
+  "data": {
+    "measure": {
+      "maxPerSecond": 0.4,
+      "minSpacingMs": 600,
+      "maxLayersPerHit": 2,
+      "quietSPer10s": 3,
+      "familiesPerVideo": [
+        2,
+        3
+      ],
+      "heavyOnlyOn": [
+        "hook",
+        "turn",
+        "end"
+      ],
+      "overKeyLines": false,
+      "runOfActions": "first-and-last",
+      "riserPeaksOnLanding": true,
+      "closeSpacingMs": 1500,
+      "closeTones": [
+        "warm",
+        "deep",
+        "sub"
+      ],
+      "loneAccentTones": [
+        "bright",
+        "crisp",
+        "airy"
+      ],
+      "onCaptionAppear": false
+    }
+  }
+}

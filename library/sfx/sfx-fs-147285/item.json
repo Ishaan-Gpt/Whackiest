@@ -1,0 +1,67 @@
+{
+  "id": "sfx/sfx-fs-147285",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs-147285.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs-147285.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/fs-147285.wav"
+  },
+  "summary": "other sound; fits page-turn, tear, slide-out, scene",
+  "tags": [
+    "other",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "other",
+    "fits": [
+      {
+        "event": "page-turn",
+        "rank": 2,
+        "levelDb": -26,
+        "align": "peak"
+      },
+      {
+        "event": "tear",
+        "rank": 2,
+        "levelDb": -24,
+        "align": "peak"
+      },
+      {
+        "event": "slide-out",
+        "rank": 1,
+        "levelDb": -30,
+        "align": "peak"
+      },
+      {
+        "event": "scene",
+        "rank": 2,
+        "levelDb": -25,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "crisp",
+    "centroidHz": 2915,
+    "hitsMs": [
+      660
+    ],
+    "phoneSafe": true,
+    "placement": "peak",
+    "useWhen": "on page-turn, tear, slide-out, scene",
+    "suggestedGainDb": -8
+  }
+}

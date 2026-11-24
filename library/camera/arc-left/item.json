@@ -1,0 +1,46 @@
+{
+  "id": "camera/arc-left",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Arc left",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 14B"
+  },
+  "summary": "Adds dimension to a hero (person or product) without a full orbit; a considered, admiring look.",
+  "tags": [
+    "physical",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#arc-left",
+  "data": {
+    "group": "physical",
+    "scope": "coded",
+    "keywords": [
+      "arc left",
+      "arc shot left",
+      "curve left",
+      "half orbit left"
+    ],
+    "family": "arc",
+    "dir": "left",
+    "about": "The camera travels a shallow curve around the subject toward the left, keeping distance and height; the angle on the subject changes.",
+    "avoid": "Flat 2D cards seen edge-on (keep the arc small); when the subject must stay square to camera (text).",
+    "defaults": {
+      "duration": 3.5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 30,
+      "unit": "deg",
+      "what": "arc angle"
+    }
+  }
+}

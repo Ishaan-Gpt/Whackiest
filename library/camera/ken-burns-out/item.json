@@ -1,0 +1,44 @@
+{
+  "id": "camera/ken-burns-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Ken Burns out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "film grammar (stills animation)"
+  },
+  "summary": "Photos, screenshots, documents, maps and any still in an edit; nostalgic, documentary, considered.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#ken-burns-out",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "ken burns out",
+      "photo pull out"
+    ],
+    "family": "ken-burns",
+    "dir": "out",
+    "about": "A slow, steady zoom out that also slides toward (or away from) a point of the image: the classic way to bring a still photo to life.",
+    "avoid": "Video that already moves a lot; fast-paced cuts (it needs a few seconds).",
+    "defaults": {
+      "duration": 6,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.18,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "caption-animation/emphasis-glow",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "emphasis: glow",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "emphasis animation \"glow\"",
+  "tags": [
+    "emphasis"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "emphasis.glow",
+    "name": "glow",
+    "kind": "emphasis",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "preset": "snappy",
+        "damping": 14,
+        "stiffness": 220,
+        "mass": 0.5
+      }
+    },
+    "scale": null
+  }
+}

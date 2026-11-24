@@ -1,0 +1,106 @@
+{
+  "id": "caption/podcast-duo",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Podcast Duo",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts"
+  },
+  "summary": "Readable Manrope with a sky-blue spoken word",
+  "tags": [
+    "podcast"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 7
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "podcast_duo",
+      "name": "Podcast Duo",
+      "number": null,
+      "premium": false,
+      "category": "Podcast",
+      "description": "Readable Manrope with a sky-blue spoken word",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": false,
+      "templateId": "sentence_highlight",
+      "layout": "sentence",
+      "fonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Manrope",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 48,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#38BDF8",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "fade",
+        "durationMs": 140,
+        "easing": "outCubic",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "color",
+        "scale": 1,
+        "color": "#38BDF8"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "color",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "reveal": "all"
+      },
+      "settings": {
+        "maxWordsPerCard": 7,
+        "maxLines": 2
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 7
+  }
+}

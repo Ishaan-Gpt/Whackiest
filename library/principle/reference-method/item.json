@@ -1,0 +1,48 @@
+{
+  "id": "principle/reference-method",
+  "kind": "principle",
+  "name": "Reading a reference",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip-reference-style/SKILL.md, references/*.md",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Copy the look, never the content or schedule; a reference frequency is a ceiling; plan beats as a table and count it before authoring; match captions side by side until indistinguishable.",
+  "tags": [
+    "opusclip-aip",
+    "method"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "impl": "tools/reference/reference_frames.py",
+  "data": {
+    "measure": {
+      "referenceFrequencyIsCeiling": true,
+      "addTransitionsReferenceLacks": false,
+      "derivedTemplatesWhenFewKinds": [
+        2,
+        3
+      ],
+      "hookCopiedBy": "role",
+      "hookMaxStillBeats": 1
+    },
+    "stylePackSections": [
+      "Captions",
+      "Motion graphics",
+      "Transitions and rhythm",
+      "Leave out",
+      "Hook"
+    ]
+  }
+}

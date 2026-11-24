@@ -1,0 +1,112 @@
+{
+  "id": "caption/retro-3d",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "3D Extrusion",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #112"
+  },
+  "summary": "Pink Rubik Mono One with a stacked 3D extrusion",
+  "tags": [
+    "one-word",
+    "3d",
+    "retro"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "retro_3d",
+      "name": "3D Extrusion",
+      "number": 112,
+      "premium": false,
+      "category": "Retro",
+      "description": "Pink Rubik Mono One with a stacked 3D extrusion",
+      "tags": [
+        "One word",
+        "3D"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "word_by_word",
+      "layout": "word",
+      "fonts": [
+        "Rubik Mono One",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Rubik Mono One",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 64,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FF5CA8",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFE3F1",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#7A1E5A",
+          "#1A0B2E"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 200,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "scale-up",
+        "scale": 1.1,
+        "color": "#FFE3F1"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "scale-up",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 1
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

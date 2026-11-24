@@ -1,0 +1,114 @@
+{
+  "id": "caption/olive-word-pill",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Olive Word Pill",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/lines.tsx",
+    "note": "Captions Easy #86"
+  },
+  "summary": "One caps word at a time on an olive pill badge with a soft glow",
+  "tags": [
+    "one-word",
+    "pill",
+    "fun"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/poppins"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/lines.tsx",
+  "data": {
+    "look": {
+      "id": "olive_word_pill",
+      "name": "Olive Word Pill",
+      "number": 86,
+      "premium": false,
+      "category": "Fun",
+      "description": "One caps word at a time on an olive pill badge with a soft glow",
+      "tags": [
+        "One word",
+        "Pill"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_pill_word",
+      "layout": "pack-pill-word",
+      "fonts": [
+        "Poppins"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 78,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#E7F3DD",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#E7F3DD",
+        "background": "#5A6E41",
+        "shadows": null
+      },
+      "background": "pill",
+      "backgroundDetail": {
+        "color": "#5A6E41",
+        "opacity": 1,
+        "padding": 42,
+        "radius": 16,
+        "blur": 0
+      },
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 1
+      },
+      "sourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

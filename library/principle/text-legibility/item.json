@@ -1,0 +1,56 @@
+{
+  "id": "principle/text-legibility",
+  "kind": "principle",
+  "name": "Text legibility floor",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §3",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Portrait safe area L8/R12/T10/B20%; body ≥4% of short side; headline ≤3 lines; on screen ≥ max(1 s, words/3 s); one entrance at a time; ≤2 type families.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "text.safe-area",
+    "text.min-size",
+    "text.max-lines",
+    "text.read-time",
+    "type.families"
+  ],
+  "data": {
+    "measure": {
+      "safePortrait": {
+        "left": 0.08,
+        "right": 0.12,
+        "top": 0.1,
+        "bottom": 0.2
+      },
+      "safeLandscapeAll": 0.08,
+      "bodyMinShortSide": 0.04,
+      "headlineMaxLines": 3,
+      "wrapByMaxWidth": true,
+      "minOnScreenS": 1,
+      "secondsPerWord": 0.3333333333333333,
+      "bobWhileRead": false,
+      "simultaneousEntrances": 1,
+      "maxTypeFamilies": 2,
+      "logoBeatS": [
+        1,
+        2
+      ]
+    }
+  }
+}

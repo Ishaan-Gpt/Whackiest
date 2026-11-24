@@ -1,0 +1,46 @@
+{
+  "id": "camera/fast-zoom-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Fast zoom in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 06"
+  },
+  "summary": "Points at the thing that matters right now: a number, a face, a punchline.",
+  "tags": [
+    "zoom-lens",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#fast-zoom-in",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "edit",
+    "keywords": [
+      "fast zoom in",
+      "quick zoom in",
+      "zoom in fast",
+      "zoom in quickly"
+    ],
+    "family": "fast-zoom",
+    "dir": "in",
+    "about": "A quick, decisive change of focal length onto the subject; still a camera that does not travel.",
+    "avoid": "Back to back with other fast moves; slower, reflective narration.",
+    "defaults": {
+      "duration": 1,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.6,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

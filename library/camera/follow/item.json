@@ -1,0 +1,47 @@
+{
+  "id": "camera/follow",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Follow shot",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 17"
+  },
+  "summary": "Puts the viewer in the subject's footsteps: anticipation, \"where are we going\", entering a new place.",
+  "tags": [
+    "dolly-track",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#follow",
+  "data": {
+    "group": "dolly-track",
+    "scope": "gen",
+    "keywords": [
+      "follow shot",
+      "follow",
+      "over the shoulder",
+      "over-the-shoulder",
+      "ots",
+      "follow from behind"
+    ],
+    "family": "follow",
+    "about": "The camera walks behind the subject at shoulder height; their back and shoulder frame the route ahead.",
+    "avoid": "Beats that need the face; very short shots (the walk needs a few steps to read).",
+    "defaults": {
+      "duration": 4,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 6,
+      "unit": "units",
+      "what": "distance walked"
+    }
+  }
+}

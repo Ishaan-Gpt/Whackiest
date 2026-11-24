@@ -1,0 +1,56 @@
+{
+  "id": "sfx/fs-whoosh-swosh-whoosh-air-cut",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.whoosh.swosh-whoosh-air-cut.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.whoosh.swosh-whoosh-air-cut.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.whoosh.swosh-whoosh-air-cut.wav"
+  },
+  "summary": "whoosh sound; fits scene, card-in",
+  "tags": [
+    "whoosh",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "whoosh",
+    "fits": [
+      {
+        "event": "scene",
+        "rank": 1,
+        "levelDb": -25,
+        "align": "peak"
+      },
+      {
+        "event": "card-in",
+        "rank": 1,
+        "levelDb": -25,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "transition",
+    "tone": "sub",
+    "centroidHz": 278,
+    "hitsMs": [
+      60,
+      140
+    ],
+    "phoneSafe": true,
+    "placement": "peak",
+    "useWhen": "on scene, card-in",
+    "suggestedGainDb": -9
+  }
+}

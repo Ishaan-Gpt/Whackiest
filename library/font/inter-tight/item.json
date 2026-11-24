@@ -1,0 +1,42 @@
+{
+  "id": "font/inter-tight",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "inter-tight-latin-wght-italic.woff2",
+    "inter-tight-latin-wght-normal.woff2"
+  ],
+  "kind": "font",
+  "name": "Inter Tight",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Inter Tight: body / display face",
+  "tags": [
+    "body",
+    "display"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Inter Tight",
+    "files": [
+      {
+        "file": "inter-tight-latin-wght-italic.woff2",
+        "weight": 400,
+        "style": "italic"
+      },
+      {
+        "file": "inter-tight-latin-wght-normal.woff2",
+        "weight": 400,
+        "style": "normal"
+      }
+    ],
+    "licence": "OFL-1.1",
+    "role": [
+      "body",
+      "display"
+    ]
+  }
+}

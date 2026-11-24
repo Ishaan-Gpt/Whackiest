@@ -1,0 +1,48 @@
+{
+  "id": "camera/slow-zoom-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Slow zoom in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 05"
+  },
+  "summary": "Builds focus and tension on one thing over a held line; the \"lean in\" of a documentary.",
+  "tags": [
+    "zoom-lens",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#slow-zoom-in",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "edit",
+    "keywords": [
+      "slow zoom in",
+      "zoom in",
+      "creep in",
+      "gentle zoom in",
+      "slow push",
+      "push in slowly"
+    ],
+    "family": "zoom",
+    "dir": "in",
+    "about": "The lens changes focal length while the camera stays still; the picture tightens with no change of perspective.",
+    "avoid": "When the space should be felt (a dolly moves through it, a zoom only magnifies it).",
+    "defaults": {
+      "duration": 5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.25,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "caption/creator-arcade-door",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Arcade Door Pop",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/creator.tsx",
+    "note": "Captions Easy #40"
+  },
+  "summary": "Rounded blue gradient words on a thick outline door-open as they're spoken",
+  "tags": [
+    "gradient",
+    "thick-outline",
+    "word-by-word",
+    "creator"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/creator.tsx",
+  "data": {
+    "look": {
+      "id": "creator_arcade_door",
+      "name": "Arcade Door Pop",
+      "number": 40,
+      "premium": false,
+      "category": "Creator",
+      "description": "Rounded blue gradient words on a thick outline door-open as they're spoken",
+      "tags": [
+        "Gradient",
+        "Thick outline",
+        "Word by word"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_gamer",
+      "layout": "pack-gamer",
+      "fonts": [
+        "Fredoka"
+      ],
+      "type": {
+        "fontId": "Fredoka",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 92,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": null,
+        "gradient": [
+          "#005CE6",
+          "#28C4FF",
+          "#005CE6"
+        ],
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#040711",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.65)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 400,
+        "easing": "outQuad",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 160
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#28C4FF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "templateOptions": {
+        "dynamicColor": false
+      },
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

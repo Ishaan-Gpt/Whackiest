@@ -1,0 +1,47 @@
+{
+  "id": "camera/ken-burns-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Ken Burns in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "film grammar (stills animation)"
+  },
+  "summary": "Photos, screenshots, documents, maps and any still in an edit; nostalgic, documentary, considered.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#ken-burns-in",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "ken burns",
+      "ken burns in",
+      "pan and zoom",
+      "photo zoom",
+      "still push"
+    ],
+    "family": "ken-burns",
+    "dir": "in",
+    "about": "A slow, steady zoom in that also slides toward (or away from) a point of the image: the classic way to bring a still photo to life.",
+    "avoid": "Video that already moves a lot; fast-paced cuts (it needs a few seconds).",
+    "defaults": {
+      "duration": 6,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.18,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

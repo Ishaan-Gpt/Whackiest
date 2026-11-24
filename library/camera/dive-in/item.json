@@ -1,0 +1,49 @@
+{
+  "id": "camera/dive-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Dive in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "style-1 dive-to-detail (wide → 1.9x on a detail)"
+  },
+  "summary": "Show the one thing that matters inside a busy frame: a number on a dashboard, a repo name, a face in a crowd.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#dive-in",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "dive in",
+      "dive to detail",
+      "zoom to",
+      "zoom into",
+      "zoom to point",
+      "push to detail",
+      "focus on detail"
+    ],
+    "family": "dive",
+    "dir": "in",
+    "about": "Zooms in while sliding toward a point of the frame (`at`), so an off-centre detail ends up centred and big.",
+    "avoid": "A detail too small for the source resolution at the end scale; when the detail is already centred (use a zoom).",
+    "defaults": {
+      "duration": 1.2,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.9,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

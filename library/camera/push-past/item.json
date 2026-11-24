@@ -1,0 +1,47 @@
+{
+  "id": "camera/push-past",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Push past",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 13"
+  },
+  "summary": "Entering a world: past a doorframe, a plant, a shelf edge; adds depth and a natural wipe.",
+  "tags": [
+    "physical",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#push-past",
+  "data": {
+    "group": "physical",
+    "scope": "coded",
+    "keywords": [
+      "push past",
+      "pass by",
+      "pass-by",
+      "pass by shot",
+      "push past foreground",
+      "foreground wipe"
+    ],
+    "family": "push-past",
+    "about": "A forward glide that brushes past an object close to the lens; the foreground sweeps out of frame and the space beyond opens up.",
+    "avoid": "Scenes with no foreground layer to pass (it becomes a plain dolly in).",
+    "defaults": {
+      "duration": 3,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0.65,
+      "unit": "fraction",
+      "what": "share of the subject distance travelled"
+    }
+  }
+}

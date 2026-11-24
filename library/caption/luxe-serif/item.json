@@ -1,0 +1,109 @@
+{
+  "id": "caption/luxe-serif",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Italic Serif Wipe",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #108"
+  },
+  "summary": "Italic Cormorant revealed with a slow wipe",
+  "tags": [
+    "serif",
+    "wipe",
+    "luxury"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "luxe_serif",
+      "name": "Italic Serif Wipe",
+      "number": 108,
+      "premium": false,
+      "category": "Luxury",
+      "description": "Italic Cormorant revealed with a slow wipe",
+      "tags": [
+        "Serif",
+        "Wipe"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "sentence_clean",
+      "layout": "sentence",
+      "fonts": [
+        "Cormorant Garamond",
+        "Cinzel"
+      ],
+      "type": {
+        "fontId": "Cormorant Garamond",
+        "fontWeight": 600,
+        "fontStyle": "italic",
+        "fontSize": 58,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#F8F1E3",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.55)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "mask-reveal",
+        "durationMs": 600,
+        "easing": "inOutCubic",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#E5C158"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

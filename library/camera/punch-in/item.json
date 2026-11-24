@@ -1,0 +1,48 @@
+{
+  "id": "camera/punch-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Punch in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "editor grammar (R4 edit styles: 115-140 % punch-ins on word boundaries)"
+  },
+  "summary": "On a word boundary to mark a key word or a new thought; alternate with punch out so a single take feels like two cameras.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#punch-in",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "punch in",
+      "jump zoom",
+      "jump cut zoom",
+      "cut in",
+      "tighten",
+      "punch"
+    ],
+    "family": "punch",
+    "dir": "in",
+    "about": "An instant reframe tighter (no visible motion), aimed at a point if given; it holds until the next call. The talking-head editor's basic cut.",
+    "avoid": "Two punches inside one second; punching past ~1.4x on low-resolution footage (it goes soft).",
+    "defaults": {
+      "duration": 0.1,
+      "ease": "cut",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.15,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

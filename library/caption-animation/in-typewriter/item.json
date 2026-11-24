@@ -1,0 +1,26 @@
+{
+  "id": "caption-animation/in-typewriter",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "in: typewriter",
+  "provenance": {
+    "source": "captionseasy"
+  },
+  "summary": "in animation \"typewriter\" — not drawn by entranceStyle; the layout handles it (e.g. typewriter)",
+  "tags": [
+    "in"
+  ],
+  "weight": 0.5,
+  "data": {
+    "sourceFile": null,
+    "id": "in.typewriter",
+    "name": "typewriter",
+    "kind": "in",
+    "durationMs": "style.entrance.durationMs",
+    "ease": "style.entrance.easing (linear|outQuad|outCubic|outExpo|inOutCubic; spring = outExpo)",
+    "note": "not drawn by entranceStyle; the layout handles it (e.g. typewriter)"
+  }
+}

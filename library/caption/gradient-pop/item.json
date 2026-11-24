@@ -1,0 +1,116 @@
+{
+  "id": "caption/gradient-pop",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Gradient Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #98"
+  },
+  "summary": "One word at a time in a sunset gradient",
+  "tags": [
+    "one-word",
+    "gradient",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 1
+  },
+  "uses": [
+    "font/poppins",
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "gradient_pop",
+      "name": "Gradient Word",
+      "number": 98,
+      "premium": false,
+      "category": "Viral",
+      "description": "One word at a time in a sunset gradient",
+      "tags": [
+        "One word",
+        "Gradient"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "word_by_word",
+      "layout": "word",
+      "fonts": [
+        "Poppins",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 900,
+        "fontStyle": "normal",
+        "fontSize": 72,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": null,
+        "gradient": [
+          "#FF8A00",
+          "#FF2D95",
+          "#7A5CFF"
+        ],
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.55)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 200,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "scale-up",
+        "scale": 1.1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "scale-up",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 1
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 1
+  }
+}

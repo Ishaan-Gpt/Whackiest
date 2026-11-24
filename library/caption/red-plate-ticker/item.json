@@ -1,0 +1,112 @@
+{
+  "id": "caption/red-plate-ticker",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Red Plate Ticker",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/plates.tsx",
+    "note": "Captions Easy #27"
+  },
+  "summary": "Heavy italic caps on square red plates with a black offset; the key word pops in bigger on yellow",
+  "tags": [
+    "word-plates",
+    "italic-caps",
+    "pop",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/plates.tsx",
+  "data": {
+    "look": {
+      "id": "red_plate_ticker",
+      "name": "Red Plate Ticker",
+      "number": 27,
+      "premium": false,
+      "category": "Trending",
+      "description": "Heavy italic caps on square red plates with a black offset; the key word pops in bigger on yellow",
+      "tags": [
+        "Word plates",
+        "Italic caps",
+        "Pop"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_plate_ticker",
+      "layout": "pack-plate-ticker",
+      "fonts": [
+        "Jost"
+      ],
+      "type": {
+        "fontId": "Jost",
+        "fontWeight": 900,
+        "fontStyle": "italic",
+        "fontSize": 100,
+        "casing": "upper",
+        "letterSpacing": -1.5,
+        "heroFontId": null,
+        "heroScale": 1.37
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": "#0A0A0A",
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#0A0A0A"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#E9FF00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.47,
+        "y": 0.68
+      },
+      "templateOptions": {
+        "plate": "#FF1F0F"
+      },
+      "settings": {
+        "maxWordsPerCard": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/plates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

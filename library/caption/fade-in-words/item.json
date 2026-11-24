@@ -1,0 +1,110 @@
+{
+  "id": "caption/fade-in-words",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Fade-In Words",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/lines.tsx",
+    "note": "Captions Easy #71"
+  },
+  "summary": "Each word fades in as it's spoken; a key word you mark turns big yellow italic",
+  "tags": [
+    "fade-in",
+    "italic-key-word",
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/lines.tsx",
+  "data": {
+    "look": {
+      "id": "fade_in_words",
+      "name": "Fade-In Words",
+      "number": 71,
+      "premium": false,
+      "category": "Clean",
+      "description": "Each word fades in as it's spoken; a key word you mark turns big yellow italic",
+      "tags": [
+        "Fade in",
+        "Italic key word"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_solo",
+      "layout": "pack-solo",
+      "fonts": [
+        "Lato"
+      ],
+      "type": {
+        "fontId": "Lato",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 51,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": "Lato",
+        "heroScale": 1.3
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "rgba(0,0,0,0.3)",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.35)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FACC15"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "fadeMs": 250
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

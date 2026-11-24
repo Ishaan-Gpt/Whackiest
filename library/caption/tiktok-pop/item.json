@@ -1,0 +1,112 @@
+{
+  "id": "caption/tiktok-pop",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "TikTok Pop",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json"
+  },
+  "summary": "Fredoka font with soft pill background highlight and lime accent",
+  "tags": [
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "tiktok_pop",
+      "name": "TikTok Pop",
+      "number": null,
+      "premium": false,
+      "category": "Viral",
+      "description": "Fredoka font with soft pill background highlight and lime accent",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": true,
+      "templateId": "sentence_highlight",
+      "layout": "sentence",
+      "fonts": [
+        "Fredoka",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Fredoka",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 52,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#76FF03",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": "#0C0A06",
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "pill",
+      "backgroundDetail": {
+        "color": "#0C0A06",
+        "opacity": 0.85,
+        "padding": 16,
+        "radius": 16,
+        "blur": 0
+      },
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.08,
+        "color": "#76FF03"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

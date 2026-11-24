@@ -1,0 +1,38 @@
+{
+  "id": "transition/pip-morph",
+  "kind": "transition",
+  "name": "Picture-in-picture morph",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip-composition/references/pip-transition.md (Apache-2.0; numbers only)",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Full frame shrinks to a rounded card while the beat's own ground covers behind; returns the same way.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "card916": {
+      "x": 120,
+      "y": 984,
+      "w": 840,
+      "h": 840,
+      "radius": 32
+    },
+    "durS": 0.6,
+    "note": "their ease is power2.inOut; use our own named ease"
+  }
+}

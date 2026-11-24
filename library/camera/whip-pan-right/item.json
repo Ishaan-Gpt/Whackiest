@@ -1,0 +1,46 @@
+{
+  "id": "camera/whip-pan-right",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Whip pan right",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 03"
+  },
+  "summary": "Energy and surprise; joins two beats as if they were one thought, hides a cut inside the blur, comedic timing.",
+  "tags": [
+    "pan-tilt",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#whip-pan-right",
+  "data": {
+    "group": "pan-tilt",
+    "scope": "edit",
+    "keywords": [
+      "whip pan right",
+      "whip right",
+      "swish pan right",
+      "flash pan right"
+    ],
+    "family": "whip-pan",
+    "dir": "right",
+    "about": "A pan so fast the middle of it is a streak of motion blur; the camera leaves one composition and lands hard on another.",
+    "avoid": "Quiet or sincere beats; more than one or two per film; small screens where the blur reads as a glitch.",
+    "defaults": {
+      "duration": 0.45,
+      "ease": "whip",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 70,
+      "unit": "deg",
+      "what": "turn angle"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/in-mask-reveal",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "in: mask-reveal",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "in animation \"mask-reveal\"",
+  "tags": [
+    "in"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "in.mask-reveal",
+    "name": "mask-reveal",
+    "kind": "in",
+    "durationMs": "style.entrance.durationMs",
+    "ease": "style.entrance.easing (linear|outQuad|outCubic|outExpo|inOutCubic; spring = outExpo)",
+    "note": null
+  }
+}

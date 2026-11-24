@@ -1,0 +1,49 @@
+{
+  "id": "camera/dolly-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Dolly out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 09"
+  },
+  "summary": "Release, isolation or reveal: the subject shrinks into its world.",
+  "tags": [
+    "dolly-track",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#dolly-out",
+  "data": {
+    "group": "dolly-track",
+    "scope": "coded",
+    "keywords": [
+      "dolly out",
+      "pull out",
+      "pull back",
+      "dolly back",
+      "track out",
+      "move back",
+      "pull"
+    ],
+    "family": "dolly",
+    "dir": "out",
+    "about": "The whole camera travels in a straight line away from the subject; parallax makes the space felt.",
+    "avoid": "When nothing in the frame has depth (a flat card: use a zoom, it looks the same and costs less).",
+    "defaults": {
+      "duration": 3,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 0.35,
+      "unit": "fraction",
+      "what": "share of the subject distance travelled"
+    }
+  }
+}

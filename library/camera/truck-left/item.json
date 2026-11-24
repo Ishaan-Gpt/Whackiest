@@ -1,0 +1,48 @@
+{
+  "id": "camera/truck-left",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Truck left",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 10B"
+  },
+  "summary": "Reveals across a row (a lineup, a shelf, a timeline); feels like walking past; strong parallax with layered sets.",
+  "tags": [
+    "physical",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#truck-left",
+  "data": {
+    "group": "physical",
+    "scope": "edit",
+    "keywords": [
+      "truck left",
+      "crab left",
+      "strafe left",
+      "move left",
+      "track left",
+      "drift left"
+    ],
+    "family": "truck",
+    "dir": "left",
+    "about": "The camera body slides sideways to the left on a straight line, lens facing the same way; near layers pass faster than far ones.",
+    "avoid": "Single centred subjects with nothing beside them; flat layouts without overscan (the edge shows).",
+    "defaults": {
+      "duration": 4,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 3,
+      "unit": "units",
+      "what": "sideways travel"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "camera/pedestal-up",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Pedestal up",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 11A"
+  },
+  "summary": "Climbing a stack (a tall phone, a list, a building) one level at a time; steady and factual.",
+  "tags": [
+    "physical",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#pedestal-up",
+  "data": {
+    "group": "physical",
+    "scope": "edit",
+    "keywords": [
+      "pedestal up",
+      "ped up",
+      "boom up",
+      "elevate up",
+      "rise",
+      "raise the camera"
+    ],
+    "family": "pedestal",
+    "dir": "up",
+    "about": "The whole camera rises straight up, lens level; nothing tilts, the frame simply climbs.",
+    "avoid": "When the angle should change (tilt) or when the move should feel grand (crane).",
+    "defaults": {
+      "duration": 3,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 2.5,
+      "unit": "units",
+      "what": "vertical travel"
+    }
+  }
+}

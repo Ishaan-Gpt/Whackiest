@@ -1,0 +1,112 @@
+{
+  "id": "caption/read-along",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Read-Along Light Up",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #107"
+  },
+  "summary": "Full line visible; words light up white as they're read",
+  "tags": [
+    "full-line",
+    "dimmed",
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 6
+  },
+  "uses": [
+    "font/inter",
+    "font/poppins"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "read_along",
+      "name": "Read-Along Light Up",
+      "number": 107,
+      "premium": false,
+      "category": "Clean",
+      "description": "Full line visible; words light up white as they're read",
+      "tags": [
+        "Full line",
+        "Dimmed"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "karaoke",
+      "layout": "karaoke",
+      "fonts": [
+        "Inter",
+        "Poppins"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 52,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.55)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "karaoke",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "fill-sweep",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "fill-sweep",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 6
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 6
+  }
+}

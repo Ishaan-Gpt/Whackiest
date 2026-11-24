@@ -1,0 +1,49 @@
+{
+  "id": "sfx/fs-foley-water-drop",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.foley.water-drop.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.foley.water-drop.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.foley.water-drop.wav"
+  },
+  "summary": "foley sound; fits accent",
+  "tags": [
+    "foley",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "foley",
+    "fits": [
+      {
+        "event": "accent",
+        "rank": 1,
+        "levelDb": -27,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "deep",
+    "centroidHz": 887,
+    "hitsMs": [
+      10
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on accent",
+    "suggestedGainDb": -11
+  }
+}

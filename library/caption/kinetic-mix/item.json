@@ -1,0 +1,110 @@
+{
+  "id": "caption/kinetic-mix",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Kinetic Big Word",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #11"
+  },
+  "summary": "Stacked words; the key word huge, tilted and yellow",
+  "tags": [
+    "stacked",
+    "tilt",
+    "cinematic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/inter",
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "kinetic_mix",
+      "name": "Kinetic Big Word",
+      "number": 11,
+      "premium": false,
+      "category": "Cinematic",
+      "description": "Stacked words; the key word huge, tilted and yellow",
+      "tags": [
+        "Stacked",
+        "Tilt"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "kinetic",
+      "layout": "kinetic",
+      "fonts": [
+        "Inter",
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 60,
+        "casing": "upper",
+        "letterSpacing": 0,
+        "heroFontId": "Anton",
+        "heroScale": 1.8
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFD400",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.1,
+        "color": "#FFD400"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

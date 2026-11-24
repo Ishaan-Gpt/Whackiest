@@ -1,0 +1,109 @@
+{
+  "id": "caption/scribble",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Marker Scribble",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #103"
+  },
+  "summary": "Hand-written marker words with a yellow highlight",
+  "tags": [
+    "handwritten",
+    "marker",
+    "fun"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/permanent-marker"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "scribble",
+      "name": "Marker Scribble",
+      "number": 103,
+      "premium": false,
+      "category": "Fun",
+      "description": "Hand-written marker words with a yellow highlight",
+      "tags": [
+        "Handwritten",
+        "Marker"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "highlighter",
+      "layout": "highlighter",
+      "fonts": [
+        "Permanent Marker",
+        "Lexend"
+      ],
+      "type": {
+        "fontId": "Permanent Marker",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 56,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#F59E0B",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "marker",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "marker",
+        "scale": 1,
+        "color": "#F59E0B"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "marker",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

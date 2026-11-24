@@ -1,0 +1,47 @@
+{
+  "id": "camera/crane-up",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Crane up",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 25"
+  },
+  "summary": "Endings and big-picture reveals: \"and this is everywhere\". Grand, uplifting.",
+  "tags": [
+    "drone-crane",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#crane-up",
+  "data": {
+    "group": "drone-crane",
+    "scope": "coded",
+    "keywords": [
+      "crane up",
+      "jib up",
+      "crane shot up",
+      "rise up and reveal",
+      "crane"
+    ],
+    "family": "crane",
+    "dir": "up",
+    "about": "The camera rises through open space on a crane, easing back a little and keeping the subject in view as the scale opens.",
+    "avoid": "Mid-sentence beats; tight interiors.",
+    "defaults": {
+      "duration": 4,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 4,
+      "unit": "units",
+      "what": "height travelled"
+    }
+  }
+}

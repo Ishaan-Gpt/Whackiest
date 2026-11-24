@@ -1,0 +1,49 @@
+{
+  "id": "sfx/fs-impact-soft-hit",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.impact.soft-hit.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.impact.soft-hit.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.impact.soft-hit.wav"
+  },
+  "summary": "hit sound; fits thud",
+  "tags": [
+    "hit",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "hit",
+    "fits": [
+      {
+        "event": "thud",
+        "rank": 1,
+        "levelDb": -22,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "impact",
+    "tone": "sub",
+    "centroidHz": 193,
+    "hitsMs": [
+      10
+    ],
+    "phoneSafe": false,
+    "placement": "first_hit",
+    "useWhen": "on thud",
+    "suggestedGainDb": -6
+  }
+}

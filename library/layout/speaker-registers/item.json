@@ -1,0 +1,73 @@
+{
+  "id": "layout/speaker-registers",
+  "kind": "layout",
+  "name": "Speaker registers and 9:16 zoning",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip-framing/SKILL.md",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Who owns the frame per beat: speaker, seat (card, stratum, circle, aperture, cutout), overlay, full cover — with 9:16 zones for payload, captions and seat.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "registers": [
+      "speaker",
+      "seat",
+      "overlay",
+      "full-cover"
+    ],
+    "seats": [
+      "card",
+      "stratum",
+      "circle",
+      "aperture",
+      "cutout"
+    ],
+    "zones916": {
+      "payloadY": [
+        265,
+        770
+      ],
+      "captionBandY": [
+        920,
+        1110
+      ],
+      "seatFromY": 1240,
+      "seatCard": [
+        780,
+        460
+      ],
+      "overlayCaptionBandY": [
+        1340,
+        1530
+      ]
+    },
+    "never": [
+      "side column on portrait",
+      "full-width speaker window on portrait",
+      "three stacked rows on landscape"
+    ],
+    "seatArrivesOncePerRun": true,
+    "headStaysWhole": true,
+    "cutoutMinS": 3,
+    "cutoutSinkS": [
+      0.6,
+      0.9
+    ]
+  }
+}

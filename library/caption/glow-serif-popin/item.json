@@ -1,0 +1,121 @@
+{
+  "id": "caption/glow-serif-popin",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Glowing Serif Pop-In",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/lines.tsx",
+    "note": "Captions Easy #75"
+  },
+  "summary": "Two softly glowing lines with one big italic serif word in a rotating accent colour",
+  "tags": [
+    "glow",
+    "italic-accent",
+    "2-lines",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/poppins"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/lines.tsx",
+  "data": {
+    "look": {
+      "id": "glow_serif_popin",
+      "name": "Glowing Serif Pop-In",
+      "number": 75,
+      "premium": false,
+      "category": "Viral",
+      "description": "Two softly glowing lines with one big italic serif word in a rotating accent colour",
+      "tags": [
+        "Glow",
+        "Italic accent",
+        "2 lines"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_hind",
+      "layout": "pack-hind",
+      "fonts": [
+        "Poppins",
+        "Playfair Display"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontSize": 51,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": "Playfair Display",
+        "heroScale": 1.55
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#FFFFFF",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.35)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#46D9FF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "accents": [
+          "#46D9FF",
+          "#FF9B3D",
+          "#63FF6B"
+        ],
+        "showMs": 200
+      },
+      "settings": {
+        "maxWordsPerCard": 3,
+        "maxLines": 2
+      },
+      "sourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

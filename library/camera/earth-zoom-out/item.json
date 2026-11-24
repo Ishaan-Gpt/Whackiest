@@ -1,0 +1,47 @@
+{
+  "id": "camera/earth-zoom-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Earth zoom out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT S4"
+  },
+  "summary": "Global reach, \"from one desk to the whole world\", the end of a story.",
+  "tags": [
+    "special",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#earth-zoom-out",
+  "data": {
+    "group": "special",
+    "scope": "coded",
+    "keywords": [
+      "earth zoom out",
+      "earth zoom",
+      "google earth zoom",
+      "zoom out to space",
+      "cosmic zoom",
+      "powers of ten"
+    ],
+    "family": "earth-zoom-out",
+    "about": "A rising pull-out that keeps multiplying scale: street, city, country, planet, with the start point kept at the centre.",
+    "avoid": "Anything without a map or nested scale layers to show. It leaves the base framing on purpose.",
+    "defaults": {
+      "duration": 5,
+      "ease": "ramp-up",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1000,
+      "unit": "x",
+      "what": "distance multiplier"
+    }
+  }
+}

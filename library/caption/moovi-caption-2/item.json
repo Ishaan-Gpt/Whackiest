@@ -1,0 +1,159 @@
+{
+  "id": "caption/moovi-caption-2",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Premium Caption 2",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/premium-moovi.tsx",
+    "note": "Captions Easy #131"
+  },
+  "summary": "Three tiers in an After Effects glow: a white italic lead, the key words tall in gold condensed caps, and a lighter italic tail; every word fades in out of a heavy blur",
+  "tags": [
+    "gold-key",
+    "italic-mix",
+    "glow",
+    "premium",
+    "premium"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.75,
+  "needs": {
+    "maxWords": 6
+  },
+  "uses": [
+    "font/plus-jakarta-sans"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/premium-moovi.tsx",
+  "data": {
+    "look": {
+      "id": "moovi_caption_2",
+      "name": "Premium Caption 2",
+      "number": 131,
+      "premium": true,
+      "category": "Premium",
+      "description": "Three tiers in an After Effects glow: a white italic lead, the key words tall in gold condensed caps, and a lighter italic tail; every word fades in out of a heavy blur",
+      "tags": [
+        "Gold key",
+        "Italic mix",
+        "Glow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_moovi_caption_2",
+      "layout": "pack-moovi-caption-2",
+      "fonts": [
+        "Plus Jakarta Sans",
+        "Antonio"
+      ],
+      "type": {
+        "fontId": "Plus Jakarta Sans",
+        "fontWeight": 600,
+        "fontStyle": "italic",
+        "fontSize": 100,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#F2C84A",
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.7)"
+        ],
+        "presetTiers": [
+          "#FFFFFF",
+          "#F1F0EC",
+          "rgba(0,0,0,0.35)",
+          "#FFF4E0",
+          "#F7DD8F",
+          "#F4D064",
+          "#F2C84A",
+          "#DB8E10"
+        ],
+        "presetTierFonts": [
+          {
+            "font": "Plus Jakarta Sans",
+            "weight": 600,
+            "italic": true,
+            "casing": "none",
+            "size": 0.05
+          },
+          {
+            "font": "Antonio",
+            "weight": 500,
+            "italic": false,
+            "casing": null,
+            "size": 0.17
+          },
+          {
+            "font": "Plus Jakarta Sans",
+            "weight": 500,
+            "italic": true,
+            "casing": "none",
+            "size": 0.046
+          }
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 0
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#F2C94C"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": {
+        "kind": "moovi-premium-enter",
+        "scaleFrom": 1.04,
+        "decay": 14,
+        "freq": 0,
+        "blur": 0.022,
+        "blurS": 0.24,
+        "fadeS": 0.2,
+        "flash": 0,
+        "flashS": 0.3,
+        "drift": -0.01
+      },
+      "position": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 6,
+        "maxLines": 3
+      },
+      "sourceFile": "src/packages/templates/src/pack/premium-moovi.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/premium-moovi.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 6
+  }
+}

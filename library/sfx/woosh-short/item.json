@@ -1,0 +1,48 @@
+{
+  "id": "sfx/woosh-short",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "woosh-short.wav"
+  ],
+  "kind": "sfx",
+  "name": "woosh-short.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/woosh-short.wav"
+  },
+  "summary": "whoosh sound; fits card-in",
+  "tags": [
+    "whoosh",
+    "style1"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "whoosh",
+    "fits": [
+      {
+        "event": "card-in",
+        "rank": 1,
+        "levelDb": -25,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1"
+    ],
+    "family": "transition",
+    "tone": "sub",
+    "centroidHz": 101,
+    "hitsMs": [
+      20,
+      180
+    ],
+    "phoneSafe": false,
+    "placement": "peak",
+    "useWhen": "on card-in",
+    "suggestedGainDb": -9
+  }
+}

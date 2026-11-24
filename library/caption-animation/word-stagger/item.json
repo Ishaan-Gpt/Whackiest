@@ -1,0 +1,31 @@
+{
+  "id": "caption-animation/word-stagger",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "word: stagger",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "word animation \"stagger\"",
+  "tags": [
+    "word"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "word.stagger",
+    "name": "stagger",
+    "kind": "word",
+    "durationMs": {
+      "perWordMs": 70,
+      "perLetterMs": 28,
+      "scaledBy": "entrance.durationMs / 220 (min 0.4)"
+    },
+    "ease": null
+  }
+}

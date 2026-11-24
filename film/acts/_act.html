@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@font-face{font-family:"Inter Tight";src:url(/library/font/inter-tight/inter-tight-latin-wght-normal.woff2) format("woff2");font-weight:100 900}
+@font-face{font-family:"Instrument Serif";src:url(/library/font/instrument-serif/instrument-serif-latin-400-italic.woff2) format("woff2");font-style:italic}
+@font-face{font-family:"JetBrains Mono";src:url(/library/font/jetbrains-mono/jetbrains-mono-latin-wght-normal.woff2) format("woff2");font-weight:100 800}
+@font-face{font-family:"Silkscreen";src:url(/hackathon/whackiest-2026/out/v5/fonts/silkscreen-1.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Silkscreen";src:url(/hackathon/whackiest-2026/out/v5/fonts/silkscreen-2.woff2) format("woff2");font-weight:700}
+html,body{margin:0;background:#000}canvas{display:block}
+</style>
+<canvas id="c" width="1280" height="720"></canvas>
+<script type="importmap">{ "imports": { "three": "/hackathon/whackiest-2026/out/vendor/three/build/three.module.js", "three/addons/": "/hackathon/whackiest-2026/out/vendor/three/examples/jsm/" } }</script>
+<script type="module">
+// loads acts/<name>.js given ?act=<name>; the act module must `export default { dur, init(canvas) (async ok), frame(t) }`
+const name = new URLSearchParams(location.search).get('act');
+await Promise.all(['600 20px "Inter Tight"', 'italic 20px "Instrument Serif"', '500 20px "JetBrains Mono"', '400 20px "Silkscreen"', '700 20px "Silkscreen"'].map(f => document.fonts.load(f)));
+const mod = (await import(`./${name}.js`)).default;
+await mod.init(document.getElementById('c'));
+window.ACT = mod; window.ready = true;
+</script>

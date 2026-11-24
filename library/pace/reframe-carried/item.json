@@ -1,0 +1,34 @@
+{
+  "id": "pace/reframe-carried",
+  "kind": "pace",
+  "name": "Pace carried by reframes",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip-reference-style/references/style-pack.md",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Carry the reference cuts-per-minute with hard reframes over one continuous take; showcase shots ≥70% of the runtime.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "measure": {
+      "cutsPerMinute": "from-reference",
+      "carriedBy": "hard-reframe",
+      "showcaseShareMin": 0.7
+    }
+  }
+}

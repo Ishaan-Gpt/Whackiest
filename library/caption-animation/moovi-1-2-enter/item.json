@@ -1,0 +1,42 @@
+{
+  "id": "caption-animation/moovi-1-2-enter",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "in: Premium Caption 1.2 entrance",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/moovi/presets.ts"
+  },
+  "summary": "in animation \"Premium Caption 1.2 entrance\" — drawn by pack/moovi/draw.ts on a canvas",
+  "tags": [
+    "in"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/pack/moovi/presets.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/pack/moovi/presets.ts",
+    "id": "moovi.1_2.enter",
+    "name": "Premium Caption 1.2 entrance",
+    "kind": "in",
+    "durationMs": {
+      "fadeS": 0.06,
+      "blurS": 0.16,
+      "flashS": 0.3,
+      "writeS": null
+    },
+    "ease": {
+      "scaleFrom": 1.22,
+      "decay": 11,
+      "freq": 15,
+      "blur": 0.01,
+      "flash": 0.8,
+      "drift": -0.025,
+      "rise": null,
+      "stagger": null
+    },
+    "note": "drawn by pack/moovi/draw.ts on a canvas"
+  }
+}

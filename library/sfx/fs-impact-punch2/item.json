@@ -1,0 +1,50 @@
+{
+  "id": "sfx/fs-impact-punch2",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.impact.punch2.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.impact.punch2.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.impact.punch2.wav"
+  },
+  "summary": "hit sound; fits hard-hit",
+  "tags": [
+    "hit",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "hit",
+    "fits": [
+      {
+        "event": "hard-hit",
+        "rank": 1,
+        "levelDb": -21,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "impact",
+    "tone": "warm",
+    "centroidHz": 1121,
+    "hitsMs": [
+      20,
+      110
+    ],
+    "phoneSafe": true,
+    "placement": "peak",
+    "useWhen": "on hard-hit",
+    "suggestedGainDb": -5
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "caption/glow-stack-classic",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "3-Line Glow Hero",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json",
+    "note": "Captions Easy #8"
+  },
+  "summary": "Rounded Baloo 2 body text with a flat deep-blue glowing hero word",
+  "tags": [
+    "3-lines",
+    "glow",
+    "classic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "glow_stack_classic",
+      "name": "3-Line Glow Hero",
+      "number": 8,
+      "premium": false,
+      "category": "Classic",
+      "description": "Rounded Baloo 2 body text with a flat deep-blue glowing hero word",
+      "tags": [
+        "3 lines",
+        "Glow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "glow_stack",
+      "layout": "stack3",
+      "fonts": [
+        "Baloo 2",
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Baloo 2",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 50,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1.08,
+        "color": "#4FA8FF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 4,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

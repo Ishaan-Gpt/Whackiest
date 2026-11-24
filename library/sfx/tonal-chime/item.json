@@ -1,0 +1,49 @@
+{
+  "id": "sfx/tonal-chime",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "tonal.chime.wav"
+  ],
+  "kind": "sfx",
+  "name": "tonal.chime.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/tonal.chime.wav"
+  },
+  "summary": "tone sound; fits stat",
+  "tags": [
+    "tone",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "tone",
+    "fits": [
+      {
+        "event": "stat",
+        "rank": 1,
+        "levelDb": -27,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "MIT (MotionEasy)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "tone",
+    "tone": "warm",
+    "centroidHz": 1428,
+    "hitsMs": [
+      20
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on stat",
+    "suggestedGainDb": -11
+  }
+}

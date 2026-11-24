@@ -1,0 +1,110 @@
+{
+  "id": "caption/cartoon-stack-classic",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Cartoon 3-Line",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json",
+    "note": "Captions Easy #117"
+  },
+  "summary": "Playful Fredoka font with a thick border and handwritten Caveat top text",
+  "tags": [
+    "3-lines",
+    "handwritten",
+    "classic"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "cartoon_stack_classic",
+      "name": "Cartoon 3-Line",
+      "number": 117,
+      "premium": false,
+      "category": "Classic",
+      "description": "Playful Fredoka font with a thick border and handwritten Caveat top text",
+      "tags": [
+        "3 lines",
+        "Handwritten"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "cartoon_stack",
+      "layout": "stack3",
+      "fonts": [
+        "Caveat",
+        "Fredoka"
+      ],
+      "type": {
+        "fontId": "Caveat",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 46,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1.08,
+        "color": "#EDE0A6"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 3,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

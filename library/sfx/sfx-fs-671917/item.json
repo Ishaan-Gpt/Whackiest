@@ -1,0 +1,49 @@
+{
+  "id": "sfx/sfx-fs-671917",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs-671917.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs-671917.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/fs-671917.wav"
+  },
+  "summary": "other sound; fits riffle",
+  "tags": [
+    "other",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "other",
+    "fits": [
+      {
+        "event": "riffle",
+        "rank": 1,
+        "levelDb": -27,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "owner's Style 1 pack (Ishaan)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "bright",
+    "centroidHz": 3720,
+    "hitsMs": [
+      1540
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on riffle",
+    "suggestedGainDb": -11
+  }
+}

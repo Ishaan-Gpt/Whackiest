@@ -1,0 +1,38 @@
+{
+  "id": "principle/effect-tiers",
+  "kind": "principle",
+  "name": "Effect tiers",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §6, aip/SKILL.md",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Craft always; meaning only with a trigger in the transcript; signature effects (flash, shake, glitch) only when the reference brings them, ≤1 per 20 s.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "fx.signature-budget"
+  ],
+  "data": {
+    "measure": {
+      "signatureMaxPer20s": 1,
+      "shakeMaxS": 0.45,
+      "flashMaxS": 0.35,
+      "signatureNeedsReference": true,
+      "sameTreatmentTwiceInARow": false
+    }
+  }
+}

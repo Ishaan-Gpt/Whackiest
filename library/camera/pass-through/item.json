@@ -1,0 +1,47 @@
+{
+  "id": "camera/pass-through",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Pass-through",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT S6"
+  },
+  "summary": "Transitions with a physical logic: through a screen into the app, through a window into the street.",
+  "tags": [
+    "special",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#pass-through",
+  "data": {
+    "group": "special",
+    "scope": "coded",
+    "keywords": [
+      "pass through",
+      "pass-through",
+      "fly through",
+      "through the object",
+      "through the window",
+      "portal push"
+    ],
+    "family": "pass-through",
+    "about": "A centred forward glide straight into an object, surface or opening and out the other side into the space beyond.",
+    "avoid": "When there is nothing on the far side to arrive in. It ends past the base subject on purpose.",
+    "defaults": {
+      "duration": 3,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.15,
+      "unit": "fraction",
+      "what": "share of the subject distance travelled"
+    }
+  }
+}

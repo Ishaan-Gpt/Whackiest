@@ -1,0 +1,55 @@
+{
+  "id": "sfx/fs-foley-water-drop-splash",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "fs.foley.water-drop-splash.wav"
+  ],
+  "kind": "sfx",
+  "name": "fs.foley.water-drop-splash.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/fs.foley.water-drop-splash.wav"
+  },
+  "summary": "foley sound; fits cta",
+  "tags": [
+    "foley",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "foley",
+    "fits": [
+      {
+        "event": "cta",
+        "rank": 1,
+        "levelDb": -28,
+        "align": "peak"
+      }
+    ],
+    "slices": "whole",
+    "licence": "CC0-1.0 (freesound/Kenney, see CREDITS)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "foley",
+    "tone": "sub",
+    "centroidHz": 360,
+    "hitsMs": [
+      30,
+      110,
+      190,
+      470,
+      560,
+      670,
+      950
+    ],
+    "phoneSafe": true,
+    "placement": "peak",
+    "useWhen": "on cta",
+    "suggestedGainDb": -12
+  }
+}

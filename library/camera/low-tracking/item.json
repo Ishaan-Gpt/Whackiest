@@ -1,0 +1,45 @@
+{
+  "id": "camera/low-tracking",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Low tracking",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 20"
+  },
+  "summary": "Speed, weight and texture; makes small things heroic; sneakers, tyres, a robot rolling.",
+  "tags": [
+    "dolly-track",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#low-tracking",
+  "data": {
+    "group": "dolly-track",
+    "scope": "gen",
+    "keywords": [
+      "low tracking",
+      "low tracking shot",
+      "ground level tracking",
+      "low angle tracking"
+    ],
+    "family": "low-tracking",
+    "about": "A tracking shot skimming the ground: feet, wheels and the floor rush through the bottom of frame.",
+    "avoid": "Faces and dialogue; scenes with nothing on the ground plane.",
+    "defaults": {
+      "duration": 3,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 6,
+      "unit": "units",
+      "what": "distance travelled"
+    }
+  }
+}

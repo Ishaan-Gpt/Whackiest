@@ -1,0 +1,44 @@
+{
+  "id": "camera/tilt-up",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Tilt up",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 04"
+  },
+  "summary": "Reveals height and scale (a tower, a person standing tall); awe, aspiration, power.",
+  "tags": [
+    "pan-tilt",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#tilt-up",
+  "data": {
+    "group": "pan-tilt",
+    "scope": "edit",
+    "keywords": [
+      "tilt up",
+      "tilt the camera up"
+    ],
+    "family": "tilt",
+    "dir": "up",
+    "about": "The camera pivots up from a fixed point, sweeping the frame vertically.",
+    "avoid": "Wide horizontal subjects; when the camera itself should rise (pedestal or crane).",
+    "defaults": {
+      "duration": 2.5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 20,
+      "unit": "deg",
+      "what": "tilt angle"
+    }
+  }
+}

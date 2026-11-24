@@ -1,0 +1,116 @@
+{
+  "id": "caption/minimal-pro",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Dim Until Spoken",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #104"
+  },
+  "summary": "Calm Inter; upcoming words dimmed, soft blur pill",
+  "tags": [
+    "minimal",
+    "pill",
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 6
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "minimal_pro",
+      "name": "Dim Until Spoken",
+      "number": 104,
+      "premium": false,
+      "category": "Clean",
+      "description": "Calm Inter; upcoming words dimmed, soft blur pill",
+      "tags": [
+        "Minimal",
+        "Pill"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "sentence_highlight",
+      "layout": "sentence",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 48,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#FFFFFF",
+        "shadows": null
+      },
+      "background": "pill",
+      "backgroundDetail": {
+        "color": "#FFFFFF",
+        "opacity": 0.16,
+        "padding": 16,
+        "radius": 100,
+        "blur": 14
+      },
+      "highlight": "text",
+      "inAnimation": {
+        "type": "fade",
+        "durationMs": 160,
+        "easing": "outCubic",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "scale-up",
+        "scale": 1.04,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "scale-up",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "reveal": "all"
+      },
+      "settings": {
+        "maxWordsPerCard": 6
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 6
+  }
+}

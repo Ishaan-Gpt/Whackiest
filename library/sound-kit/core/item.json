@@ -1,0 +1,268 @@
+{
+  "id": "sound-kit/core",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "sound-kit",
+  "name": "Core (open sounds)",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/sfx/map.json"
+  },
+  "summary": "Open CC0/MIT sounds with the same event grammar; fallback when Style 1 has no sound for an event.",
+  "tags": [
+    "core"
+  ],
+  "weight": 0.4,
+  "data": {
+    "events": {
+      "word": {
+        "sounds": [
+          "sfx/fs-foley-very-fast-typing-short"
+        ],
+        "level_db": -18,
+        "then": {
+          "sound": "click",
+          "after": 0,
+          "level_db": -27
+        },
+        "levelDb": -18
+      },
+      "key-word": {
+        "sounds": [
+          "sfx/fs-ui-mouse-2-button-fast-click"
+        ],
+        "level_db": -24,
+        "levelDb": -24
+      },
+      "list-item": {
+        "sounds": [
+          "sfx/fs-ui-pop-4",
+          "sfx/kenney-click"
+        ],
+        "level_db": -26,
+        "levelDb": -26
+      },
+      "pop": {
+        "sounds": [
+          "sfx/ui-pop",
+          "sfx/fs-ui-pop-9",
+          "sfx/fs-ui-pop-4"
+        ],
+        "level_db": -25,
+        "levelDb": -25
+      },
+      "cascade": {
+        "sounds": [
+          "sfx/fs-ui-pop-9",
+          "sfx/fs-ui-pop-4",
+          "sfx/ui-pop"
+        ],
+        "level_db": -29,
+        "every": 2,
+        "fade_db": -6,
+        "levelDb": -29
+      },
+      "bubble": {
+        "sounds": [
+          "sfx/fs-ui-the-best-bubble-pop-sound-fo"
+        ],
+        "level_db": -24,
+        "levelDb": -24
+      },
+      "card-in": {
+        "sounds": [
+          "sfx/fs-whoosh-swosh-whoosh-air-cut"
+        ],
+        "level_db": -25,
+        "then": {
+          "sound": "soft-hit",
+          "after": 0,
+          "level_db": -32
+        },
+        "levelDb": -25
+      },
+      "slide-out": {
+        "sounds": [
+          "sfx/sfx-fs-147285"
+        ],
+        "level_db": -30,
+        "levelDb": -30
+      },
+      "scene": {
+        "sounds": [
+          "sfx/fs-whoosh-swosh-whoosh-air-cut",
+          "sfx/sfx-fs-147285"
+        ],
+        "level_db": -25,
+        "levelDb": -25
+      },
+      "hard-hit": {
+        "sounds": [
+          "sfx/fs-impact-punch2"
+        ],
+        "level_db": -21,
+        "levelDb": -21
+      },
+      "stat": {
+        "sounds": [
+          "sfx/tonal-chime"
+        ],
+        "level_db": -27,
+        "levelDb": -27
+      },
+      "notify": {
+        "sounds": [
+          "sfx/tonal-notify"
+        ],
+        "level_db": -30,
+        "levelDb": -30
+      },
+      "accent": {
+        "sounds": [
+          "sfx/fs-foley-water-drop"
+        ],
+        "level_db": -27,
+        "levelDb": -27
+      },
+      "click-ui": {
+        "sounds": [
+          "sfx/fs-ui-mouse-2-button-fast-click"
+        ],
+        "level_db": -27,
+        "levelDb": -27
+      },
+      "code": {
+        "sounds": [
+          "sfx/fs-foley-very-fast-typing-short"
+        ],
+        "level_db": -34,
+        "max_len": 1.2,
+        "levelDb": -34
+      },
+      "ui-reveal": {
+        "sounds": [
+          "sfx/ui-riser"
+        ],
+        "level_db": -32,
+        "levelDb": -32
+      },
+      "build": {
+        "sounds": [
+          "sfx/riser"
+        ],
+        "level_db": -30,
+        "levelDb": -30
+      },
+      "big-build": {
+        "sounds": [
+          "sfx/riser"
+        ],
+        "level_db": -30,
+        "levelDb": -30
+      },
+      "cta": {
+        "sounds": [
+          "sfx/fs-foley-water-drop-splash"
+        ],
+        "level_db": -28,
+        "levelDb": -28
+      },
+      "page-turn": {
+        "sounds": [
+          "sfx/sfx-fs-147282",
+          "sfx/sfx-fs-147285"
+        ],
+        "level_db": -26,
+        "levelDb": -26
+      },
+      "riffle": {
+        "sounds": [
+          "sfx/sfx-fs-671917"
+        ],
+        "level_db": -27,
+        "levelDb": -27
+      },
+      "paper-pop": {
+        "sounds": [
+          "sfx/fs-ui-pop-9",
+          "sfx/sfx-kenney-pluck",
+          "sfx/fs-ui-pop-4"
+        ],
+        "level_db": -27,
+        "levelDb": -27
+      },
+      "thud": {
+        "sounds": [
+          "sfx/fs-impact-soft-hit"
+        ],
+        "level_db": -22,
+        "levelDb": -22
+      },
+      "tear": {
+        "sounds": [
+          "sfx/sfx-kenney-scratch",
+          "sfx/sfx-fs-147285"
+        ],
+        "level_db": -24,
+        "levelDb": -24
+      }
+    },
+    "rules": {
+      "minGap": 0.06,
+      "priority": [
+        "hard-hit",
+        "scene",
+        "card-in",
+        "key-word",
+        "stat",
+        "cta",
+        "bubble",
+        "pop",
+        "list-item",
+        "notify",
+        "click-ui",
+        "accent",
+        "word",
+        "cascade",
+        "slide-out",
+        "code",
+        "ui-reveal",
+        "build",
+        "big-build",
+        "thud",
+        "page-turn",
+        "riffle",
+        "tear",
+        "paper-pop"
+      ],
+      "jitterDb": 1,
+      "peakCeilingDb": -6
+    }
+  },
+  "uses": [
+    "sfx/fs-foley-very-fast-typing-short",
+    "sfx/fs-ui-pop-4",
+    "sfx/fs-ui-mouse-2-button-fast-click",
+    "sfx/kenney-click",
+    "sfx/ui-pop",
+    "sfx/fs-ui-pop-9",
+    "sfx/fs-ui-the-best-bubble-pop-sound-fo",
+    "sfx/fs-foley-water-drop",
+    "sfx/fs-foley-water-drop-splash",
+    "sfx/fs-whoosh-swosh-whoosh-air-cut",
+    "sfx/sfx-fs-147285",
+    "sfx/fs-impact-soft-hit",
+    "sfx/fs-impact-punch2",
+    "sfx/riser",
+    "sfx/riser-short",
+    "sfx/ui-riser",
+    "sfx/tonal-chime",
+    "sfx/tonal-notify",
+    "sfx/sfx-fs-147282",
+    "sfx/sfx-fs-671917",
+    "sfx/sfx-kenney-scratch",
+    "sfx/sfx-kenney-pluck"
+  ]
+}

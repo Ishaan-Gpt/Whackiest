@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/emphasis-bounce",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "emphasis: bounce",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "emphasis animation \"bounce\"",
+  "tags": [
+    "emphasis"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "emphasis.bounce",
+    "name": "bounce",
+    "kind": "emphasis",
+    "durationMs": 260,
+    "ease": "outExpo",
+    "scale": null
+  }
+}

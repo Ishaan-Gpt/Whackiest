@@ -1,0 +1,120 @@
+{
+  "id": "caption/tilted-label-stack",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Tilted Label Stack",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #21"
+  },
+  "summary": "Two lines on stacked labels, black then green; the green one tilted and tucked under, both bouncing in",
+  "tags": [
+    "labels",
+    "tilt",
+    "elastic",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "tilted_label_stack",
+      "name": "Tilted Label Stack",
+      "number": 21,
+      "premium": false,
+      "category": "Trending",
+      "description": "Two lines on stacked labels, black then green; the green one tilted and tucked under, both bouncing in",
+      "tags": [
+        "Labels",
+        "Tilt",
+        "Elastic"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_label_stack",
+      "layout": "pack-label-stack",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 63,
+        "casing": "none",
+        "letterSpacing": -1.89,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#13FD00"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.57
+      },
+      "templateOptions": {
+        "labelColor": "#2A2A2E",
+        "labelEdge": "rgba(255,255,255,0.22)",
+        "accentTextColor": "#000000",
+        "labelRadius": 0.24,
+        "tilt": -2,
+        "soloEvery": 3,
+        "soloScale": 1.2
+      },
+      "settings": {
+        "maxWordsPerCard": 4,
+        "maxLines": 2,
+        "maxCharsPerLine": 8
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

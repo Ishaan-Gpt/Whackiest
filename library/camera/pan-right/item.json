@@ -1,0 +1,45 @@
+{
+  "id": "camera/pan-right",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Pan right",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 02"
+  },
+  "summary": "Surveys a space or carries the eye from one thing to the next on the right; patient, explanatory, \"look over here\".",
+  "tags": [
+    "pan-tilt",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#pan-right",
+  "data": {
+    "group": "pan-tilt",
+    "scope": "edit",
+    "keywords": [
+      "pan right",
+      "pan to the right",
+      "swivel right"
+    ],
+    "family": "pan",
+    "dir": "right",
+    "about": "The camera turns on its own axis toward the right; it does not travel, so near and far things slide by the same angle.",
+    "avoid": "Two things that are far apart and both matter (cut instead), or when depth should be felt (truck or arc).",
+    "defaults": {
+      "duration": 3,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 24,
+      "unit": "deg",
+      "what": "turn angle"
+    }
+  }
+}

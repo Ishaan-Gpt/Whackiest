@@ -1,0 +1,47 @@
+{
+  "id": "camera/drone-push-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Drone push in",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 26"
+  },
+  "summary": "Arrival: establishing a place and then landing on what matters in it.",
+  "tags": [
+    "drone-crane",
+    "coded",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#drone-push-in",
+  "data": {
+    "group": "drone-crane",
+    "scope": "coded",
+    "keywords": [
+      "drone push in",
+      "drone in",
+      "aerial push in",
+      "fly in",
+      "flyover in"
+    ],
+    "family": "drone",
+    "dir": "in",
+    "about": "An aerial glide from above, flying forward and down onto the subject while looking at it.",
+    "avoid": "Interiors and UI; when there is no \"ground\" in the scene.",
+    "defaults": {
+      "duration": 5,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1,
+      "unit": "fraction",
+      "what": "flight scale"
+    }
+  }
+}

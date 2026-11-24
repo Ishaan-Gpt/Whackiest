@@ -1,0 +1,118 @@
+{
+  "id": "caption/lower-third",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "News Lower Third",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #106"
+  },
+  "summary": "News-style lower third with an accent strip",
+  "tags": [
+    "bar",
+    "accent",
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 8
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "lower_third",
+      "name": "News Lower Third",
+      "number": 106,
+      "premium": false,
+      "category": "Clean",
+      "description": "News-style lower third with an accent strip",
+      "tags": [
+        "Bar",
+        "Accent"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "subtitle_bar",
+      "layout": "bar",
+      "fonts": [
+        "Roboto Condensed",
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Roboto Condensed",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 44,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#38BDF8",
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#0B1B3A",
+        "shadows": null
+      },
+      "background": "bar",
+      "backgroundDetail": {
+        "color": "#0B1B3A",
+        "opacity": 0.88,
+        "padding": 18,
+        "radius": 6,
+        "blur": 0
+      },
+      "highlight": "text",
+      "inAnimation": {
+        "type": "slide-left",
+        "durationMs": 260,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "color",
+        "scale": 1,
+        "color": "#38BDF8"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "color",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.82
+      },
+      "templateOptions": {
+        "accentStrip": true
+      },
+      "settings": {
+        "maxWordsPerCard": 8,
+        "maxLines": 2
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 8
+  }
+}

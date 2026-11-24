@@ -1,0 +1,50 @@
+{
+  "id": "camera/roll-right",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Roll right (Dutch)",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "film grammar (Dutch angle)"
+  },
+  "summary": "Unease, tension, something is off; a playful tilt on a meme beat.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#roll-right",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "roll right",
+      "dutch right",
+      "dutch angle right",
+      "cant right",
+      "dutch angle",
+      "dutch tilt",
+      "canted angle",
+      "roll"
+    ],
+    "family": "roll",
+    "dir": "right",
+    "about": "Rotates the picture around its centre (clockwise) into a canted horizon, zooming just enough to keep the corners covered.",
+    "avoid": "Long holds (it tires); clean product and brand shots.",
+    "defaults": {
+      "duration": 1.2,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 8,
+      "unit": "deg",
+      "what": "roll angle"
+    }
+  }
+}

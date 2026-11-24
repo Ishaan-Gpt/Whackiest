@@ -1,0 +1,55 @@
+{
+  "id": "sfx/ui-pop",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "ui.pop.wav"
+  ],
+  "kind": "sfx",
+  "name": "ui.pop.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx-style1/ui.pop.wav"
+  },
+  "summary": "pop sound; fits pop, cascade",
+  "tags": [
+    "pop",
+    "style1",
+    "core"
+  ],
+  "weight": 0.7,
+  "data": {
+    "category": "pop",
+    "fits": [
+      {
+        "event": "pop",
+        "rank": 1,
+        "levelDb": -25,
+        "align": "start"
+      },
+      {
+        "event": "cascade",
+        "rank": 3,
+        "levelDb": -29,
+        "align": "start"
+      }
+    ],
+    "slices": "whole",
+    "licence": "MIT (MotionEasy)",
+    "kits": [
+      "style1",
+      "core"
+    ],
+    "family": "ui",
+    "tone": "deep",
+    "centroidHz": 992,
+    "hitsMs": [
+      10
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "useWhen": "on pop, cascade",
+    "suggestedGainDb": -9
+  }
+}

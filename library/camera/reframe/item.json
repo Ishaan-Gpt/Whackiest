@@ -1,0 +1,49 @@
+{
+  "id": "camera/reframe",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Reframe",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "editor framing keys (EdlZoom: scale, cx, cy)"
+  },
+  "summary": "Follow the action inside a wide shot: from the speaker to the screen, from one card to the next.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#reframe",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "reframe",
+      "reframe on",
+      "move to",
+      "pan to",
+      "slide to",
+      "recentre",
+      "recenter",
+      "frame on"
+    ],
+    "family": "reframe",
+    "about": "Glides the frame so a point (`at`) becomes the centre, with an optional change of size (amount, default none).",
+    "avoid": "Jumps of more than half a frame (cut instead); when the point leaves the source (it shows the edge).",
+    "defaults": {
+      "duration": 0.8,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1,
+      "unit": "x",
+      "what": "zoom factor at the end"
+    }
+  }
+}

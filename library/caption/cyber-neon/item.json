@@ -1,0 +1,109 @@
+{
+  "id": "caption/cyber-neon",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Cyber Neon",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/legacy.generated.json"
+  },
+  "summary": "Monospace font with electrifying magenta and cyan neon glow",
+  "tags": [
+    "tech"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "cyber_neon",
+      "name": "Cyber Neon",
+      "number": null,
+      "premium": false,
+      "category": "Tech",
+      "description": "Monospace font with electrifying magenta and cyan neon glow",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": true,
+      "templateId": "glow_stack",
+      "layout": "stack3",
+      "fonts": [
+        "Space Mono",
+        "Anton",
+        "Baloo 2"
+      ],
+      "type": {
+        "fontId": "Space Mono",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 50,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Anton",
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#E0F7FA",
+        "gradient": null,
+        "hero": null,
+        "active": "#FF007F",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.6)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.08,
+        "color": "#FF007F"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.7140000000000001
+      },
+      "templateOptions": {
+        "layoutMode": "splash"
+      },
+      "settings": {
+        "maxWordsPerCard": 4,
+        "gapBehavior": "hold"
+      },
+      "sourceFile": "src/packages/templates/src/looks/legacy.generated.json",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

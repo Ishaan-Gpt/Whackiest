@@ -1,0 +1,28 @@
+{
+  "id": "caption-animation/in-slide-left",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "in: slide-left",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "in animation \"slide-left\"",
+  "tags": [
+    "in"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "in.slide-left",
+    "name": "slide-left",
+    "kind": "in",
+    "durationMs": "style.entrance.durationMs",
+    "ease": "style.entrance.easing (linear|outQuad|outCubic|outExpo|inOutCubic; spring = outExpo)",
+    "note": null
+  }
+}

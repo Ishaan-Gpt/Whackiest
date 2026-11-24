@@ -1,0 +1,59 @@
+{
+  "id": "principle/caption-timing",
+  "kind": "principle",
+  "name": "Caption timing",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip-dynamic-caption/SKILL.md, aip/scripts/caption_cues.py",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "≤4 words a cue; a moment ends at a sentence, a >1 s pause, a cut or 8 s; break at clauses or >500 ms gaps; bridge gaps <500 ms; ≤2 lines, split not shrink.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "caption.words-per-cue",
+    "caption.max-lines"
+  ],
+  "impl": "tools/captions/caption_cues.py",
+  "data": {
+    "measure": {
+      "maxWordsPerCue": 4,
+      "cjkWordsPerCue": [
+        8,
+        12
+      ],
+      "momentMaxS": 8,
+      "momentPauseMs": 1000,
+      "cueJoinMs": 500,
+      "cueHoldMs": 200,
+      "maxLines": 2,
+      "shrinkToFit": false,
+      "bandCentreY": {
+        "9:16": 0.7,
+        "4:5": 0.75,
+        "16:9": 0.78,
+        "underSeat": 0.53
+      },
+      "noCaptionsUnder": [
+        "headline",
+        "statement",
+        "logo",
+        "quote-card"
+      ],
+      "soundOnCaptionAppear": false
+    }
+  }
+}

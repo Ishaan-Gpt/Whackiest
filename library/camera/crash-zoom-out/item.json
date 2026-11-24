@@ -1,0 +1,45 @@
+{
+  "id": "camera/crash-zoom-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Crash zoom out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 07B"
+  },
+  "summary": "A comic or dramatic \"pull away\": the reaction, the absurd scale of the situation.",
+  "tags": [
+    "zoom-lens",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#crash-zoom-out",
+  "data": {
+    "group": "zoom-lens",
+    "scope": "edit",
+    "keywords": [
+      "crash zoom out",
+      "snap zoom out",
+      "smash zoom out"
+    ],
+    "family": "crash-zoom",
+    "dir": "out",
+    "about": "A near-instant zoom that hits like a sound effect: the lens slams to its new focal length and stops dead.",
+    "avoid": "Brand films that should feel calm; more than one per 10 s; a subject that is not centred (it will fly off).",
+    "defaults": {
+      "duration": 0.3,
+      "ease": "snap",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 2.2,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

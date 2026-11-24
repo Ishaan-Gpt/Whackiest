@@ -1,0 +1,38 @@
+{
+  "id": "principle/material-honesty",
+  "kind": "principle",
+  "name": "Material honesty",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §1",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Real things as real imagery, concepts animated; never upscale material >1.5×; over ~10 repeated items use one strong element; say each fact one way; 2D to compare values.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "material.upscale"
+  ],
+  "data": {
+    "measure": {
+      "maxUpscale": 1.5,
+      "manyItemsThreshold": 10,
+      "captionAndPictureRepeatFact": false,
+      "watermarks": false,
+      "blackBars": false
+    }
+  }
+}

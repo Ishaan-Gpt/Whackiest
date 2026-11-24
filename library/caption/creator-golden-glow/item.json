@@ -1,0 +1,117 @@
+{
+  "id": "caption/creator-golden-glow",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Golden Glow Headline",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/creator.tsx",
+    "note": "Captions Easy #36"
+  },
+  "summary": "A warm golden headline over a big glowing white script line",
+  "tags": [
+    "gradient",
+    "script",
+    "glow",
+    "creator"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/poppins"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/creator.tsx",
+  "data": {
+    "look": {
+      "id": "creator_golden_glow",
+      "name": "Golden Glow Headline",
+      "number": 36,
+      "premium": false,
+      "category": "Creator",
+      "description": "A warm golden headline over a big glowing white script line",
+      "tags": [
+        "Gradient",
+        "Script",
+        "Glow"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_creator_warm_script",
+      "layout": "pack-creator-warm-script",
+      "fonts": [
+        "Poppins",
+        "Great Vibes"
+      ],
+      "type": {
+        "fontId": "Poppins",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 52.8,
+        "casing": "title",
+        "letterSpacing": 0,
+        "heroFontId": "Great Vibes",
+        "heroScale": 1.3
+      },
+      "colours": {
+        "text": null,
+        "gradient": [
+          "#FFFDE7",
+          "#FFEA00",
+          "#FFB300",
+          "#FF9100",
+          "#FF6D00"
+        ],
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": "#FF6D00",
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 400,
+        "easing": "outQuad",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 160
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

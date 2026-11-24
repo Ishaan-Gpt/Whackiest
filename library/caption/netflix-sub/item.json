@@ -1,0 +1,118 @@
+{
+  "id": "caption/netflix-sub",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Classic Subtitle",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #105"
+  },
+  "summary": "Film-style white subtitles with a soft shadow, no motion",
+  "tags": [
+    "subtitle",
+    "still",
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 12
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "netflix_sub",
+      "name": "Classic Subtitle",
+      "number": 105,
+      "premium": false,
+      "category": "Clean",
+      "description": "Film-style white subtitles with a soft shadow, no motion",
+      "tags": [
+        "Subtitle",
+        "Still"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "subtitle_bar",
+      "layout": "bar",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontSize": 42,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#000000",
+        "shadows": [
+          "rgba(0,0,0,0.9)"
+        ]
+      },
+      "background": "bar",
+      "backgroundDetail": {
+        "color": "#000000",
+        "opacity": 0,
+        "padding": 12,
+        "radius": 0,
+        "blur": 0
+      },
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "linear",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.86
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 12,
+        "maxLines": 2,
+        "maxCharsPerLine": 42
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 12
+  }
+}

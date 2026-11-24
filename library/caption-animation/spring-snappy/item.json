@@ -1,0 +1,34 @@
+{
+  "id": "caption-animation/spring-snappy",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "spring: snappy spring",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "spring animation \"snappy spring\" — shared spring preset that the motions above use",
+  "tags": [
+    "spring"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "spring.snappy",
+    "name": "snappy spring",
+    "kind": "spring",
+    "durationMs": null,
+    "ease": {
+      "spring": {
+        "damping": 14,
+        "stiffness": 220,
+        "mass": 0.5
+      }
+    },
+    "note": "shared spring preset that the motions above use"
+  }
+}

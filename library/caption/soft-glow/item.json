@@ -1,0 +1,109 @@
+{
+  "id": "caption/soft-glow",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Soft Glow",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #2"
+  },
+  "summary": "Rounded lowercase words rising out of a blur with a soft white bloom",
+  "tags": [
+    "glow",
+    "rise",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "soft_glow",
+      "name": "Soft Glow",
+      "number": 2,
+      "premium": false,
+      "category": "Viral",
+      "description": "Rounded lowercase words rising out of a blur with a soft white bloom",
+      "tags": [
+        "Glow",
+        "Rise"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "glow_flow",
+      "layout": "glow-flow",
+      "fonts": [
+        "Nunito"
+      ],
+      "type": {
+        "fontId": "Nunito",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 66,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFFFFF",
+        "box": null,
+        "stroke": null,
+        "glow": "#FFFFFF",
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "glow",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "fade",
+        "durationMs": 180
+      },
+      "emphasis": {
+        "effect": "glow",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "glow",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "depth": 0.12,
+        "glare": 0.3
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

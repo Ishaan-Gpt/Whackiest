@@ -1,0 +1,27 @@
+{
+  "id": "caption-animation/word-progressive-reveal",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "word: progressive reveal",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "word animation \"progressive reveal\"",
+  "tags": [
+    "word"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "word.progressive-reveal",
+    "name": "progressive reveal",
+    "kind": "word",
+    "durationMs": 130,
+    "ease": "outExpo"
+  }
+}

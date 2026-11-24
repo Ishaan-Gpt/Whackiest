@@ -1,0 +1,117 @@
+{
+  "id": "caption/karaoke-pill",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Karaoke Pill",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/lines.tsx",
+    "note": "Captions Easy #81"
+  },
+  "summary": "Line on a light grey pill; upcoming words faint, spoken words solid black",
+  "tags": [
+    "pill",
+    "dim-until-spoken",
+    "clean"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/lines.tsx",
+  "data": {
+    "look": {
+      "id": "karaoke_pill",
+      "name": "Karaoke Pill",
+      "number": 81,
+      "premium": false,
+      "category": "Clean",
+      "description": "Line on a light grey pill; upcoming words faint, spoken words solid black",
+      "tags": [
+        "Pill",
+        "Dim until spoken"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_karaoke_pill",
+      "layout": "pack-karaoke-pill",
+      "fonts": [
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Montserrat",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 54,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#000000",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": "#EBEBEB",
+        "shadows": null
+      },
+      "background": "pill",
+      "backgroundDetail": {
+        "color": "#EBEBEB",
+        "opacity": 0.85,
+        "padding": 10,
+        "radius": 16,
+        "blur": 0
+      },
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "upcomingAlpha": 0.3333333333333333,
+        "fadeMs": 150
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

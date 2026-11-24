@@ -1,0 +1,27 @@
+{
+  "id": "caption-animation/out-fade",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "out: fade",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "out animation \"fade\"",
+  "tags": [
+    "out"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "out.fade",
+    "name": "fade",
+    "kind": "out",
+    "durationMs": "style.exit.durationMs (schema default 120)",
+    "ease": "in-cubic (Easing.in(Easing.cubic))"
+  }
+}

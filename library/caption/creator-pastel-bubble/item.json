@@ -1,0 +1,110 @@
+{
+  "id": "caption/creator-pastel-bubble",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Pastel Bubble Outline",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/creator.tsx",
+    "note": "Captions Easy #45"
+  },
+  "summary": "Two pastel pink rounded lines with a thick round outline and hard shadow",
+  "tags": [
+    "rounded",
+    "outline",
+    "2-words",
+    "creator"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 2
+  },
+  "uses": [],
+  "impl": "library/caption/_impl/packages/templates/src/pack/creator.tsx",
+  "data": {
+    "look": {
+      "id": "creator_pastel_bubble",
+      "name": "Pastel Bubble Outline",
+      "number": 45,
+      "premium": false,
+      "category": "Creator",
+      "description": "Two pastel pink rounded lines with a thick round outline and hard shadow",
+      "tags": [
+        "Rounded",
+        "Outline",
+        "2 words"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_bubble",
+      "layout": "pack-bubble",
+      "fonts": [
+        "Fredoka"
+      ],
+      "type": {
+        "fontId": "Fredoka",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": 73.6,
+        "casing": "title",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFDAEC",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#594C52",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#594C52"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 400,
+        "easing": "outQuad",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 160
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFDAEC"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 2
+      },
+      "sourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/creator.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 2
+  }
+}

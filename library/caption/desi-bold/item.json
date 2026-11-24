@@ -1,0 +1,106 @@
+{
+  "id": "caption/desi-bold",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Desi Bold",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts"
+  },
+  "summary": "Baloo body with a saffron Anton hero, Hinglish-friendly",
+  "tags": [
+    "regional"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "desi_bold",
+      "name": "Desi Bold",
+      "number": null,
+      "premium": false,
+      "category": "Regional",
+      "description": "Baloo body with a saffron Anton hero, Hinglish-friendly",
+      "tags": [],
+      "inGallery": false,
+      "retired": false,
+      "curated": false,
+      "legacy": false,
+      "templateId": "staggered_3line",
+      "layout": "stack3",
+      "fonts": [
+        "Baloo 2",
+        "Anton",
+        "Outfit"
+      ],
+      "type": {
+        "fontId": "Baloo 2",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 52,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Anton",
+        "heroScale": 1.6
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FF9933",
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "color",
+        "scale": 1.08,
+        "color": "#FF9933"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "color",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "layoutMode": "splash"
+      },
+      "settings": {
+        "maxWordsPerCard": 5
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

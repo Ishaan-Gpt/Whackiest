@@ -1,0 +1,37 @@
+{
+  "id": "principle/punch-in",
+  "kind": "principle",
+  "name": "Punch-in",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §4",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "A punch-in is ≥1.3×, centred on the face, held at least a phrase, returning at a sentence boundary (a Ken Burns drift is exempt).",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "camera.punch-in"
+  ],
+  "data": {
+    "measure": {
+      "minScale": 1.3,
+      "centre": "face",
+      "minHold": "phrase",
+      "returnAt": "sentence-boundary"
+    }
+  }
+}

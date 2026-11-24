@@ -1,0 +1,45 @@
+{
+  "id": "camera/dive-out",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Dive out",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "style-1 dive-to-detail (wide → 1.9x on a detail)"
+  },
+  "summary": "Answers \"and where is that?\": from the detail back to the whole.",
+  "tags": [
+    "edit",
+    "edit",
+    "standard"
+  ],
+  "weight": 0.55,
+  "impl": "@editeasy/camera#dive-out",
+  "data": {
+    "group": "edit",
+    "scope": "edit",
+    "keywords": [
+      "dive out",
+      "zoom out from detail",
+      "back out of detail"
+    ],
+    "family": "dive",
+    "dir": "out",
+    "about": "Starts tight on a point of the frame and pulls back out to the full framing.",
+    "avoid": "A detail too small for the source resolution at the end scale; when the detail is already centred (use a zoom).",
+    "defaults": {
+      "duration": 1.2,
+      "ease": "smooth",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 1.9,
+      "unit": "x",
+      "what": "zoom factor"
+    }
+  }
+}

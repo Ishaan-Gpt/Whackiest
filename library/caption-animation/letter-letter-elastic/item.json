@@ -1,0 +1,35 @@
+{
+  "id": "caption-animation/letter-letter-elastic",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption-animation",
+  "name": "letter: letter-elastic",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/motion.ts"
+  },
+  "summary": "letter animation \"letter-elastic\" — After Effects text animator (scale/rotation 30deg/tracking); also plays backwards as an exit",
+  "tags": [
+    "letter"
+  ],
+  "weight": 0.5,
+  "impl": "library/caption/_impl/packages/templates/src/motion.ts",
+  "data": {
+    "sourceFile": "src/packages/templates/src/motion.ts",
+    "id": "letter.letter-elastic",
+    "name": "letter-elastic",
+    "kind": "letter",
+    "durationMs": {
+      "aeMs": 660,
+      "defaultMs": 300
+    },
+    "ease": {
+      "aeExpression": {},
+      "trackEm": 0.58
+    },
+    "alsoOut": true,
+    "note": "After Effects text animator (scale/rotation 30deg/tracking); also plays backwards as an exit"
+  }
+}

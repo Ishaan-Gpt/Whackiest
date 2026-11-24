@@ -1,0 +1,111 @@
+{
+  "id": "caption/storytime",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Pastel Box",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/looks/new.ts",
+    "note": "Captions Easy #102"
+  },
+  "summary": "Soft rounded words with a pastel box on the spoken word",
+  "tags": [
+    "box-highlight",
+    "soft",
+    "fun"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/templates.tsx",
+  "data": {
+    "look": {
+      "id": "storytime",
+      "name": "Pastel Box",
+      "number": 102,
+      "premium": false,
+      "category": "Fun",
+      "description": "Soft rounded words with a pastel box on the spoken word",
+      "tags": [
+        "Box highlight",
+        "Soft"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "boxed_word",
+      "layout": "sentence",
+      "fonts": [
+        "Nunito",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Nunito",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 52,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#3B2F5C",
+        "box": "#FFC8DD",
+        "stroke": "#3B2F5C",
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "box",
+      "inAnimation": {
+        "type": "rise",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "box",
+        "scale": 1.04,
+        "color": "#3B2F5C"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "box",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "reveal": "all"
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/looks/new.ts",
+      "templateSourceFile": "src/packages/templates/src/templates.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

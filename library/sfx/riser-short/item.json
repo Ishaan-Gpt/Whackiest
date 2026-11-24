@@ -1,0 +1,39 @@
+{
+  "id": "sfx/riser-short",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "riser-short.wav"
+  ],
+  "kind": "sfx",
+  "name": "riser-short.wav",
+  "provenance": {
+    "source": "metahack",
+    "path": "/assets/sfx/riser-short.wav"
+  },
+  "summary": "riser sound; fits no mapped event yet",
+  "tags": [
+    "riser",
+    "core"
+  ],
+  "weight": 0.5,
+  "data": {
+    "category": "riser",
+    "fits": [],
+    "slices": "whole",
+    "licence": "MIT (synthesized)",
+    "kits": [
+      "core"
+    ],
+    "family": "tension",
+    "tone": "warm",
+    "centroidHz": 1177,
+    "hitsMs": [
+      1350
+    ],
+    "phoneSafe": true,
+    "placement": "first_hit",
+    "suggestedGainDb": -14
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "font/pacifico",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [
+    "pacifico-latin-400-normal.woff2"
+  ],
+  "kind": "font",
+  "name": "Pacifico",
+  "provenance": {
+    "source": "metahack",
+    "path": "assets/fonts | assets/renderer/fonts"
+  },
+  "summary": "Pacifico: script face",
+  "tags": [
+    "script"
+  ],
+  "weight": 0.5,
+  "data": {
+    "family": "Pacifico",
+    "files": [
+      {
+        "file": "pacifico-latin-400-normal.woff2",
+        "weight": 400,
+        "style": "normal"
+      }
+    ],
+    "licence": "OFL-1.1",
+    "role": [
+      "script"
+    ]
+  }
+}

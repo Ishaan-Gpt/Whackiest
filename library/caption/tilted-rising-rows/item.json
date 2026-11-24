@@ -1,0 +1,117 @@
+{
+  "id": "caption/tilted-rising-rows",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Tilted Rising Rows",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #23"
+  },
+  "summary": "Tight rows rise tilted, overshoot and settle; every third card writes one word on and lets it float",
+  "tags": [
+    "tilt",
+    "rise",
+    "floating-word",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 3
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "tilted_rising_rows",
+      "name": "Tilted Rising Rows",
+      "number": 23,
+      "premium": false,
+      "category": "Trending",
+      "description": "Tight rows rise tilted, overshoot and settle; every third card writes one word on and lets it float",
+      "tags": [
+        "Tilt",
+        "Rise",
+        "Floating word"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_tilt_rise",
+      "layout": "pack-tilt-rise",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 94.5,
+        "casing": "none",
+        "letterSpacing": -4.73,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#000000"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FF0000"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.62
+      },
+      "templateOptions": {
+        "soloEvery": 3,
+        "soloScale": 1.5
+      },
+      "settings": {
+        "maxWordsPerCard": 3,
+        "maxLines": 2,
+        "maxCharsPerLine": 8
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 3
+  }
+}

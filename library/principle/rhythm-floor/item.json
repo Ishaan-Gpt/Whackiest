@@ -1,0 +1,53 @@
+{
+  "id": "principle/rhythm-floor",
+  "kind": "principle",
+  "name": "Rhythm floor",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §2",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Beats at most 6 s apart, showcase ≥70% of runtime, dense content in 2–4 s shots, nothing held 10 s, end within 0.5 s of the last word.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [
+    "pace.beat-gap",
+    "pace.showcase-share",
+    "pace.max-hold",
+    "time.end-on-last-word",
+    "time.lead-lag",
+    "time.boundary-between-words"
+  ],
+  "data": {
+    "measure": {
+      "maxBeatGapS": 6,
+      "showcaseShareMin": 0.7,
+      "showcaseShareWithReferenceMin": 0.5,
+      "denseShotS": [
+        2,
+        4
+      ],
+      "maxHoldS": 10,
+      "firstFrameBlank": false,
+      "firstBeatWithinFirstSentence": true,
+      "endWithinS": 0.5,
+      "elementLeadMaxS": 0.3,
+      "elementLagMaxS": 0,
+      "beatBoundaryInsideWord": false,
+      "neighbourShowcaseLooksSame": false
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "caption/gold-bevel-caps",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Gold Bevel Caps",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #19"
+  },
+  "summary": "Big condensed caps in shaded gold with a bevel edge; a lone word grows 1.4×",
+  "tags": [
+    "gold",
+    "bevel",
+    "two-words",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 2
+  },
+  "uses": [
+    "font/anton"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "gold_bevel_caps",
+      "name": "Gold Bevel Caps",
+      "number": 19,
+      "premium": false,
+      "category": "Trending",
+      "description": "Big condensed caps in shaded gold with a bevel edge; a lone word grows 1.4×",
+      "tags": [
+        "Gold",
+        "Bevel",
+        "Two words"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_gold_bevel",
+      "layout": "pack-gold-bevel",
+      "fonts": [
+        "Anton"
+      ],
+      "type": {
+        "fontId": "Anton",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": 130.5,
+        "casing": "upper",
+        "letterSpacing": -1,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFC00B",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": "#000000",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "#000000"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#FFFFFF"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 2,
+        "maxLines": 2,
+        "maxCharsPerLine": 15
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 2
+  }
+}

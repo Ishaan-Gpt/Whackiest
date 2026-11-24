@@ -1,0 +1,39 @@
+{
+  "id": "hook/hook-by-role",
+  "kind": "hook",
+  "name": "Hook by role",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip-reference-style/references/preset-hook.md",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Copy a reference hook by the role of each beat (number, brand, statement, question, list, proof image), not by its seconds; at most one still beat; first frame is the cover.",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "roles": [
+      "number",
+      "brand",
+      "statement",
+      "question",
+      "list",
+      "proof-image"
+    ],
+    "maxStillBeats": 1,
+    "firstFrameIsCover": true
+  }
+}

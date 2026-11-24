@@ -1,0 +1,114 @@
+{
+  "id": "caption/gold-word-lift",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Gold Word Lift",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/lines.tsx",
+    "note": "Captions Easy #77"
+  },
+  "summary": "Bold lowercase line; the spoken word turns gold and grows a little",
+  "tags": [
+    "gold-word",
+    "scale",
+    "viral"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/lines.tsx",
+  "data": {
+    "look": {
+      "id": "gold_word_lift",
+      "name": "Gold Word Lift",
+      "number": 77,
+      "premium": false,
+      "category": "Viral",
+      "description": "Bold lowercase line; the spoken word turns gold and grows a little",
+      "tags": [
+        "Gold word",
+        "Scale"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_color_pop",
+      "layout": "pack-color-pop",
+      "fonts": [
+        "Inter",
+        "Luckiest Guy"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontSize": 60,
+        "casing": "lower",
+        "letterSpacing": 0,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": null,
+        "active": "#FFD700",
+        "box": null,
+        "stroke": "rgba(0,0,0,0.3)",
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.35)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "text",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 220,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 120
+      },
+      "emphasis": {
+        "effect": "pop",
+        "scale": 1.1,
+        "color": "#FFD700"
+      },
+      "letterAnimator": null,
+      "wordAnimator": "pop",
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": {
+        "palette": [],
+        "transitionMs": 200
+      },
+      "settings": {
+        "maxWordsPerCard": 4
+      },
+      "sourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/lines.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

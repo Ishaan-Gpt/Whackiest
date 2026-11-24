@@ -1,0 +1,115 @@
+{
+  "id": "caption/estate-blend-stack",
+  "version": 1,
+  "status": "retired",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "3-Line Neon Finish",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/dynamic.tsx",
+    "note": "Captions Easy #49"
+  },
+  "summary": "A white headline and a bold/thin pair finished by one big neon-green word",
+  "tags": [
+    "3-lines",
+    "blend",
+    "real-estate"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.3,
+  "needs": {
+    "maxWords": 5
+  },
+  "uses": [
+    "font/inter",
+    "font/montserrat"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/dynamic.tsx",
+  "data": {
+    "look": {
+      "id": "estate_blend_stack",
+      "name": "3-Line Neon Finish",
+      "number": 49,
+      "premium": false,
+      "category": "Real Estate",
+      "description": "A white headline and a bold/thin pair finished by one big neon-green word",
+      "tags": [
+        "3 lines",
+        "Blend"
+      ],
+      "inGallery": false,
+      "retired": true,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_estate_stack",
+      "layout": "pack-estate-stack",
+      "fonts": [
+        "Inter",
+        "Montserrat"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 56,
+        "casing": "none",
+        "letterSpacing": 0,
+        "heroFontId": "Montserrat",
+        "heroScale": 1.9
+      },
+      "colours": {
+        "text": "#FFFFFF",
+        "gradient": null,
+        "hero": "#0DFB42",
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": [
+          "rgba(0,0,0,0.5)",
+          "rgba(0,0,0,0.42)"
+        ]
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#04421A"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.72
+      },
+      "templateOptions": null,
+      "settings": {
+        "maxWordsPerCard": 5,
+        "maxLines": 3,
+        "maxCharsPerLine": 32
+      },
+      "sourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/dynamic.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 5
+  }
+}

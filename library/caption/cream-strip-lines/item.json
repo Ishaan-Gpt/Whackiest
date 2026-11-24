@@ -1,0 +1,118 @@
+{
+  "id": "caption/cream-strip-lines",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "caption",
+  "name": "Cream Strip Lines",
+  "provenance": {
+    "source": "captionseasy",
+    "path": "src/packages/templates/src/pack/trending.tsx",
+    "note": "Captions Easy #22"
+  },
+  "summary": "Left-aligned lines on cream strips with the spoken word in red; every third card rocks one word on red",
+  "tags": [
+    "strips",
+    "red-word",
+    "left-aligned",
+    "trending"
+  ],
+  "roles": [
+    "any"
+  ],
+  "weight": 0.6,
+  "needs": {
+    "maxWords": 4
+  },
+  "uses": [
+    "font/inter"
+  ],
+  "impl": "library/caption/_impl/packages/templates/src/pack/trending.tsx",
+  "data": {
+    "look": {
+      "id": "cream_strip_lines",
+      "name": "Cream Strip Lines",
+      "number": 22,
+      "premium": false,
+      "category": "Trending",
+      "description": "Left-aligned lines on cream strips with the spoken word in red; every third card rocks one word on red",
+      "tags": [
+        "Strips",
+        "Red word",
+        "Left aligned"
+      ],
+      "inGallery": true,
+      "retired": false,
+      "curated": true,
+      "legacy": false,
+      "templateId": "pack_cream_strips",
+      "layout": "pack-cream-strips",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "fontId": "Inter",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": 90,
+        "casing": "none",
+        "letterSpacing": -0.9,
+        "heroFontId": null,
+        "heroScale": 1.4
+      },
+      "colours": {
+        "text": "#000000",
+        "gradient": null,
+        "hero": null,
+        "active": null,
+        "box": null,
+        "stroke": null,
+        "glow": null,
+        "background": null,
+        "shadows": null
+      },
+      "background": "none",
+      "backgroundDetail": null,
+      "highlight": "none",
+      "inAnimation": {
+        "type": "none",
+        "durationMs": 0,
+        "easing": "outExpo",
+        "stagger": "none"
+      },
+      "outAnimation": {
+        "type": "none",
+        "durationMs": 200
+      },
+      "emphasis": {
+        "effect": "none",
+        "scale": 1,
+        "color": "#F64F46"
+      },
+      "letterAnimator": null,
+      "wordAnimator": null,
+      "layoutMotion": null,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "templateOptions": {
+        "stripColor": "#FFF5E3",
+        "stripRadius": 0,
+        "rockDeg": 10,
+        "soloEvery": 3,
+        "soloScale": 1.3
+      },
+      "settings": {
+        "maxWordsPerCard": 4,
+        "maxLines": 2,
+        "maxCharsPerLine": 8
+      },
+      "sourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "templateSourceFile": "src/packages/templates/src/pack/trending.tsx",
+      "extractedBy": "runtime (source repo registry via its tsx)"
+    },
+    "maxWordsPerCard": 4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "recipe/meaning-triggers",
+  "kind": "recipe",
+  "name": "Meaning triggers",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "provenance": {
+    "source": "opusclip-aip",
+    "path": "aip 1.2.16 skills/aip/references/aesthetic-rules.md §6",
+    "note": "MIT, (c) 2026 OpusClip"
+  },
+  "summary": "Treatments fired by the transcript: turn word → punch-in; sarcasm → monochrome aside; key number → count-up; \"three reasons\" → 1/3 2/3 3/3; quote → quote card (captions off).",
+  "tags": [
+    "opusclip-aip"
+  ],
+  "styles": [
+    "*"
+  ],
+  "roles": [
+    "claim",
+    "number",
+    "list-item",
+    "negative"
+  ],
+  "weight": 0.4,
+  "files": [],
+  "uses": [],
+  "lint": [],
+  "data": {
+    "triggers": [
+      {
+        "on": "turn-word",
+        "do": "punch-in"
+      },
+      {
+        "on": "sarcasm",
+        "do": "mono-aside"
+      },
+      {
+        "on": "key-number",
+        "do": "count-up"
+      },
+      {
+        "on": "enumeration",
+        "do": "index-chip"
+      },
+      {
+        "on": "quote",
+        "do": "quote-card",
+        "captions": false
+      },
+      {
+        "on": "logo-with-text",
+        "do": "logo-beat",
+        "durS": [
+          1,
+          2
+        ],
+        "captions": false
+      }
+    ],
+    "sameTreatmentTwiceInARow": false
+  }
+}

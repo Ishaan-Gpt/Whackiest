@@ -1,0 +1,45 @@
+{
+  "id": "camera/chase",
+  "version": 1,
+  "status": "imported",
+  "owner": "ishaan",
+  "files": [],
+  "kind": "camera",
+  "name": "Chase shot",
+  "provenance": {
+    "source": "moovi",
+    "path": "packages/library/src/camera/moves.ts",
+    "note": "SHOT 22"
+  },
+  "summary": "Urgency, danger, adrenaline, a deadline; the \"everything is happening\" beat.",
+  "tags": [
+    "dolly-track",
+    "gen",
+    "standard"
+  ],
+  "weight": 0.3,
+  "impl": "@editeasy/camera#chase",
+  "data": {
+    "group": "dolly-track",
+    "scope": "gen",
+    "keywords": [
+      "chase",
+      "chase shot",
+      "pursuit",
+      "running follow"
+    ],
+    "family": "chase",
+    "about": "A fast, close follow with an operator reacting in real time: shake, reframes and a camera that is nearly losing the subject.",
+    "avoid": "Calm brands, explanations, any frame that has to be read (text, charts).",
+    "defaults": {
+      "duration": 3,
+      "ease": "linear",
+      "intensity": 1
+    },
+    "amount": {
+      "value": 10,
+      "unit": "units",
+      "what": "distance run"
+    }
+  }
+}
